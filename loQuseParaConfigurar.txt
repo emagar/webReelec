@@ -1,0 +1,45 @@
+; Move to the end of the first line and press C-x C-e to load org-publish. Now go to the end of the last line and press C-x C-e again.
+
+(require 'ox-publish)
+(setq org-publish-project-alist
+      '(
+
+       ;; ... add all the components here (see below)...
+("org-notes"
+ :base-directory "~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/"
+ :base-extension "org"
+ :publishing-directory "~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/publishThis/"
+ :recursive t  ; if true exports/creates subdirectories in publishing directory
+ :publishing-function org-html-publish-to-html
+ :headline-levels 3             ; Just the default for this project.
+ :auto-preamble t
+ :auto-sitemap t                  ; Generate sitemap.org automagically...
+ :sitemap-filename "sitemap.org"  ; ... call it sitemap.org (it's the default)...
+ :sitemap-title "Sitemap"         ; ... with title 'Sitemap'.
+ )
+
+("org-static" ; copies images, tables etc to publishing directory towards publication
+ :base-directory "~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/"
+ :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
+ :publishing-directory "~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/publishThis/"
+ :recursive t
+ :publishing-function org-publish-attachment
+ )
+
+("org" :components ("org-notes" "org-static")) ; publish all with single command: M-x org-publish-project RET org RET
+
+; directory structure
+~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/
+  |- css/
+  |  `- stylesheet.css
+  |- Emacs
+  |  |- index.org
+  |  |- gnus.org
+  |  |- org.org
+  |  `- snippets.org
+  |- img/
+  |- index.org
+  `- remember.org
+
+      ))
+
