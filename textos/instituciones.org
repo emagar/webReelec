@@ -1,7 +1,7 @@
 #+TITLE: Calendarios e instituciones de reelección consecutiva en México
 #+SUBTITLE: v2.0
 #+AUTHOR: Eric Magar y alumnos de Política Comparada II
-#+DATE:  <2017-05-16>
+#+DATE:  <2017-05-20 Sat>
 #+OPTIONS: toc:nil # don't place toc in default location
 #+LANGUAGE: es
 
@@ -10,38 +10,17 @@
 # 
 # #publish all with single command: M-x org-publish-project RET org RET
 
-# # ##############################
-# # C-c C-e # to add this template
-# # ##############################
-# #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
-# #+OPTIONS: html-preamble:t html-scripts:t html-style:t
-# #+OPTIONS: html5-fancy:nil tex:t
-# #+HTML_DOCTYPE: xhtml-strict
-# #+HTML_CONTAINER: div
-# #+DESCRIPTION:
-# #+KEYWORDS:
-# #+HTML_LINK_HOME:
-# #+HTML_LINK_UP:
-# #+HTML_MATHJAX:
-# #+HTML_HEAD:
-# #+HTML_HEAD_EXTRA:
-# #+SUBTITLE:
-# #+INFOJS_OPT:
-# #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 9.0.2)
-# #+LATEX_HEADER:
-
 # style sheet
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 
-[[./index.html][Arriba/up]]
+[[../index.html][Arriba/up]]
 
 #+BEGIN_subtoc
 #+TOC: headlines 1  # place toc here
 #+END_subtoc
 
-
 * Presentación
-Reportamos aquí la variación subnacional en las instituciones de reelección y el texto constitucional relevante. Para contextualizar la cronología del cambio, reportamos también el calendario electoral desde 1994. Y, donde resultan pertinentes, hacemos comentarios y anotaciones (en particular, acerca de discrepancias con la información de reelección legislativa que ha publicado el IMCO [[http://imco.org.mx/politica_buen_gobierno/reeleccion-legislativa-a-nivel-local/][aquí]]).
+Reportamos la variación subnacional en las instituciones de reelección y el texto constitucional relevante. Para contextualizar la cronología del cambio, reportamos también el calendario electoral desde 1994. Y, donde resultan pertinentes, hacemos comentarios y anotaciones (en particular, acerca de discrepancias con la información de reelección legislativa que ha publicado el IMCO [[http://imco.org.mx/politica_buen_gobierno/reeleccion-legislativa-a-nivel-local/][aquí]]).
 
 # ---------------------------------------
 
@@ -225,7 +204,7 @@ Ficha bibTeX:
 	<tr>
 		<td height="17" align="left" valign=bottom><b><br></b></td>
 		<td align="left" valign=bottom>sen</td>
-		<td align="center" valign=bottom sdval="2024" sdnum="1033;">2014</td>
+		<td align="center" valign=bottom sdval="2024" sdnum="1033;">2024</td>
 		<td align="center" valign=bottom sdval="2" sdnum="1033;">2</td>
 		<td align="center" valign=bottom>21ago</td>
 		<td align="center" valign=bottom>--</td>
@@ -5644,14 +5623,13 @@ Eric Magar (emagar at itam dot mx)
 ---------------------------------------------
 
 * Constituciones consultadas íntegras
-Consúltelas [[../constEdos/][aquí]].
+Consúltelas [[../../constEdos/][aquí]].
 
-[[top_tab][Inicio]]
 ---------------------------------------------
 * Fuentes consultadas
 Además de las constituciones estatales y otras leyes mencionadas arriba, Eric Magar consultó y contrastó numerosas fuentes, y obtuvo datos que amablemente compartieron varios colegas (Alejandro Poiré y Azucena Rojas, entre otros) a lo largo de varios años: el archivo de fuentes bibliográficas de Karen Lindvall-Larson para 1980-1998 (en http://dodgson.ucsd.edu/las/index.html, visitado el 23jul03); los sitios de internet de los institutos electorales de los estados; "Las razones y las obras: crónica del sexenio 1982--88", tomo 6, México DF: FCE, 1988; fuentes hemerográficas de los estados; Presidencia de la República, 1994, Crónica del gobierno de Carlos Salinas de Gortari, Tomo Síntesis e índice temático, FCE. 
 
- [[top_tab][Inicio]]
+# [[top_tab][Inicio]]
 ---------------------------------------------
 * Créditos
 ** Coordinación general
@@ -5702,12 +5680,12 @@ Además de las constituciones estatales y otras leyes mencionadas arriba, Eric M
 - Yoshua Pellman Charnievich
 
 
- [[top_tab][Inicio]]
+# [[top_tab][Inicio]]
 ---------------------------------------------
 * Agradecimientos
 Eric Magar agradece el generoso apoyo de la Asociación Mexicana de Cultura A.C. y del Sistema Nacional de Investigadores para la realización de este trabajo. Los errores y omisiones son mi entera responsabilidad. 
 
- [[top_tab][Inicio]]
+# [[top_tab][Inicio]]
 ---------------------------------------------
 
 

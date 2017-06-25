@@ -1,6 +1,6 @@
 #+TITLE: Reelección consecutiva en México
 #+AUTHOR: Eric Magar
-#+DATE:  <2017-06-23>
+#+DATE:  <2017-06-24 Sat>
 #+OPTIONS: toc:nil # don't place toc in default location
 #+LANGUAGE: es
 
@@ -9,7 +9,6 @@ coordinado por
 
 *Eric Magar*
 #+END_CENTER
-
 
 # #instrucciones y tutorial para org -> html
 # #http://orgmode.org/worg/org-tutorials/org-publish-html-tutorial.html
@@ -40,9 +39,9 @@ coordinado por
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 
 #+NAME: top_tab
-|---------------+---------------|
-| [[http://ericmagar.com][ericmagar.com]] | [[file:./sitemap.org][Mapa de sitio]] |
-|---------------+---------------|
+|---------------+------------------|
+| [[file:./sitemap.org][Mapa de sitio]] | [[http://ericmagar.com][Página principal]] |
+|---------------+------------------|
 
 
 * Presentación
@@ -52,50 +51,39 @@ Las modificaciones a la constitución de los Estados Unidos Mexicanos adoptadas 
 
 Este sitio está dedicado a reseñar la entrada en vigor de la reelección consecutiva en México. 
 
-# ---------------------------------------
+---------------------------------------
 
-# The 2014 electoral reform removed the ban for consecutive legislative reelection, in force since 1933 in Mexico. It also opened the possibility to reelect mayors and municipal councilors. 
+# /The 2014 electoral reform removed the ban for consecutive legislative reelection, in force since 1933 in Mexico. It also opened the possibility to reelect mayors and municipal councilors./ 
 
-# Reformers of the Mexican constitution left discretion to states in the definition of their reelection institutions, while also establishing general constraints. One is the length in office, of maximum twelve years for legislators and six for elected municipal officers. The other (with nuances) is that incumbents must be renominated by the same party that elected them. 
+# /Reformers of the Mexican constitution left discretion to states in the definition of their reelection institutions, while also establishing general constraints. One is the length in office, of maximum twelve years for legislators and six for elected municipal officers. The other (with nuances) is that incumbents must be renominated by the same party that elected them./
 
-# This site reports on the adoption of consecutive reelection in Mexico.
+# /This site reports on the adoption of consecutive reelection in Mexico./
+
+# --------------------------------------
+* Textos y materiales originales
+
+- [[./textos/nayarit.org][La reelección en Nayarit]], por Sofía De la Mora Tostado (24/6/2017)
+# #+ATTR_HTML: style="float:right;"
+# #+ATTR_HTML: :width 15%
+# [[./textos/instituciones.org][file:img/gooReel.png]]
+- [[./textos/resenhaCoahuila.org][Primeras campañas reeleccionistas]], por Eric Magar (23/6/2017)
+# #+ATTR_HTML: style="float:right;"
+# #+ATTR_HTML: :width 15%
+# [[./textos/resenhaCoahuila.org][file:img/lilyGtz.png]]
+- [[./textos/clasicos.org][Clásicos sobre la reelección consecutiva]] (29/5/2017)
+# #+ATTR_HTML: style="float:right;"
+# #+ATTR_HTML: :width 15%
+# [[./textos/instituciones.org][file:img/0elConn.jpg]]
+- [[./textos/instituciones.org][Calendario e instituciones de reelección]] (base de datos descargable, 20/5/2017)
+# #+ATTR_HTML: style="float:right;"
+# #+ATTR_HTML: :width 15%
+# [[./textos/instituciones.org][file:img/gooReel.png]]
 
 --------------------------------------
-* Textos originales
-
-** Calendario e instituciones de reelección (base de datos descargable, 20/5/2017)
-#+ATTR_HTML: style="float:right;"
-#+ATTR_HTML: :width 12.5%
-[[./txtInstituciones.org][file:img/gooReel.png]]
-
-** Primeras campañas reeleccionistas, por Eric Magar (23/6/2017)
-#+ATTR_HTML: style="float:right;"
-#+ATTR_HTML: :width 12.5%
-[[./txtResenhaCoahuila.org][file:img/lilyGtz.png]]
-
-
-
-
-
-
-* Clásicos sobre la reelección consecutiva
-#+ATTR_HTML: style="float:right;"
-#+ATTR_HTML: :width 10%
-[[https://www.amazon.com/Congress-Electoral-Connection-David-Mayhew/dp/0300105878/ref=sr_1_1?s=books&ie=UTF8&qid=1495009601&sr=1-1&keywords=mayhew+electoral+connection][file:img/0elConn.jpg]]
-#+ATTR_HTML: style="float:right;"
-#+ATTR_HTML: :width 10%
-[[https://www.amazon.com/Ambition-Politics-Political-Careers-United/dp/B001RAVF7Y/ref=sr_1_1?ie=UTF8&qid=1495009566&sr=8-1&keywords=ambition+and+politics+schlesinger][file:img/0schles.jpg]]
-#+ATTR_HTML: style="float:right;"
-#+ATTR_HTML: :width 10%
-[[https://www.amazon.com/Personal-Vote-Constituency-Independence-1990-03-01/dp/B01FJ1E6QS/ref=sr_1_1?s=books&ie=UTF8&qid=1495010547&sr=1-1&keywords=cain+ferejohn+fiorina][file:img/0cff.jpg]]
-#+ATTR_HTML: style="float:right;"
-#+ATTR_HTML: :width 10%
-[[https://www.amazon.com/Term-Limits-Legislative-Representation-Carey/dp/0521646014/ref=sr_1_10?s=books&ie=UTF8&qid=1495008817&sr=1-10&keywords=john+carey][file:img/0carey.jpg]]
-#+ATTR_HTML: style="float:right;"
-#+ATTR_HTML: :width 10%
-[[https://www.amazon.com/legislador-examen-reeleci%C3%B3n-legislativa-Politica/dp/9681669843/ref=sr_1_2?s=books&ie=UTF8&qid=1495009990&sr=8-2&keywords=fernando+dworak][file:img/0dworak.jpg]]
-
 * Agradecimientos
 Eric Magar agradece el generoso apoyo de la Asociación Mexicana de Cultura A.C. y del Sistema Nacional de Investigadores para la realización de este trabajo. Los errores y omisiones son mi entera responsabilidad. 
+
+--------------------------------------
+
 
 
