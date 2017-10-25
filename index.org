@@ -1,6 +1,6 @@
 #+TITLE: Reelección consecutiva en México
 #+AUTHOR: Eric Magar
-#+DATE:  <2017-06-24 Sat>
+#+DATE:  <2017-06-28 Wed>
 #+OPTIONS: toc:nil # don't place toc in default location
 #+LANGUAGE: es
 
@@ -38,10 +38,27 @@ coordinado por
 # style sheet
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 
+# ######################## #
+# google analytics script  #
+# ######################## #
+#+BEGIN_EXPORT html
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101741509-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+#+END_EXPORT
+
 #+NAME: top_tab
 |---------------+------------------|
 | [[file:./sitemap.org][Mapa de sitio]] | [[http://ericmagar.com][Página principal]] |
 |---------------+------------------|
+
 
 
 * Presentación
@@ -60,24 +77,58 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 # /This site reports on the adoption of consecutive reelection in Mexico./
 
 # --------------------------------------
-* Textos y materiales originales
+* Textos y materiales sobre la reelección
+** Originales
+# - [[./textos/relevoGen.org][Reelección y relevo generacional]], por Rubén Figueroa et al. (por aparecer)
+# # #+ATTR_HTML: style="float:right;"
+# # #+ATTR_HTML: :width 15%
+# # [[./textos/instituciones.org][file:img/gooReel.png]]
+- [[./textos/juristasCruz.org][La tensión entre la paridad de género y la reelección]], por *Patricia Cruz Marín* y *Gretel Calleros Arellano* (6/7/2017)
+- [[./textos/mxDecada1920.org][Antecedentes de la reelección legislativa en México]], por *Javier Cote*, *Valeria Guerrero* y *Teresa Ruiz* (6/7/2017)
+- [[./textos/juristasFix.org][Reelección consecutiva y equidad en la competencia]], por *Valentina Fix*, *Rodrigo Corona* y *Alejandro Palma* (28/6/2017)
+- [[./textos/entrevLily.org][Entrevista a Lily Gutiérrez, primera diputada reelecta en 80 años]], por *Edgar Monsiváis* (28/6/2017) 
+- [[./textos/nayarit.org][La reelección en Nayarit]], por *Sofía De la Mora Tostado* (24/6/2017)
+- [[./textos/resenhaCoahuila.org][Primeras campañas reeleccionistas]], por *Eric Magar* (23/6/2017)
+- [[./textos/instituciones.org][Calendario e instituciones de reelección]] (*base de datos descargable*, 20/5/2017)
+** Clásicos
+- [[./textos/lujambioPrecaria.org][Congresos Locales: precaria institucionalidad]], por *Alonso Lujambio* (7/3/2004)
+- [[./textos/clasicos.org][Libros infaltables en la biblioteca]] (*cómprelos*)
+** Reimpresos
+- [[./textos/rendonCompLegis.org][¿Qué esperar del comportamiento legislativo?]], por *Iliana Rendón Arias* (1/6/2017)
+- [[file:./textos/lasTesis.org::Godoy][Reelección en la Cámara de Diputados, 1917-1933: federalismo y ambición política]], por *Luis Godoy Rueda* (2014)
+- [[file:./textos/lasTesis.org::Careaga][Reformas institucionales que fracasan: el caso de la reforma reeleccionista en el Congreso mexicano 1964-1965]], por *Maite Careaga Tagüeña* (1996)
+- [[file:./textos/lasTesis.org::Emma][Un Congreso sin congresistas]] por *Emma Campos* (1996)
+- [[file:./textos/lasTesis.org::Adriana Sánchez][La conformación del bloque obregonista en la XXVII Legislatura y su relación con Carranza]], por *Adriana Sánchez López* (2014)
+** La Suprema Corte y el /gerrymandering/ extremo en Wisconsin, caso de *grande* relevancia
+- [[http://electionlawblog.org/?p=95391][Of Steak Rubs and Symmetry: A Response to Justice Gorsuch]] por *Chris Elmendorf* y *Eric McGhee* (10/10/2017)
+- [[http://www.economist.com/news/united-states/21730008-justice-anthony-kennedys-line-questioning-suggests-court-may-decide-it-has?frsc=dg%7Ce][When politicians choose their voters]] /The Economist/ (7/10/2017)
+- [[https://fivethirtyeight.com/features/what-justice-kennedys-silence-means-for-the-future-of-gerrymandering/][What Justice Kennedy’s Silence Means For The Future Of Gerrymandering]] /FiveThirtyEight/ (4/10/2017)
+- [[http://blog.ucsusa.org/michael-latner/sociological-gobbledygook-or-scientific-standard-why-judging-gerrymandering-is-hard][Sociological Gobbledygook or Scientific Standard? Why Judging Gerrymandering is Hard]] /ucs/ (4/10/2017)
+- [[http://online.liebertpub.com/doi/full/10.1089/elj.2016.0392][Considering the Prospects for Establishing a Packing Gerrymandering Standard]] *Robin Best* et al. (26/9/2017)
+- [[http://click.liebertpubmail.com/?qs=9f50c9cb63418832adc11dc19191f17a34d31d04cab474d3a652baa3321529dc2bdc232e5e1a187b1ca9603b6e0418e8][Measuring Efficiency in Redistricting]] por *Eric McGhee* (21/9/2017)
+- [[https://doi.org/10.1089/elj.2017.0455][The Impact of Political Geography on Wisconsin Redistricting: An Analysis of Wisconsin's Act 43 Assembly Districting Plan]] por *Jowei Chen* (6/9/2017)
+-------------------------------------
+* La Constitución de 1917, v1.0
+#+BEGIN_CENTER
+#+ATTR_HTML: style="float:right;"
+#+ATTR_HTML: :width 35%
+[[file:img/arts51y52cpeumOriginal.png]] 
+#+END_CENTER
 
-- [[./textos/nayarit.org][La reelección en Nayarit]], por Sofía De la Mora Tostado (24/6/2017)
-# #+ATTR_HTML: style="float:right;"
-# #+ATTR_HTML: :width 15%
-# [[./textos/instituciones.org][file:img/gooReel.png]]
-- [[./textos/resenhaCoahuila.org][Primeras campañas reeleccionistas]], por Eric Magar (23/6/2017)
-# #+ATTR_HTML: style="float:right;"
-# #+ATTR_HTML: :width 15%
-# [[./textos/resenhaCoahuila.org][file:img/lilyGtz.png]]
-- [[./textos/clasicos.org][Clásicos sobre la reelección consecutiva]] (29/5/2017)
-# #+ATTR_HTML: style="float:right;"
-# #+ATTR_HTML: :width 15%
-# [[./textos/instituciones.org][file:img/0elConn.jpg]]
-- [[./textos/instituciones.org][Calendario e instituciones de reelección]] (base de datos descargable, 20/5/2017)
-# #+ATTR_HTML: style="float:right;"
-# #+ATTR_HTML: :width 15%
-# [[./textos/instituciones.org][file:img/gooReel.png]]
+Alonso Lujambio y sus discípulos no se cansaron de recordar que la divisa maderista del 'Sufragio efectivo, no reelección' apuntó, exclusivamente, al poder ejecutivo. Su extensión al legislativo ocurrió quince años después de promulgada, con las reformas que cimentaron el partido de la Revolución. Consulte [[https://archivos.juridicas.unam.mx/www/legislacion/federal/leyes/1917.pdf][aquí]] la redacción original del texto aprobado en Querétaro.
+
+--------------------------------------
+* Vínculos
+
+- [[https://niskanencenter.org/blog/niskanen-centers-podcast/][Niskanen Center's political research digest]]
+- [[http://election.princeton.edu/][Princeton Election Consortium]]
+- [[http://fivethirtyeight.com/][fivethirtyeight.com]]
+- [[http://www.threehundredeight.com/][threehundredeight.com]]
+- [[http://electionlawblog.org/][Election law blog]]
+- [[https://fruitsandvotes.wordpress.com/][Fruits and votes]]
+- [[http://www.cses.org/][The comparative study of electoral systems]]
+- [[http://www.electiondataarchive.org/][Constituency-Level Elections Archive]]
+- [[http://data4.mx][data4]]
 
 --------------------------------------
 * Agradecimientos

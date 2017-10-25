@@ -1,8 +1,22 @@
 #+TITLE: Sitemap
 
    + textos
+     + [[file:textos/mxDecada1920.org][Antecedentes de la reelección legislativa en México]]
      + [[file:textos/instituciones.org][Calendarios e instituciones de reelección consecutiva en México]]
      + [[file:textos/clasicos.org][Clásicos sobre la reelección consecutiva]]
+     + [[file:textos/lujambioPrecaria.org][Congresos Locales: Precaria institucionalidad]]
+     + [[file:textos/entrevHdzCruz.org][Entrevista a Armando Hernández Cruz]]
+     + [[file:textos/entrevSilis.org][Entrevista a Arturo Espinosa Silis]]
+     + [[file:textos/entrevNavarro.org][Entrevista a Fabiola Navarro]]
+     + [[file:textos/entrevVives.org][Entrevista a Horacio Vives]]
+     + [[file:textos/entrevMicozzi.org][Entrevista a Juan Pablo Micozzi]]
+     + [[file:textos/entrevLily.org][Entrevista a Lily Gutiérrez, primera diputada reelecta en 80 años]]
+     + [[file:textos/entrevRaigosa.org][Entrevista a Luis Raigosa]]
      + [[file:textos/nayarit.org][La reelección en Nayarit]]
+     + [[file:textos/rendonCompLegis.org][La reelección legislativa consecutiva en México. ¿Qué esperar del comportamiento legislativo?]]
+     + [[file:textos/juristasCruz.org][La tensión entre la paridad de género y la reelección]]
      + [[file:textos/resenhaCoahuila.org][Primeras campañas para reelegir diputados]]
+     + [[file:textos/juristasFix.org][Reelección consecutiva y equidad en la competencia]]
+     + [[file:textos/relevoGen.org][Relevo generacional]]
+     + [[file:textos/lasTesis.org][Tesis que invetigan la reelección consecutiva]]
    + [[file:index.org][Reelección consecutiva en México]]

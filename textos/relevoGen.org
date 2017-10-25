@@ -10,7 +10,7 @@
 #+BEGIN_CENTER
 por
 
-*Rubén Figueroa*[fn:1]
+*Rubén Figueroa*
 #+END_CENTER
 
 #+OPTIONS: broken-links:mark

@@ -32,7 +32,12 @@ Las disposiciones federales en materia de reelección consecutiva y una dosis de
 
 Tercero, en cumplimiento con esta disposición, el Consejero Presidente del Instituto Electoral del Estado de Nayarit (IEEN), Celso Valderrama Delgado, acordó lo que a continuación transcribo literalmente:  
 
-    "Los ciudadanos que actualmente están en funciones como integrantes de los Ayuntamientos, que tomaron protesta el 17 de septiembre de 2014, no están en posibilidad legal de acceder a la elección consecutiva por un periodo adicional, por virtud de que el ejercicio constitucional de los ayuntamientos a elegir en 2017, será por única ocasión por el periodo de cuatro años" (Cancio 2017). 
+#+BEGIN_EXAMPLE
+Los ciudadanos que actualmente están en funciones como integrantes de los Ayuntamientos, que tomaron protesta 
+el 17 de septiembre de 2014, no están en posibilidad legal de acceder a la elección consecutiva por un periodo 
+adicional, por virtud de que el ejercicio constitucional de los ayuntamientos a elegir en 2017, será por única 
+ocasión por el periodo de cuatro años (Cancio 2017). 
+#+END_EXAMPLE
 
 Cabe mencionar que el acuerdo omitió el tema de la reelección de legisladores y puede que la razón sea que la constitución es más clara en este tema. Es interesante notar también que el acuerdo no hace mención explícita del transitorio décimo cuarto recién citado, sólo aduce la prohibición de que ayuntamientos de cuatro años se reelijan. Esto quizás ayude a dar sentido a una peculiar sentencia del Tribunal Electoral del Poder Judicial de la Federación (TEPJF) que veremos a continuación. 
 

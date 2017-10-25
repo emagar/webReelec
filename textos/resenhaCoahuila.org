@@ -41,7 +41,7 @@ Lily Gutiérrez
 | [[file:../img/15canoTorr.png]] | [[file:../img/01diazGlez.png]] |
 | Georgina Cano              | Javier Díaz González       |
 
-Los tres ocupantes fueron repostulados por el PRI, que en 2014 obtuvo el carro completo en los distritos del estado, y dos son mujeres. Se trata de Georgina Cano, Lily Gutiérrez y Javier Díaz González, que compitieron por representar los distritos I, XII y XIV, respectivamente. La Tabla [[tab:ambiciosos]] ofrece un resumen de los distritos y sus resultados. Como se aprecia, sólo una de las ocupantes consiguió reelegirse: Lily Gutiérrez. El 5 de junio derrotó a la medallista panamericana Ariana Cepeda de la coalición del PAN por un margen cómodo de 16 puntos. Pero los candidatos de la coalición panista consiguieron derrotar a los otros dos ocupantes. 
+Los tres ocupantes fueron repostulados por el PRI, que en 2014 obtuvo el carro completo en los distritos del estado, y dos son mujeres. Se trata de Georgina Cano, Lily Gutiérrez y Javier Díaz González, que compitieron por representar los distritos I, XII y XIV, respectivamente. La Tabla [[tab:ambiciosos]] ofrece un resumen de los distritos y sus resultados. Como se aprecia, sólo una de las ocupantes consiguió reelegirse: Lily Gutiérrez. El 5 de junio derrotó a la medallista panamericana Ariana Cepeda de la coalición del PAN por un margen cómodo de 16 puntos. Pero los candidatos de la coalición panista consiguieron derrotar a los otros dos ocupantes. (Una entrevista con la diputada reelecta [[./entrevLily.org][aquí]].)
 
 #+CAPTION: Diputados que buscaron la reelección. Preparado con datos del [[http://www.iec.org.mx/][IEC]], del [[http://www.ine.mx/][INE]] y del [[http://congresocoahuila.gob.mx/][Congreso de Coahuila]].
 #+NAME:   tab:ambiciosos
