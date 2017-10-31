@@ -27,367 +27,81 @@ y
 
 Con la inminente entrada en vigor de la reelección consecutiva de legisladores y alcaldes nos preguntamos por la opinión que tienen los estudiantes del ITAM sobre esta institución. La motivación que nos guió es puntual: si los itamitas somos la reencarnación de la tecnocracia neoporfirista---como nos ha venido calificando la izquierda---es esperable que nuestro apoyo a la reelección no titubee, como seguramente fuera el caso entre los Científicos de antaño.
 
-Si casi todas las democracias del mundo permiten la reelección de sus legisladores, las opiniones siempre se dividen. El grupo que ve a la reelección consecutiva como un instrumento perjudicial para la democracia es nutrido y omnipresente. Sin ser panacea, la reelección genera condiciones propicias para una mejor rendición de cuentas, además de darle una mayor continuidad y estabilidad al gobierno y, en específico, a sus proyectos. Pero también establece la posibilidad que algunos se eternicen en el poder. 
+Que casi todas las democracias del mundo permitan la reelección de sus legisladores no es impedimento para que las opiniones se dividan. La ciudadanía se divide en dos grupos. Para quienes la reelección, sin ser panacea, genera condiciones propicias para una mejor rendición de cuentas, además de darle una mayor continuidad y estabilidad al gobierno y, en específico, a sus proyectos. Y para quienes establece la posibilidad que algunos se eternicen en el poder. 
 
-Le preguntamos a los alumnos del ITAM durante las primeras dos semanas de septiembre (sí, antes del terremoto) su reacción espontánea a la noción de la reelección. En específico, preguntamos qué les viene a la mente cuando se menciona reelección consecutiva (hasta tres palabras). Se preguntó también por el conocimiento de la reforma electoral de 2014, partidismo, carrera, ... [describan aquí brevemente el cuestionario, anéxenlo]. Circulamos el cuestionario de googleQuiz [?] en redes sociales (Facebook y Twitter, principalmente) y obtuvimos 243 respuestas. 
+Durante las dos primeras semanas de septiembre (terminamos antes del terremoto), le mencionamos a alumnos del ITAM la noción de la reelección consecutiva con el fin de registrar su reacción espontánea. En específico, preguntamos por hasta tres palabras que les vinieran a la mente. Preguntamos también por el conocimiento de la reforma electoral que introdujo el cambio en 2014, el partidismo, la carrera cursada, y otras cracterísticas para elaborar un perfil del entrevistado (vea el cuestionario [[link][aquí]]). Circulamos el cuestionario de Google Forms a través de redes sociales (/Facebook/ y /Twitter/, principalmente). Obtuvimos 243 respuestas. 
 
-Lejos de ser aleatoria, la muestra se autoseleccionó con la difusión activa de estudiantes de ciencia política del ITAM. Pero ofrece una perspectiva interesante de nuestro alumnado. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro describe la muestra. 
+Lejos de ser aleatoria, nuestra muestra se autoseleccionó. Pero ofrece una perspectiva interesante del alumnado itamita. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro [[tab:1]] describe a los que contestaron. 
 
-Cuadro aquí [Con formato así basta]
-| col1 | col2 | col3 |
-|------+------+------|
-|    1 |    2 |    3 |
-|    4 |    5 |    6 |
-
-Si bien hay balance de sexos en la muestra, los politólogos están claramente sobrerrepresentados, xx más o menos bien representados, pero los ingenieros muy subrepresentados [breve comparación con % real de estudiantes.] La mayor parte no tiene identificación partidista. En el grupo de mujeres hay un mayor porcentaje de panistas que en el grupo de los hombres, y ambos superan la media nacional. Entre los hombres predominan quienes se identifican como PRI y Morena. 
-
-[Necesitaré las gráficas para poder leer lo que sigue... Si Ceci tiene problemas de máquina, mándenme el código y las hago en la mía.]
-
-En las gráficas anexas podemos observar que la mayoría de los que no tienen ninguna afiliación a un partido toman una posición neutral ante la reelección. El mayor porcentaje de connotación positiva hacia la reelección lo presentan los afiliados al Partido de la Revolución Democrática (PRD). El segundo partido con mayor porcentaje de connotación positiva hacia la reelección es para los afiliados a MORENA. Al mismo tiempo son los Morenistas los que también tienen el mayor porcentaje de connotación negativa a la reelección, mientras los que tienen un menor porcentaje de connotación negativa son los del PRI. En cuanto a diferencias por carreras, casi un 50% de los politólogos del ITAM le dan una connotación positiva a la reelección; poco menos del 25% de esta misma carrera le proporciona una connotación negativa a este tema. Estudiantes de derecho y economía presentan resultados similares: en derecho alrededor del 20% de los estudiantes ven como positivo el tema de la reelección, mientras que casi el 50% lo ven como negativo; entre los estudiantes de economía, casi el 25% le da una connotación positiva al tema de la reelección, mientras que alrededor del 40% lo ve como algo negativo. Entre mujeres y hombres podemos observar pequeñas diferencias en cómo perciben el tema de la reelección. Alrededor del 30% por ciento tanto de hombres como de mujeres le dan una connotación negativa al tema de la reelección, los hombres tienen un porcentaje poco mayor. En cuanto a connotación positiva nuevamente los hombres tienen un mayor porcentaje, mayor que la diferencia en la connotación negativa, pero no significante. El 25% de las mujeres le dan una connotación positiva a la reelección, mientras que el 30% de los hombres ve la reelección como algo positivo. 
-
-Al momento de preguntarles que palabras relacionaban con la reelección los estudiantes del ITAM en su mayoría contestaron lo siguiente: Democracia
-Porfirio Díaz 
-Accountabilty 
-Fraude
-Presidencia
-Corrupción 
-Madero 
-Política 
-PRI
-Revolución 
-Reforma
-Dictadura
-Inconstitucional 
-Estados Unidos
-Bueno
-Poder
-Ratificación 
-
-En torno a una última gráfica podemos concluir que los estudiantes del ITAM le dan una mayor connotación negativa a la reelección que positiva. Alrededor del 34% de los estudiantes ven el tema de la reelección como algo negativo, mientras que alrededor del 28% lo ven como algo positivo. Podríamos concluir que asumiendo que, a mayor información a exposición a ciertos temas, presenta una mayor aceptación a la reelección, esto considerando mayormente las diferencias entre carreras. Podríamos a lo mejor decir que es una cuestión de cómo la información afecta este tipo de opiniones. 
-
-
-
-zzzzzzzzzzzzz texto anterior
-
-
-/Paradoja: neoporfiristas ven con malos ojos la reelección consecutiva/
-
-El 10 de febrero de 2014 se publicó la reforma electoral en México, la cual tienen como objetivos transformar la Procuraduría General de la República en la Fiscalía General de la República; la reelección de Senadores y Diputados del Congreso de la Unión; la reelección de legisladores locales y de integrantes de Ayuntamientos; el aumento de 2 a 3% como porcentaje mínimo requerido de la votación nacional emitida para que los partidos políticos conserven su registro, entre otras cosas. 
-
-En este trabajo nos concentraremos en el tema de la reelección. Muchos países tienen este método implementado en su sistema electoral, algunos lo han efectuado de manera positiva y otros de una manera negativa. La reelección podría ayudar a que se tuviera una mayor continuidad y estabilidad en el gobierno y en específico los proyectos. Sin embargo, lo que la reelección también establece es una posibilidad para que alguien nunca quiera dejar el poder. 
-
-Los principales argumentos a favor de la reelección durante las discusiones en el congreso para la reforma electoral fueron: la profesionalización de las carreras políticas, estabilidad política y legislativa, fortalecer el carácter representativo de la democracia, incentivar la elaboración de proyectos de largo plazo, relación más armónica entre funcionarios electos y cúpulas partidistas y un incremento en la eficacia.[fn:1] Para la implementación de la reelección en el país se modificaron los artículos 59, 115 y 116 constitucionales. El artículo 59 establece que “los senadores podrán ser electos hasta por dos periodos consecutivos y los diputados al Congreso de la Unión hasta por cuatro periodos consecutivos. La postulación sólo podrá ser realizada por el mismo partido o por cualquiera de los partidos integrantes de la coalición que los hubiera postulado, salvo que hayan renunciado o perdido su militancia antes de la mitad de su mandato.” [fn:2] Aquí es dónde nos deberíamos preguntar ¿qué pasa con los independientes? En los artículos 115 y 116 se trata la reelección en los Estados. El artículo 115 establece que las constituciones estatales deben permitir la elección consecutiva para los presidentes municipales, regidores y síndicos, para un periodo adicional, solo cuando el período no exceda los tres años. Nuevamente este artículo establece que la postulación solo puede ser realizada por el mismo partido o algún partido de la coalición, a menos que haya renunciado o perdido su militancia antes de la mitad de su mandato.[fn:3] Por último el artículo 116 establece que las constituciones estatales también deben permitir la elección consecutiva de los diputados a las legislaturas de los estados, hasta por cuatro periodos consecutivos; nuevamente con la cláusula partidaria.[fn:4]
-
-Condujimos una encuesta entre estudiantes del ITAM de distintas carreras, procedencia estatal, afiliación partidista y edades para ver que opinan sobre el tema de reelección y para ver que tanto se sabe sobre la existencia de la reforma electoral en México de 2014. De los estudiantes que contestaron la encuesta se puede observar que la mayor parte de las mujeres y los hombres no tiene ninguna afiliación partidista. En el grupo de mujeres se observa un mayor porcentaje de afiliación al Partido Acción Nacional (PAN), que en el grupo de hombres. Contrario a esto en el grupo de los hombres se observa una mayor afiliación al Partido Revolucionario Institucional (PRI) y a Movimiento Regeneración Nacional (MORENA). 
-En las gráficas anexas podemos observar que la mayoría de los que no tienen ninguna afiliación a un partido toman una posición neutral ante la reelección. El mayor porcentaje de connotación positiva hacia la reelección lo presentan los afiliados al Partido de la Revolución Democrática (PRD). El segundo partido con mayor porcentaje de connotación positiva hacia la reelección es para los afiliados a MORENA. Al mismo tiempo son los Morenistas los que también tienen el mayor porcentaje de connotación negativa a la reelección, mientras los que tienen un menor porcentaje de connotación negativa son los del PRI. En cuanto a diferencias por carreras, casi un 50% de los politólogos del ITAM le dan una connotación positiva a la reelección; poco menos del 25% de esta misma carrera le proporciona una connotación negativa a este tema. Estudiantes de derecho y economía presentan resultados similares: en derecho alrededor del 20% de los estudiantes ven como positivo el tema de la reelección, mientras que casi el 50% lo ven como negativo; entre los estudiantes de economía, casi el 25% le da una connotación positiva al tema de la reelección, mientras que alrededor del 40% lo ve como algo negativo. Entre mujeres y hombres podemos observar pequeñas diferencias en cómo perciben el tema de la reelección. Alrededor del 30% por ciento tanto de hombres como de mujeres le dan una connotación negativa al tema de la reelección, los hombres tienen un porcentaje poco mayor. En cuanto a connotación positiva nuevamente los hombres tienen un mayor porcentaje, mayor que la diferencia en la connotación negativa, pero no significante. El 25% de las mujeres le dan una connotación positiva a la reelección, mientras que el 30% de los hombres ve la reelección como algo positivo. 
-
-Al momento de preguntarles que palabras relacionaban con la reelección los estudiantes del ITAM en su mayoría contestaron lo siguiente: 
-Democracia
-Porfirio Díaz 
-Accountabilty 
-Fraude
-Presidencia
-Corrupción 
-Madero 
-Política 
-PRI
-Revolución 
-Reforma
-Dictadura
-Inconstitucional 
-Estados Unidos
-Bueno
-Poder
-Ratificación 
-
-En torno a una última gráfica podemos concluir que los estudiantes del ITAM le dan una mayor connotación negativa a la reelección que positiva. Alrededor del 34% de los estudiantes ven el tema de la reelección como algo negativo, mientras que alrededor del 28% lo ven como algo positivo. Podríamos concluir que asumiendo que, a mayor información a exposición a ciertos temas, presenta una mayor aceptación a la reelección, esto considerando mayormente las diferencias entre carreras. Podríamos a lo mejor decir que es una cuestión de cómo la información afecta este tipo de opiniones. 
-
-
-
-[fn:1] Ugalde, Luis & Rivera, Gustavo. “La reelección en México antecedentes y retos de la reforma electoral de 2013”. Revista Mexicana de Derecho Electoral. México.
-
-[fn:2] Constitución Política de los Estados Unidos Mexicanos, 2013, México, Tribunal Electoral del Poder Judicial de la Federación. 
-
-[fn:3] Constitución Política de los Estados Unidos Mexicanos, 2013, México, Tribunal Electoral del Poder Judicial de la Federación.
-
-[fn:4] Constitución Política de los Estados Unidos Mexicanos, 2013, México, Tribunal Electoral del Poder Judicial de la Federación.
-
-
-
-
-
-
-/El Dilema de la Reelección. En los últimos años, la agenda de investigación sobre el Poder Legislativo en México se ha enfocado, principalmente, en la evaluación del desempeño de los diputados federales y los senadores de la República. Uno de los primeros estudios comparados sobre los congresos locales del país está a disposición en "El Poder Legislativo estatal en México: Análisis y Diagnóstico", un banco de datos que comparten el CIDE, el ITAM, la Universidad Anáhuac del Sur y la Universidad Estatal de Nueva York. Para presentar el compendio estadístico de esa obra sus editores solicitaron al ex consejero electoral que escribiera el ensayo que enseguida se reproduce con su autorización./
-
-El banco de datos contenido en "El Poder Legislativo estatal en México: Análisis y Diagnóstico" ([[http://derecho.itam.mx][derecho.itam.mx]]) contiene un importante volumen de información, especialmente normativa. Con todo, los editores del libro han decidido incluir un Compendio Estadístico que contiene cuadros comparativos de algunas de las variables incluidas en el banco de datos, con el fin de divulgar desde ahora un subconjunto de la información empírica contenida en él. A solicitud de los editores, escribo este breve ensayo. Téngase presente que la información contenida en la base de datos fue proporcionada por los propios congresos locales, entre febrero y mayo de 2003, cerca de la conclusión de las legislaturas que iniciaron sus actividades en 2000.
-
-Los calendarios trianuales de las legislaturas son muy heterogéneos. Por ejemplo, en 2000 fueron 11 las que dieron inicio; 12 comenzaron en 2001; ocho en 2002 y una en 2003 (Coahuila, el 1o. de enero). Pero también hay dispersión de calendarios al interior de cada año en particular, aun donde hubo concurrencia electoral. Por ello, en algunos casos, los congresos locales proporcionaron hacia diciembre de 2003 diversa información actualizada sobre legislaturas que recientemente iniciaron sus trabajos.
-
-#+CAPTION: Composición política de los congresos locales en méxico (diciembre de 2003). Diputados locales por Partido Político
+#+CAPTION: Composición de la muestra
 #+NAME:   tab:1
-| Entidad federativa  |  MR |  RP | Total | PRI | PAN | PRD | PVEM | CDPPN | PT | MP | PAS | UDC | PBS | PRS | PD | ADC | PCP | Ind |
-|---------------------+-----+-----+-------+-----+-----+-----+------+-------+----+----+-----+-----+-----+-----+----+-----+-----+-----|
-| Aguascalientes      |  18 |   9 |    27 |  12 |  10 |   1 |    2 | -     |  2 | -  | -   | -   | -   | -   | -  | -   | -   | 0   |
-| Baja California     |  16 |   9 |    25 |  10 |  11 |   2 |    1 | -     |  - | -  | -   | -   | -   | -   | -  | -   | -   | 1   |
-| Baja California Sur |  15 |   6 |    21 |   6 |   2 |   8 |    - | -     |  3 | -  | 1   | -   | -   | -   | -  | -   | -   | 1   |
-| Campeche            |  21 |  14 |    35 |  18 |  13 |   1 |    - | 3     |  - | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Chiapas             |  24 |  16 |    40 |  24 |   5 |   7 |    1 | -     |  2 | -  | 1   | -   | -   | -   | -  | -   | -   | -   |
-| Chihuahua           |  22 |  11 |    33 |  18 |  11 |   2 |    - | -     |  2 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Coahuila            |  20 |  15 |    35 |  20 |   8 |   3 |    - | -     |  2 | -  | -   | 2   | -   | -   | -  | -   | -   | -   |
-| Colima              |  16 |   9 |    25 |  14 |   8 |   2 |    - | -     |  - | -  | -   | -   | -   | -   | -  | 1   | -   | -   |
-| Distrito Federal    |  40 |  26 |    66 |   7 |  16 |  37 |    5 | -     |  - | 1  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Durango             |  15 |  10 |    25 |  13 |   8 |   1 |    - | -     |  2 | -  | -   | -   | -   | -   | 1  | -   | -   | -   |
-| Estado de México    |  45 |  30 |    75 |  24 |  23 |  19 |    4 | 2     |  3 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Guanajuato          |  22 |  14 |    36 |   9 |  19 |   4 |    3 | -     |  1 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Guerrero            |  28 |  18 |    46 |  20 |   4 |  17 |    1 | 2     |  1 | -  | -   | -   | -   | 1   | -  | -   | -   | -   |
-| Hidalgo             |  18 |  11 |    29 |  18 |   4 |   7 |    - | -     |  - | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Jalisco             |  20 |  20 |    40 |  19 |  17 |   2 |    2 | -     |  - | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Michoacán           |  24 |  16 |    40 |  17 |   5 |  17 |    - | -     |  1 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Morelos             |  18 |  12 |    30 |   8 |   9 |   8 |    3 | 2     |  - | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Nayarit             |  18 |  12 |    30 |  18 |   6 |   2 |    - | 2     |  2 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Nuevo León          |  26 |  16 |    42 |  24 |  11 |   1 |    2 | 1     |  3 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Oaxaca              |  25 |  17 |    42 |  25 |   7 |   8 |    - | 1     |  1 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Puebla              |  26 |  15 |    41 |  25 |  10 |   2 |    1 | 1     |  1 | -  | -   | -   | -   | -   | -  | -   | -   | 1   |
-| Querétaro           |  15 |  10 |    25 |  10 |  12 |   2 |    - | 1     |  - | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Quintana Roo        |  15 |  10 |    25 |  15 |   3 |   3 |    2 | 2     |  - | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| San Luis Potosí     |  15 |  12 |    27 |  12 |  11 |   2 |    1 | -     |  - | -  | -   | -   | -   | -   | -  | -   | 1   | -   |
-| Sinaloa             |  24 |  16 |    40 |  21 |  12 |   3 |    - | -     |  3 | -  | -   | -   | 1   | -   | -  | -   | -   | -   |
-| Sonora              |  21 |  10 |    31 |  17 |  12 |   2 |    - | -     |  - | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Tabasco             |  21 |  14 |    35 |  14 |   3 |  17 |    1 | -     |  - | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Tamaulipas          |  19 |  13 |    32 |  19 |   7 |   3 |    - | -     |  3 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Tlaxcala            |  19 |  13 |    32 |  14 |   3 |  11 |    1 | 1     |  2 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Veracruz            |  24 |  21 |    45 |  27 |  11 |   4 |    1 | 1     |  1 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Yucatán             |  15 |  10 |    25 |  11 |  12 |   1 |    - | -     |  - | -  | -   | -   | -   | -   | -  | -   | -   | 1   |
-| Zacatecas           |  18 |  12 |    30 |  10 |   4 |  13 |    - | 1     |  2 | -  | -   | -   | -   | -   | -  | -   | -   | -   |
-| Totales             | 683 | 447 |  1130 | 519 | 297 | 212 |   31 | 20    | 37 | 1  | 2   | 2   | 1   | 1   | 1  | 1   | 1   | 4   |
-|---------------------+-----+-----+-------+-----+-----+-----+------+-------+----+----+-----+-----+-----+-----+----+-----+-----+-----|
+| Grupos   | porcentaje |
+|----------+------------|
+| Mujeres  |            |
+| Hombres  |            |
+|          |            |
+| 18 años  |            |
+| 19       |            |
+| 20       |            |
+| 21       |            |
+| 22       |            |
+| 23 y más |            |
+|          |            |
+| pan      |            |
+| pri      |            |
+| morena   |            |
+| otros    |            |
+| ninguno  |            |
+|          |            |
+| cPol     |            |
+| eco      |            |
+| der      |            |
+| rrii     |            |
+| otras    |            |
+|----------+------------|
+| total    | 100        |
+| (N)      | (243)      |
 
-MR=Mayoría relativa, RP=Representación proporcional.
+Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. El que los estudiantes de ciencia política del ITAM movilizamos activamente para obtener más respuestas es patente en la sobrerrepresentación que tenemos en la muestra. También lo tienen los compañeros abogados, economistas e internacionalistas [dennos una idea de su peso en el itam]. Es de notar que en el grupo de mujeres hay un mayor porcentaje de panistas que en el de los hombres, y ambos superan la media nacional. Entre hombres predominan quienes se identificaron como priistas o de Morena. Pero en la muestra, como en la opinión pública del país, la moda son los independientes.
 
-PRI= Partido Revolucionario Institucional, PAN= Partido Acción Nacional, PRD= Partido de la Revolución Democrática, PVEM= Partido Verde Ecologista de México, PAS= Partido Alianza Social, PT= Partido del Trabajo, CDPPN= Convergencia por la Democracia Partido Político Nacional, MP= México Posible, PBS= Partido Barzonista Sinaloense, PRS= Partido de la Revolución del Sur, PD= Partido Duranguense, UDC= Unidad Democrática de Coahuila, ADC= Asociación por la Democracia Colimense, PCP= Partido Conciencia Popular, Ind= Diputado independiente.
+#+CAPTION: ¿Cómo se siente cada partido?
+#+NAME:   fig:1
+[[file:../img/dcFig5.png]
 
-Nota: diputado independiente: aquél que decide dejar de representar al partido que lo postuló y no cambia a otro grupo parlamentario.
+Clasificamos las palabras registradas en tres categorías: las de clara connotación positiva de la reelección (como rendición de cuentas);las de clara connotación negativa (como corrupción); y las neutras o ambiguas [nota sobre la clasificación]. En la gráfica [[fig:1]] se observa que la categoría residual/neutral predomina entre los que carecen de afiliación a un partido. Sorprende que el mayor porcentaje de connotación positiva hacia la reelección lo presentaron los simpatizantes de Morena---más del 50 por ciento, unos 10 puntos arriba de todos los demás. Los morenistas también produjeron el menor número de menciones neutrales lo cual, conjugado con lo anterior, implica una polarización más aguda que entre los seguidores de otros partidos. También llama la atención la similitud entre panistas y perredistas, quizás un buen augurio para el Frente. Y que entre los independientes las menciones negativas fueran tres y media veces menos frecuentes que las neutrales. 
 
-Fuente: información aportada por cada uno de los congresos de las entidades federativas, por la Dirección General de Apoyo Parlamentario de la Cámara de Diputados del H. Congreso de la Unión y por las páginas oficiales.
+#+CAPTION: Connotación de palabras relacionadas con reelección por carrera
+#+NAME:   fig:2
+[[file:../img/dcFig4.png]
 
- 
-La Tabla [[tab:1]] incluye una fotografía de los 32 sistemas electorales mixtos para elegir diputados a las legislaturas locales, así como de la composición partidaria de los 32 congresos hacia diciembre de 2003.
+En cuanto a la gráfica [[fig:2]], casi dos terceras partes de los politólogos le dieron una connotación positiva a la reelección, pero menos de 15 por ciento una negativa. Un poco menos optimistas, los internacionalistas tuvieron un perfil de opinión parecido al de los politólogos. Abogados, economistas, y demás carreras presentan resultados similares entre sí y distintos de los recién discutidos: en derecho alrededor del 25% de los estudiantes ven como positivo el tema de la reelección, mientras que casi el 40% lo ven como negativo; entre los estudiantes de economía, casi el 40% le da una connotación positiva al tema de la reelección, mientras que alrededor de otro 40% lo ve como algo negativo. La carrear de relaciones internacionales es la que tiene resultados más parecidos a la carrera de ciencia política, casi un 50% les dan una connotación positiva a las mujeres, mientras que alrededor del 15% le dan una connotación negativa. 
 
-Ambas variables expresan las dos grandes transformaciones de los congresos locales mexicanos en los últimos 30 años: en 1974, el total de curules en todos los congresos sumaba 369; hacia mayo de 1999, después de un aumento casi lineal del número de escaños en todo el sistema, el número se triplicaba: había mil 108 diputados locales en el país. Desde entonces, el número total de escaños prácticamente se ha estabilizado. Hacia diciembre de 2003 había en total mil 130 escaños. Pero también cambiaron los sistemas electorales, de totalmente mayoritarios en 1973,[fn:2] hacia sistemas mixtos con un periodo de crecimiento constante del componente proporcional, de modo que hacia 1988, 70 por ciento del conjunto de los escaños era resultado de elecciones mayoritarias en distritos uninominales y 30 por ciento de listas de representación proporcional, y hacia 1998 y desde entonces, 60 por ciento de los diputados proviene de distritos y 40 por ciento de listas de representación proporcional.[fn:3]
+#+CAPTION: ¿Mujeres o hombres más de acuerdo?
+#+NAME:   fig:3
+[[file:../img/dcFig3.png]
 
-La otra transformación, de mayor calado, ligada a la modificación de los sistemas electorales pero también producto de una creciente competitividad electoral, se dio en la composición partidaria de los congresos locales de México. Al Partido Revolucionario Institucional (PRI) pertenecían 97.8 por ciento de todos los diputados locales del país en 1974. Era un partido hegemónico. Hacia mayo de 1999, el PRI tenía 49.64 por ciento de los diputados locales. Es decir, en un espacio de 25 años, el PRI perdió 48.16 puntos porcentuales de su peso en el sistema representativo en su conjunto. Ya no era un partido hegemónico.[fn:4] Hacia diciembre de 2003 el PRI contaba con el 46 por ciento del conjunto de los diputados locales del país.
+Entre sexos podemos observar en la gráfica [[fig:3]] pequeñas diferencias en cómo perciben el tema de la reelección. Alrededor del 30% de mujeres le dan una connotación negativa al tema de la reelección, mientras que, para los hombres, este dato es de alrededor del 25%. En cuanto a connotación positiva los hombres tienen un mayor porcentaje, con casi un 50%, mientras que las mujeres tienen alrededor de un 30% en esta categoría. 
 
-* La vía del consenso
+Al momento de preguntarles que palabras relacionaban con la reelección los estudiantes del ITAM en su mayoría contestaron lo siguiente:  
 
-Durante las décadas de los ochenta y los noventa del siglo XX, la creciente pluralidad política de los congresos locales mexicanos llevó a que el PRI, que contaba hacia 1987 con la mayoría calificada (dos tercios de los escaños, o más) de todos los congresos locales, contara hacia mayo de 1999 con mayoría calificada en solamente dos congresos locales (Nayarit y Puebla).
+- Democracia
+- Porfirio Díaz 
+- Accountabilty 
+- Fraude
+- Presidencia
+- Corrupción 
+- Madero 
+- Política 
+- PRI
+- Revolución 
+- Reforma
+- Dictadura
+- Inconstitucional 
+- Estados Unidos
+- Bueno
+- Poder
+- Ratificación 
 
-Hacia diciembre de 2003, ningún partido cuenta con mayoría calificada de dos tercios en Congreso local alguno del país. En consecuencia, todas las decisiones congresionales que requieren del voto aprobatorio de dos tercios de los miembros de los Congresos tienen que tomarse por la vía del consenso multipartidista.
+En torno a una última gráfica “Palabras relacionadas con reelección” podemos concluir que los estudiantes del ITAM le dan una mayor connotación positiva a la reelección, que negativa. Alrededor del 25% de los estudiantes ven el tema de la reelección como algo negativo, mientras que el 45% lo ve como algo positivo. La asignación de la connotación de las palabras claves se realizó consultando al grupo de 16 personas miembros del seminario sobre reelección y redistritación. Entonces se tomó la percepción de la mayoría. No se argumenta que se estas calificaciones sean absolutas, sin embargo, podemos asumir que se tiene una evaluación objetiva de la connotación de estas palabras.
 
-La creciente dosis de pluralismo legislativo que introdujo la democratización mexicana también condujo a la creciente desaparición no sólo de mayorías calificadas (66 por ciento) de un solo partido, sino también de las mayorías absolutas (50 por ciento más uno) monopartidarias. En 1989 se produjo el primer caso en el que en un Congreso local mexicano en la era posrevolucionaria ningún partido tiene mayoría: fue el de Baja California. Hacia diciembre de 2003, ningún partido cuenta con mayoría absoluta en 14 congresos locales, mientras que en los 18 restantes sí hay algún partido con mayoría absoluta (en un caso del PAN, en uno del PRD y en 16 del PRI).
-
-En todos los casos en donde ningún partido tiene mayoría hay "gobierno dividido" (situación en la que el partido del gobernador no cuenta con mayoría absoluta de los escaños en el Congreso local). Pero hay otro formato de pluralismo, no al interior de un Poder (el Legislativo), sino entre poderes (cuando sí hay mayoría de un partido en el Congreso local, pero el gobernador pertenece a otro partido), que también produce "gobierno dividido" (pues tampoco en ese escenario el partido del gobernador cuenta con mayoría absoluta): hacia diciembre de 2003, dos estados se encontraban bajo esa circunstancia (Chiapas y Nayarit, con mayorías absolutas priistas en el Legislativo y gobernadores no priistas en el Ejecutivo). En consecuencia, si sumamos ambos escenarios de "gobierno dividido", hacia diciembre de 2003 son 16 los congresos locales mexicanos que viven bajo el formato en el que el partido del gobernador no tiene mayoría absoluta: son la mitad del sistema legislativo mexicano.[fn:5]
-
-Por otro lado, y como es bien sabido, en todo el sexenio del presidente Vicente Fox (2000-2006) se vive bajo "gobierno dividido", fenómeno que a nivel nacional se inició en el segundo trienio del gobierno del presidente Ernesto Zedillo (1994-2000). Estamos pues ante un fenómeno político que ya tiene dimensiones nacionales. En el marco de la competitividad y del sistema de partidos actuales, vivimos entre "gobiernos divididos", y todo indica que lo seguiremos haciendo en el futuro: Ya están entre nosotros: irán y vendrán "gobiernos divididos".
-
-#+CAPTION: Gobiernos divididos en los estados de la república mexicana (diciembre del 2003)^a Mayorías en el Congreso
-#+NAME:   tab:2
-| Entidad federativa  | Partido del gobernador^b | Mayoría absoluta^c | Mayoría relativa^d | Gobierno dividido^e |
-|---------------------+--------------------------+--------------------+--------------------+---------------------|
-| Aguascalientes      | PAN                      | -                  | PRI                | Sí                  |
-| Baja California     | PAN                      | -                  | PAN                | Sí                  |
-| Baja California Sur | PRD, PT                  | -                  | PRD                | Sí                  |
-| Campeche            | PRI                      | PRI                | -                  | No                  |
-| Chiapas             | PRD, PAN, PT, PVEM       | PRI                | -                  | Sí                  |
-| Chihuahua           | PRI                      | PRI                | -                  | No                  |
-| Coahuila            | PRI                      | PRI                | -                  | No                  |
-| Colima              | PRI                      | PRI                | -                  | No                  |
-| Distrito Federal    | PRD                      | PRD                | -                  | No                  |
-| Durango             | PRI                      | PRI                | -                  | No                  |
-| Estado de México    | PRI                      | -                  | PRI                | Sí                  |
-| Guanajuato          | PAN                      | PAN                | -                  | No                  |
-| Guerrero            | PRI                      | -                  | PRI                | Sí                  |
-| Hidalgo             | PRI                      | PRI                | -                  | No                  |
-| Jalisco             | PAN                      | -                  | PRI                | Sí                  |
-| Michoacán           | PRD                      | -                  | PRI-PRD6           | Sí                  |
-| Morelos             | PAN                      | -                  | PAN                | Sí                  |
-| Nayarit             | PRD, PAN                 | PRI                | -                  | Sí                  |
-| Nuevo León          | PRI                      | PRI                | -                  | No                  |
-| Oaxaca              | PRI                      | PRI                | -                  | No                  |
-| Puebla              | PRI                      | PRI                | -                  | No                  |
-| Querétaro           | PAN                      | -                  | PAN                | Sí                  |
-| Quintana Roo        | PRI                      | PRI                | -                  | No                  |
-| San Luis Potosí     | PAN                      | -                  | PRI                | Sí                  |
-| Sinaloa             | PRI                      | PRI                | -                  | No                  |
-| Sonora              | PRI                      | PRI                | -                  | No                  |
-| Tabasco             | PRI                      | -                  | PRD                | Sí                  |
-| Tamaulipas          | PRI                      | PRI                | -                  | No                  |
-| Tlaxcala            | PRD, PT                  | -                  | PRI                | Sí                  |
-| Veracruz            | PRI                      | PRI                | -                  | No                  |
-| Yucatán             | PAN                      | -                  | PAN                | Sí                  |
-| Zacatecas           | PRD                      | -                  | PRD                | Sí                  |
-|                     |                          | Total:             | 16                 |                     |
-
-a Esta conformación toma en cuenta los resultados electorales del 2003 en los estados de Campeche, Colima, Distrito Federal, Estado de México, Guanajuato, Jalisco, Morelos, Nuevo León, Querétaro, San Luis Potosí, Sonora y Tabasco. \\
-b En Baja California Sur, Chiapas, Nayarit y Tlaxcala, quienes ocupan el cargo de gobernador fueron en su momento postulados por coaliciones. \\
-c Un partido tiene mayoría absoluta si tiene entre el 50 por ciento más uno y el 66 por ciento de los escaños. \\
-d Un partido cuenta con mayoría relativa cuando, pese a no tener el 50 por ciento más uno de los escaños, es el de la bancada más numerosa. \\
-e Gobierno dividido: cuando el partido del gobernador no cuenta con la mayoría absoluta de los diputados locales. \\
-f PRI y PRD tienen 17 diputados cada uno. \\
-Fuente: información aportada por cada uno de los congresos estatales y páginas oficiales de los poderes legislativos y ejecutivos locales.
-
-Nótese en la Tabla [[tab:2]] algo de especial relevancia para la política mexicana contemporánea. Hacia diciembre de 2003 (y aun ahora, en marzo de 2004), existen 17 gobernadores pertenecientes al PRI: en 14 casos, el PRI cuenta con mayoría absoluta en el Congreso local, y sólo en tres tenemos "gobierno dividido" una vez concluida la elección correspondiente. Por el contrario, de las 15 entidades en donde hay un gobernador no priista, en 13 de ellas tenemos "gobierno dividido". En otras palabras, 81 por ciento de los "gobiernos divididos" locales acotan actualmente a gobernadores no priistas.
-
-Antes de continuar el análisis conviene subrayar un elemento adicional que se desprende de la Tabla [[tab:1]]: se trata del dominio casi absoluto de la representación política en los congresos locales por parte de los partidos políticos nacionales. Hacia diciembre de 2003, sólo seis congresos contaban con la presencia de algún partido local: el de Sinaloa, a través del Partido Barzonista Sinaloense; el de Guerrero, con el Partido de la Revolución del Sur; el de Durango, con el Partido Duranguense; el de Coahuila, con la Unidad Democrática de Coahuila; el de Colima, con la Democracia Colimense, y el de San Luis Potosí, con el Partido Conciencia Popular.
-
-Desde la Reforma Política de 1977 sólo 13 congresos locales han contado con la presencia de uno -o varios- partidos locales y en general no ha sido copiosa.[fn:6]
-
-
-* Legisladores 'amateurs'
-
-La Tabla [[tab:3]] contiene información inédita sobre la experiencia legislativa previa de los diputados locales de México. Esta es la variable clave para explicar la naturaleza y características de los Poderes Legislativos del país: desde 1933, el artículo 116, fracción II, párrafo segundo, de la Constitución prohíbe la reelección inmediata de los diputados locales. Ciertamente, la reforma constitucional de 1933 respondió a una lógica de centralización del poder y permitió que hubiese cierta circulación de élites en un sistema hegemónico. Si hubiera sido posible la "reelección" de los diputados locales (en elecciones no competitivas), sin duda se hubiese producido un anquilosamiento de la clase política, como de hecho sucedió en el Porfiriato.
-
-#+CAPTION: Experiencia legislativa de los diputados locales
-#+NAME:   tab:3
-|                     |           |     Sin |        |       |       |       Como |       |      En |       |
-|                     |           |   expe- |        |  Como |       | legislador |       |   ambos |       |
-| Estado              | Diputados | riencia |        | local |       |    federal |       | ámbitos |       |
-|---------------------+-----------+---------+--------+-------+-------+------------+-------+---------+-------|
-| Aguascalientes      |        27 |      26 | 96.30% |     1 | 3.70% |          0 | 0.00% |       0 | 0.00% |
-| Baja California     |        25 |      24 |  96.00 |     0 |  0.00 |          1 |  4.00 |       0 |  0.00 |
-| Baja California Sur |        21 |      19 |  90.48 |     0 |  0.00 |          1 |  4.76 |       1 |  4.76 |
-| Campeche            |        35 |      31 |  88.57 |     3 |  8.57 |          1 |  2.86 |       0 |  0.00 |
-| Colima              |        25 |      24 |  96.00 |     1 |  4.00 |          0 |  0.00 |       0 |  0.00 |
-| Distrito Federal    |        66 |      54 |  81.82 |     2 |  3.03 |          8 | 12.10 |       2 |  3.03 |
-| Durango             |        25 |      22 |  88.00 |     2 |  8.00 |          1 |  4.00 |       0 |  0.00 |
-| Estado de México    |        75 |      54 |  72.00 |     9 | 12.00 |          0 |  0.00 |      12 | 16.00 |
-| Guanajuato          |        36 |      31 |  86.11 |     3 |  8.33 |          2 |  5.56 |       0 |  0.00 |
-| Guerrero            |        46 |      42 |  91.30 |     3 |  6.52 |          1 |  2.17 |       0 |  0.00 |
-| Hidalgo             |        29 |      24 |  82.76 |     5 | 17.24 |          0 |  0.00 |       0 |  0.00 |
-| Morelos             |        30 |      28 |  93.33 |     0 |  0.00 |          2 |  6.67 |       0 |  0.00 |
-| Nayarit             |        30 |      27 |  90.00 |     1 |  3.33 |          1 |  3.33 |       1 |  3.33 |
-| Nuevo León          |        42 |      32 |  76.19 |     4 |  9.52 |          2 |  4.76 |       4 |  9.52 |
-| Oaxaca              |        42 |      38 |  90.48 |     2 |  4.76 |          2 |  4.76 |       0 |  0.00 |
-| Querétaro           |        25 |      23 |  92.00 |     2 |  8.00 |          0 |  0.00 |       0 |  0.00 |
-| San Luis Potosí     |        27 |      23 |  85.19 |     1 |  3.70 |          2 |  7.41 |       1 |  3.70 |
-| Sonora              |        31 |      28 |  90.32 |     1 |  3.23 |          2 |  6.45 |       0 |  0.00 |
-| Tamaulipas          |        32 |      26 |  81.25 |     5 | 15.63 |          1 |  3.13 |       0 |  0.00 |
-| Tlaxcala            |        32 |      31 |  96.88 |     1 |  3.13 |          0 |  0.00 |       0 |  0.00 |
-| Veracruz            |        45 |      32 |  71.11 |     7 | 15.56 |          6 | 13.33 |       0 |  0.00 |
-| Yucatán             |        25 |      19 |  76.00 |     4 | 16.00 |          2 |  8.00 |       0 |  0.00 |
-| Zacatecas           |        30 |      20 |  66.67 |     6 | 20.00 |          4 | 13.33 |       0 |  0.00 |
-| Totales             |       801 |     678 | 84.64% |    63 | 7.87% |         39 | 4.87% |      21 | 2.62% |
-|---------------------+-----------+---------+--------+-------+-------+------------+-------+---------+-------|
-
-Nota: solamente 23 congresos locales tuvieron disponible la información sobre la experiencia legislativa previa de sus diputados.
-
-
-Hoy, sin embargo, la permanencia de la prohibición milita agresivamente en contra de la institucionalidad de los congresos locales, de la profesionalización de sus miembros, de la calidad de las leyes, de la posibilidad de darle continuidad a los trabajos -urgentes- de control evaluatorio de las políticas públicas, de la responsabilidad política de los legisladores ante el electorado (especialmente de los uninominales) y del poder ciudadano para controlar a sus representantes, castigándolos con el retiro del apoyo electoral si su trabajo resultó insatisfactorio o premiándolos con la reelección si rinden buenas cuentas.
-
-La regla constitucional vigente también milita en contra de la difusión masiva de información sobre la conducta individual de los diputados, pues al no poder éstos someterse nuevamente al juicio ciudadano en las urnas una vez concluidos sus mandatos, no existen "retadores" en la oposición (enfatizo aquí, otra vez, en el ámbito uninominal) interesados en divulgar el sentido del voto y la conducta que se juzga reprobable por parte de quienes ya ocupan los escaños, ni éstos tienen el incentivo de promover el conocimiento del sentido de sus votos y de su conducta como alegato de defensa ante el ataque de los "retadores". ¿Puede acaso imaginarse un escenario peor?
-
-En la Tabla [[tab:3]] se despliega información únicamente de 23 congresos locales, pues nueve de ellos no tuvieron disponible la información sobre la experiencia legislativa previa de sus diputados. Tenemos, en consecuencia, información sobre 678 diputados, que suman 71 por ciento, lo cual representa una muestra bastante representativa del universo bajo estudio.
-
-Nótese la patética situación en que se encuentran los congresos locales de México: 84.64 por ciento de los diputados locales no tiene experiencia previa como legislador, ya sea local o federal, es decir, la mayoría aplastante de los diputados locales son amateurs, están en la situación más lejana a la del profesional del Parlamento. La situación es particularmente crítica en congresos locales como los de Aguascalientes, Baja California, Colima y Tlaxcala, en donde solamente... un diputado o ninguno de ellos en el Congreso local tiene experiencia previa como legislador. En el otro extremo se encuentra Zacatecas, en donde "solamente" (pero subráyese el entrecomillado) 66 por ciento de los diputados al Congreso local es primerizo, totalmente inexperto en el ejercicio de la función parlamentaria.
-
-Pero nótese otro elemento importante: entre los pocos diputados que sí tienen experiencia previa, sólo 39 (¡de 678!) la ha tenido en el ámbito federal (como diputado o como senador), y 21 han tenido previamente ambas experiencias (la local y la federal). Eso rompe el mito, que se repite ad nauseam, de que en realidad los legisladores mexicanos andan brincando constantemente del ámbito local al federal y viceversa, y que ello posibilita la construcción de una "carrera parlamentaria".
-
-Amén de que el expertise parlamentario, en relación con la agenda permanente de un Parlamento, no se obtiene brincando de un Parlamento a otro, y de que de cualquier modo el electorado no puede calificar su actuación, lo cierto es que en los hechos es un puñado de personas el que realiza esos "brincos" de una Cámara a otra. Veamos la evidencia y reconozcamos un hecho: la prohibición de la reelección inmediata opera en los hechos casi como una prohibición absoluta.[fn:7] Total: la creciente pluralidad de los congresos locales ha incrementado la centralidad política de dichas instituciones, pero su institucionalidad, su profesionalismo, su capacidad para darle seguimiento a la agenda legislativa local y para evaluar con profundidad el efecto real de las leyes vigentes, su responsabilidad ante el electorado, se mantienen en una situación verdaderamente precaria.
-
-#+CAPTION: Edad de los diputados locales
-#+NAME:   tab:4
-| Estado              | 18 a 30 | 31 a 40 | 40 en adelante |
-|---------------------+---------+---------+----------------|
-| Aguascalientes      |       0 |       8 |             19 |
-| Baja California     |       0 |       8 |             17 |
-| Baja California Sur |       0 |       4 |             17 |
-| Campeche            |       1 |       6 |             28 |
-| Colima              |       0 |      18 |              7 |
-| Distrito Federal    |      10 |      25 |             31 |
-| Durango             |       2 |       6 |             17 |
-| Estado de México    |       3 |      20 |             52 |
-| Guanajuato          |       2 |      13 |             21 |
-| Guerrero^a          |       4 |       6 |             28 |
-| Hidalgo             |       1 |       6 |             22 |
-| Jalisco             |       4 |      15 |             21 |
-| Morelos             |       1 |       6 |             23 |
-| Nayarit^b           |       0 |       5 |             21 |
-| Nuevo León          |       6 |      11 |             25 |
-| Oaxaca              |       3 |       6 |             33 |
-| Querétaro           |       1 |      13 |             11 |
-| Quintana Roo        |       0 |       9 |             16 |
-| San Luis Potosí     |       1 |       5 |             21 |
-| Sinaloa             |       0 |       8 |             32 |
-| Sonora              |       3 |       6 |             24 |
-| Tlaxcala            |       1 |      27 |              4 |
-| Veracruz            |       0 |      15 |             30 |
-| Yucatán             |       0 |      15 |             10 |
-| Zacatecas           |       0 |       9 |             21 |
-| Total               |      43 |     270 |            551 |
-|---------------------+---------+---------+----------------|
-
-Nota: solamente 25 congresos locales tuvieron información disponible. \\ 
-a Guerrero tiene 46 diputados; el Congreso sólo tuvo disponible la edad de 38 de ellos. \\ 
-b Nayarit tiene 30 diputados; el Congreso sólo tuvo disponible la edad de 26 de ellos.
-
-La Tabla [[tab:4]] ofrece información muy valiosa, y por demás novedosa, de la edad de los diputados locales mexicanos. Este punto se vincula estrechamente con el anterior: los defensores del statu quo constitucional en relación con la no reelección legislativa suelen argumentar que si se permitiese la reelección habría menos movilidad de la clase política y se obstaculizaría la entrada de los jóvenes a los congresos del país. Esto equivale a pensar el presente democrático en código porfiriano: el que se permita al elector decidir (especialmente en el ámbito electoral uninominal) no significa que habrá reelección, sino simplemente que puede haber reelección. Que puedan reelegirse los diputados no significa en modo alguno que serán reelectos. Eso dependerá de los electores, y no de un Gran Elector, como lo fue en su momento Porfirio Díaz en un ambiente electoral no competitivo. Salvo Costa Rica y México, ningún país del mundo, ninguno, prohíbe la reelección inmediata de sus parlamentarios, pero en ningún lugar del planeta vemos parlamentos democráticos gerontocráticos. La Tabla también demuestra, por si fuera poco, que en realidad los congresos locales -en donde se prohíbe la reelección inmediata- no están precisamente integrados por "jóvenes": de los 25 congresos que enviaron información sobre la edad de sus diputados,[fn:8] tenemos que solamente 5 por ciento de los mismos tiene entre 18 y 30 años; 32 por ciento tiene entre 31 y 40 años, y la mayoría, es decir, 64 por ciento, tiene 41 años o más.
-
-En los extremos nos encontramos con congresos locales que no tienen algún diputado de entre 18 y 30 años (Aguascalientes, Baja California, Baja California Sur, Colima, Nayarit, Quintana Roo, Sinaloa, Veracruz, Yucatán y Zacatecas) y, por otro lado, la Asamblea Legislativa del Distrito Federal, que cuenta con 10 diputados de entre 18 y 31 años. No creo que si existiera la posibilidad de la reelección estos números variarían significativamente.
-
-Los jóvenes con ambición política, capacidad y talento tendrían tantas oportunidades como los políticos de edad madura, si se toma en cuenta además que los métodos de selección en los ámbitos uninominales son cada vez más abiertos en el conjunto del sistema de partidos.
-
-
-* Argumentos de peso
-
-En la Tabla [[tab:5]] encontramos evidencia empírica de la escolaridad de los diputados locales. Nuevamente, esta variable se relaciona con el debate sobre una posible reforma al artículo 116, párrafo II, de la Constitución, para posibilitar la profesionalización y responsabilidad de los legisladores locales. Suele argumentarse que para promover la profesionalización y especialización de los diputados es necesario que cuenten con niveles más altos de escolaridad. Hay quien llega al extremo, ya elitista, de proponer que determinado nivel sea requisito para acceder a las Cámaras.
-
-#+CAPTION: Escolaridad de los diputados locales
-#+NAME:   tab:5
-| Estado              | Diputados | Básica |       | Media |        | Superior |        | Posgrado |        | Ninguna |       |
-|---------------------+-----------+--------+-------+-------+--------+----------+--------+----------+--------+---------+-------|
-| Aguascalientes      |        27 |      1 | 3.70% |     4 | 14.81% |       17 | 62.96% |        5 | 18.52% |       0 | 0.00% |
-| Baja California     |        25 |      0 |  0.00 |     2 |   8.00 |       19 |  76.00 |        4 |  16.00 |       0 |  0.00 |
-| Baja California Sur |        21 |     nd |    nd |    nd |     nd |       12 |  57.14 |        0 |   0.00 |      nd |    nd |
-| Colima              |        25 |      8 | 32.00 |     0 |   0.00 |       17 |  68.00 |        0 |   0.00 |       0 |  0.00 |
-| Distrito Federal    |        66 |      0 |  0.00 |    11 |  16.67 |       41 |  62.12 |       14 |  21.21 |       0 |  0.00 |
-| Estado de México    |        75 |      2 |  2.67 |    10 |  13.33 |       59 |  78.67 |        3 |   4.00 |       1 |  1.33 |
-| Guanajuato          |        36 |      4 | 11.11 |     3 |   8.33 |       28 |  77.78 |        1 |   2.78 |       0 |  0.00 |
-| Guerrero            |        46 |     nd |    nd |     4 |   8.70 |       30 |  65.22 |        3 |   6.52 |      nd |    nd |
-| Hidalgo             |        29 |      5 | 17.24 |    14 |  48.28 |       10 |  34.48 |        0 |   0.00 |       0 |  0.00 |
-| Jalisco             |        40 |      2 |  5.00 |     5 |  12.50 |       22 |  55.00 |       11 |  27.50 |       0 |  0.00 |
-| Morelos             |        30 |      3 | 10.00 |     2 |   6.67 |       22 |  73.33 |        3 |  10.00 |       0 |  0.00 |
-| Nayarit             |        30 |      0 |  0.00 |     6 |  20.00 |       21 |  70.00 |        3 |  10.00 |       0 |  0.00 |
-| Nuevo León          |        42 |      0 |  0.00 |     8 |  19.05 |       23 |  54.76 |       11 |  26.19 |       0 |  0.00 |
-| Oaxaca              |        42 |      0 |  0.00 |     4 |   9.52 |       32 |  76.19 |        6 |  14.29 |       0 |  0.00 |
-| Querétaro           |        25 |      0 |  0.00 |     4 |  16.00 |       19 |  76.00 |        2 |   8.00 |       0 |  0.00 |
-| Quintana Roo        |        25 |      2 |  8.00 |     6 |  24.00 |       14 |  56.00 |        3 |  12.00 |       0 |  0.00 |
-| San Luis Potosí     |        27 |      1 |  3.70 |     4 |  14.81 |       18 |  66.67 |        4 |  14.81 |       0 |  0.00 |
-| Sinaloa             |        40 |      3 |  7.50 |     5 |  12.50 |       24 |  60.00 |        8 |  20.00 |       0 |  0.00 |
-| Tamaulipas          |        32 |     nd |    nd |     4 |  12.50 |       15 |  46.88 |       nd |     nd |      nd |    nd |
-| Tlaxcala            |        32 |      0 |  0.00 |     2 |   6.25 |       26 |  81.25 |        4 |  12.50 |       0 |  0.00 |
-| Yucatán             |        25 |      0 |  0.00 |     4 |  16.00 |       21 |  84.00 |        0 |   0.00 |       0 |  0.00 |
-| Zacatecas           |        30 |      5 | 16.67 |     8 |  26.67 |       17 |  56.67 |        0 |   0.00 |       0 |  0.00 |
-| Totales             |       770 |     36 | 4.68% |   110 | 14.29% |      507 | 65.84% |       85 | 11.04% |       1 | 0.13% |
-
-Nota: solamente 22 congresos locales tuvieron disponible información, parcial o total, sobre la escolaridad de sus diputados. \\
-nd= No disponible
-
-En mi opinión, el problema de la profesionalización y especialización de los legisladores mexicanos no es asunto de escolaridad. Por desgracia, sólo 19 congresos locales enviaron información completa sobre la escolaridad de sus diputados; 3 congresos enviaron información parcial, y 10 congresos no tuvieron disponible esa información. Contamos, en consecuencia, con información sobre 739 diputados locales, que equivalen al 65 por ciento del total. Nótese cómo el nivel de escolaridad de nuestros diputados locales no es bajo: 66 por ciento cursó la educación superior y 11 por ciento tiene estudios de posgrado.
-
-Quienes pugnamos por la reforma constitucional que posibilite, que permita, la reelección legislativa nunca hemos argumentado que los diputados sean ignorantes; tampoco hemos dicho que no pueden llevar a los congresos locales experiencias útiles de su vida profesional previa. El problema no está en los diputados como personas, sino en el arreglo constitucional que les impide conocer con profundidad la agenda de sus congresos locales. Y ese conocimiento lo da la experiencia parlamentaria, no los grados académicos. Es increíble que algunos quieran médicos experimentados para curar nuestras enfermedades, o ingenieros experimentados para levantar nuestros puentes, pero no legisladores experimentados para representarnos políticamente.
-
-Llama la atención, por otro lado, que sean sólo unos cuantos congresos locales los que, a través de la Ley Orgánica del Congreso o de su Reglamento Interior, le den explícitamente a sus comisiones --a algunas de modo específico, o a todas-- la facultad de realizar tareas de control evaluatorio de las políticas públicas. A nivel federal, concretamente en la Cámara de Diputados, la reforma a la Ley Orgánica del Congreso de 1999 desarrolló ampliamente, en sus artículos 39 y 45, el modo en que se ha de desarrollar esta importante tarea parlamentaria. Sin embargo, la no reelección ha hecho de las suyas: todo indica que los informes que las comisiones permanentes han de rendir periódicamente sobre la utilización del presupuesto por parte de las dependencias del Ejecutivo simplemente no se están elaborando.
-
-No aparecen en La Gaceta Parlamentaria. Yo en lo personal he formulado consultas verbales a varios diputados, quienes la mayoría de las veces desconocen respecto de qué informes les estoy formulando la pregunta.
-
-Y sí: una cosa es que la norma faculte a las comisiones a realizar tareas de control evaluatorio de las políticas públicas y otra es que efectivamente esas tareas se realicen. De cualquier modo, llama la atención que sólo las leyes orgánicas o reglamentos interiores de ocho congresos locales desarrollen alguna norma al respecto (Aguascalientes, Guerrero, Nayarit, Oaxaca, Sinaloa, Tabasco, Tlaxcala y Veracruz). Pareciera desde la norma que los congresos locales de Tabasco y Veracruz plantean las tareas más ambiciosas de control evaluatorio: en Tabasco las comisiones deben producir un dictamen sobre los programas implementados por el gobierno, mientras que en Veracruz los programas incluidos en el Plan Veracruzano de Desarrollo son objeto de evaluación periódica por parte de las comisiones ordinarias. Aquí se concentra, a mi juicio, una de las más importantes tareas pendientes de los congresos locales de México, máxime si se pretenden aumentar las potestades tributarias de los estados de la Federación.
-
-El banco de datos contenido en El Poder Legislativo estatal en México. Análisis y Diagnóstico incluye información sobre un importante conjunto de variables adicionales: el presupuesto asignado a los congresos locales, la organización de los servicios administrativos y parlamentarios en perspectiva comparada, la duración -muy heterogénea- de los periodos ordinarios de sesiones, etcétera. Destaco del resto de la información un último punto de especial relevancia. Llama la atención que solamente 15 congresos locales tengan regulada en su normatividad la existencia de un servicio civil de carrera para sus funcionarios, pero que, a su vez, únicamente cuatro congresos locales tengan ya en operación el sistema correspondiente (Guerrero, Jalisco, Sinaloa y Sonora). Aquí quizá se encuentre otro de los efectos nocivos de la no reelección parlamentaria, que conforma un círculo vicioso: si no hay servicio civil de carrera, ni siquiera por el lado del funcionariado, que va y viene, puede acumularse experiencia y memoria institucional; sin embargo, quizá debido a que los diputados no pueden prolongar su presencia institucional más allá de tres años, no se ha podido acometer con el debido cuidado la compleja tarea de echar a andar el servicio civil de carrera parlamentaria. Otra mala noticia para los congresos, para sus funcionarios y para los ciudadanos.
-
-Vale una breve reflexión final. Nos encontramos sin duda en un punto de inflexión histórica en la vida de los congresos locales de México. Después de varias décadas de monopartidismo que concluyen en los setenta, los congresos locales mexicanos han crecido en tamaño, sus sistemas electorales se han vuelto mixtos, con un creciente componente proporcional, y han sido actores institucionales privilegiados en la construcción del pluralismo político en México. Los congresos locales han cumplido un papel sin duda constructivo en ese proceso de pluralización y democratización. Con todo, quedan por acometer tareas fundamentales para el futuro de la democracia mexicana: su profesionalización, la rendición de cuentas de sus integrantes ante el electorado, su responsabilidad en el mejoramiento de la calidad de los servicios públicos y, en general, de las políticas públicas que se implementan en beneficio de la ciudadanía. Está a discusión en México, en los días que corren, el eventual aumento en las potestades tributarias de las entidades federativas del país. Debiera discutirse también el modo en que ha de evolucionar la institucionalidad de nuestros congresos locales, protagonistas de primera línea en la vida política, económica y social de México. Ojalá la base de datos contenida en El Poder Legislativo estatal en México. Análisis y Diagnóstico, sirva a ese importante propósito.
-
-
-/El autor es doctor en ciencia política por la Universidad de Yale. Fue consejero propietario en el Instituto Federal Electoral. Actualmente es director de la carrera de ciencia política en el Instituto Tecnológico Autónomo de México (ITAM)./
-
-
-
-
+Dados estos resultados, y aun considerando la nota metodológica, podemos hacer algunos comentarios interesantes. Por un lado, parecería que los afiliados al partido de MORENA, el cual es el partido de extrema izquierda en México, presentan opiniones muy extremistas. Son por una parte los que mayores personas presentaron que le presentaban una connotación positiva al tema de la reelección, pero por otra parte también son los que más presentaron una connotación negativa al tema. Por otra parte, las mujeres presentaron una mayor simpatía con el Partido Acción Nacional (PAN), dado que esta encuesta se llevó a cabo antes de la renuncia de Margarita Zavala, sería interesante ver si estos resultados seguirían siendo los mismos al día de hoy. En cuanto a las carreras, antes de tener los resultados, nosotros asumíamos que los economistas serían los que más favorecerían a la reelección por temas de continuidad de política económica y demás; sin embargo, fueron los estudiantes de Ciencia Política y los de Relaciones Internacionales los que presentaron una mayor simpatía por este tema. Podríamos concluir que, con mayor información y exposición a ciertos temas, se terminará presentando una mayor aceptación a la reelección, esto considerando mayormente las diferencias entre carreras. Podríamos a lo mejor decir que es una cuestión de cómo la información afecta este tipo de opiniones. 
