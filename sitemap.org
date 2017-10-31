@@ -15,6 +15,7 @@
      + [[file:textos/nayarit.org][La reelección en Nayarit]]
      + [[file:textos/rendonCompLegis.org][La reelección legislativa consecutiva en México. ¿Qué esperar del comportamiento legislativo?]]
      + [[file:textos/juristasCruz.org][La tensión entre la paridad de género y la reelección]]
+     + [[file:textos/daliaCeciWordcloud.org][Los "tecnócratas neoporfiristas" y la reelección]]
      + [[file:textos/resenhaCoahuila.org][Primeras campañas para reelegir diputados]]
      + [[file:textos/juristasFix.org][Reelección consecutiva y equidad en la competencia]]
      + [[file:textos/relevoGen.org][Relevo generacional]]
