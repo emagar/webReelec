@@ -32,7 +32,7 @@ El párrafo séptimo del artículo 134 establece una regla tendente a garantizar
 
 Los cambios plasmados en el artículo 134 vinieron aparejados de la excepción contenida en el Código de Instituciones y Procedimientos Electorales para permitir la difusión de informe anual de labores de los servidores públicos. Este informe podría difundirse una vez al año con tres tipo de restricciones: 1) espacial, en estaciones y canales con cobertura regional correspondiente al ámbito geográfico de responsabilidad del servidor público; 2) temporal, en un lapso que no exceda los siete días anteriores y cinco posteriores a la fecha en que se rinda el informe siempre fuera del periodo de campaña electoral; y 3) de contenido, que en ningún caso podría tener fines electorales.
 
-Sin embargo, después de la reforma, el Congreso ha fracasado en sus repetidos intentos de contemplar el marco normativo de las disposiciones contenidas en el artículo 134. En 2012, la suscribirse el Pacto por México, se planteó la creación de una instancia ciudadana y autónoma que supervisaría la contratación de publicidad de todos los niveles de gobierno en medios de comunicación (compromiso 95). Incluso con la reforma política de 2014 se incluyó, como en 2007, la obligación de que el Congreso de la Unión expidiese la ley reglamentaria específica sobre propaganda gubernamental abrió paso a la emisión de reglamentos, criterios, y jurisprudencia de las autoridades electorales administrativas y jurisdiccionales.
+Sin embargo, después de la reforma, el Congreso ha fracasado en sus repetidos intentos de contemplar el marco normativo de las disposiciones contenidas en el artículo 134. En 2012, la suscribirse el Pacto por México, se planteó la creación de una instancia ciudadana y autónoma que supervisaría la contratación de publicidad de todos los niveles de gobierno en medios de comunicación (compromiso 95). Incluso con la reforma política de 2014 se incluyó, como en 2007, la obligación de que el Congreso de la Unión expidiese la ley reglamentaria específica sobre propaganda gubernamental abrió paso a la emisión de reglamentos, criterios, y jurisprudencia de las autoridades electorales administrativas y jurisdiccionales.[fn:2]
 
 La Constitución, las leyes electorales y demás disposiciones normativas han reforzado el principio de imparcialidad y neutralidad con el que deben conducirse los servidores públicos: el ejercicio de los recursos públicos sin fines partidistas o electorales; la suspensión de la propaganda gubernamental durante el periodo de campaña; la actuación "neutral" de los funcionarios públicos antes pronunciamientos a favor o en contra de actores políticos en contienda, y la restricción a la participación activa de funcionarios en las vida político-partidista, en un primer momento, fuera de horarios de trabajo, y después, exclusivamente en días no laborales. 
 
@@ -54,11 +54,11 @@ En todos los sistemas democráticos en los que se permite la reelección existe 
 
 Ante la posibilidad de una "ventaja del titular", la actual regulación sobre el principio de  imparcialidad suscita más preguntas que respuestas: ¿tendrían que separarse temporalmente los titulares de los cargos de elección popular en un periodo específico ---precampaña o campaña--- para contender por la reelección? ¿Cómo se limitarían las ventajas que podría aparejar la difusión de informes de gobierno o gestión durante el último tramo de responsabilidad?¿Tendrían que cambiar criterios para definir propaganda personalizada?¿Cómo se definirían los actos anticipados de precampaña y campaña?
 
-Durante la última década, el Tribunal Electoral del Poder Judicial de la Federación (TEPJF) ha ido construyendo su propia doctrina sobre el principio de imparcialidad, ante la falta de regulación por el legislador; entre los sujetos obligados a respetar los límites establecidos en el artículo 34 constitucional incluyó a los legisladores (estatales y federales), así como a los grupos parlamentarios. 
+Durante la última década, el Tribunal Electoral del Poder Judicial de la Federación (TEPJF) ha ido construyendo su propia doctrina sobre el principio de imparcialidad, ante la falta de regulación por el legislador; entre los sujetos obligados a respetar los límites establecidos en el artículo 134 constitucional incluyó a los legisladores (estatales y federales), así como a los grupos parlamentarios.[fn:3] 
 
 Respecto a la promoción personalizada, el TEPJF ha destinado que se actualiza cuando la propaganda tienda a promocionar al servidor público destacando su imagen, cualidades o calidades personales, logros políticos y económicos, partido de militancia, creencias religiosas, antecedentes familiares o sociales, etcétera, asociando los logros de gobierno con la persona más que con la institución, y el nombre y las imágenes se utilicen en apología del servidor público para posicionarlo en el conocimiento de la ciudadanía con fines político-electorales (SUP-RAP-43/2009). De acuerdo con los criterios establecidos por el TEPJF, al actualizarse expresiones vinculadas con el sufragio, difundir mensajes tendentes a la obtención del otro o mencionar la pretensión de ser candidato a un cargo de elección popular, o hacer cualquier referencia a los procesos electorales, los servidores públicos podrían caer en el supuesto de la promoción personalizada, lo que constituiría una violación a la normatividad electoral si se acreditara el uso de recursos públicos (SUP-RAP-74/2008 y 75/2008).
 
-Sobre los informes de labores, el TEPJF avaló que los legisladores pueden difundir sus informes de actividad en promocionales de radio y televisión, a excepción de periodo de campañas electorales. En las tesis LVIII/2015, el Tribunal consideró un elemento adicional respecto a la temporalidad de los informes de gestión legislativa al limitar su realización a una sola ocasión del año, después de concluido el segundo periodo de sesiones ordinarias y en fechas de guarden inmediatez razonable a la conclusión del año legislativo del que se informe.
+Sobre los informes de labores, el TEPJF avaló que los legisladores pueden difundir sus informes de actividad en promocionales de radio y televisión, a excepción de periodo de campañas electorales.[fn:4] En las tesis LVIII/2015, el Tribunal consideró un elemento adicional respecto a la temporalidad de los informes de gestión legislativa al limitar su realización a una sola ocasión del año, después de concluido el segundo periodo de sesiones ordinarias y en fechas de guarden inmediatez razonable a la conclusión del año legislativo del que se informe.
 
 Finalmente, sobre la participación activa de funcionarios públicos en la vida político-partidista, el TEPJF ha definido el horario laboral de los servidores públicos como un recurso publico que no debe utilizarse con fines partidistas o electorales. La participación activa de servidores públicos en actos proselitistas celebrados en días inhábiles tiene sustento en las libertades de expresión, reunión y asociación (SUP-RAP-75-2010).
 
@@ -93,7 +93,46 @@ El desafío no es menor, el marco normativo actual y los supuestos bajo los cual
 
 #+CAPTION: Reelección local
 #+NAME:   tab:1
-[[file:../img/.png]]
+|---------------------+--------------------+-----------------------------------|
+|                     | Máximo de periodos |                                   |
+|                     | consecutivos       |                       Posibilidad |
+| Entidad             | para legisladores  |                     de reelección |
+|---------------------+--------------------+-----------------------------------|
+| Aguascalientes      | 2 (6 años)         | 2018 diputados 2019 ayuntamientos |
+| Baja California     | 4 (12 años)        |                              2019 |
+| Baja California Sur | 4 (12 años)        |                              2018 |
+| Campeche            | 4 (12 años)        |                              2018 |
+| Coahuila            | 4 (12 años)        |                        2017[fn:5] |
+| Colima              | 2 (6 años)         |                              2018 |
+| Chiapas             | 4 (12 años)        |                              2018 |
+| Chihuahua           | 2 (6 años)         |                              2018 |
+| Ciudad de México    | 4 (12 años)        |        2021 diputados y alcaldías |
+| Durango             | 4 (12 años)        |  2018 diputados 2019 ayuntamentos |
+| Guanajuato          | 4 (12 años)        |                              2018 |
+| Guerrero            | 4 (12 años)        |                              2018 |
+| Hidalgo             | 2 (6 años)         |                              2018 |
+| Jalisco             | 4 (12 años)        |                              2018 |
+| México              | 4 (12 años)        |                              2018 |
+| Michoacán           | 4 (12 años)        |                              2018 |
+| Morelos             | 3 (9 años)         |                              2018 |
+| Nayarit             | 4 (12 años)        |                        2017[fn:6] |
+| Nuevo León          | 4 (12 años)        |                              2018 |
+| Oaxaca              | 2 (6 años)         |                              2018 |
+| Puebla              | 4 (12 años)        |                              2021 |
+| Querétaro           | 4 (12 años)        |                              2018 |
+| Quintana Roo        | 2 (6 años)         | 2018 ayuntamientos 2019 diputados |
+| San Luis Potosí     | 4 (12 años)        |                              2018 |
+| Sinaloa             | 4 (12 años)        |                              2018 |
+| Sonora              | 4 (12 años)        |                              2018 |
+| Tabasco             | 4 (12 años)        |                              2018 |
+| Tamaulipas          | 2 (6 años)         | 2018 ayuntamientos 2019 diputados |
+| Tlaxcala            | 4 (12 años)        | 2018 diputados 2021 ayuntamientos |
+| Veracruz            | 4 (12 años)        |                    2018 diputados |
+| Yucatán             | 4 (12 años)        |                              2018 |
+| Zacatecas           | 2 (6 años)         |                              2018 |
+|---------------------+--------------------+-----------------------------------|
+Fuente: Estudio comparativo de las constituciones locales realizado por la Dirección Ejecutiva de Prerrogativas y Partidos Políticos del INE.
+
 
 
 [fn:1] Consejero Electoral del Instituto Nacional Electoral y asesor de consejero, repsectivamente. Este artículo fue publicado en la revista /Voz y voto/, número 292, junio 2017. Los autores han dado su autorización para reproducirlo aquí.
@@ -104,19 +143,7 @@ El desafío no es menor, el marco normativo actual y los supuestos bajo los cual
 
 [fn:4] SUP-RAP-75, 82/2009, 87/2009 y 89/2009.
 
-[fn:5]
+[fn:5] Recientemente, la Sala Superior del TEPJF ha emitido criterios sobre la elección consecutiva de síndicos y regidores que buscan ser presidentes municipales en Coahuila. En los recursos SUP-REC-1172/2017 y 1173/2017, determinó que podrá haber reelección cuando un ciudadano, habiendo desempeñado un cargo determinado, se postule de manera consecutiva para el mismo puesto; no obstante, los casos que un funcionario pretenda postularse para un cargo distinto, aun cuando forme parte del mismo órgano, no podrán considerarse reelección, ya que funcionalmente no se estarían ejerciendo las mismas atribuciones.
 
-[fn:6]
-
-[fn:7]
-
-[fn:8]
-
-[fn:9]
-
-[fn:10]
-
-[fn:11]
-
-[fn:12]
+[fn:6] El pleno de la Sala Superior del TEPJF revocó el acuerdo dictado por el consejero presidente del Instituto Estatal Electoral de Nayarit (IEEN), por medio de cual se negó a los integrante en funciones de los ayuntamientos de la entidad la posibilidad de reelegirse en sus cargos para el periodo 2017-2021. Al resolver el asunto SUP-JDC-90/2017 y acumulando, la Sala Superior determinó que el consejero presidente del IEEN carece de competencia para emitir ese acuerdo. Así, declaró fundados los agravios, dada la situación extraordinaria que tendrían los ayuntamientos que, por una sola ocasión, se extenderán por un periodo de cuatro años, lo cual ya fue validado por la Suprema Corte y hace factible la elección consecutiva para el periodo 2017-2021.
 
