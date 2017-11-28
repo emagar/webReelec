@@ -64,7 +64,7 @@ Para un mejor entendimiento de esta sección se acompaña del Cuadro [[tab:1]], 
 #+NAME:   tab:1
 [[file:../img/figCatanho.png]]
 
-El proyecto, realizado por la Ministra Margarita Luna Ramos, en un principio consideraba valido el artículo tal cual lo legisló el Congreso del Estado, sin embargo al momento de realizarse la discusión y votación se revirtió el sentido y se terminó votando por unanimidad la invalidez de los preceptos señalados anteriormente.
+El proyecto, realizado por la Ministra Margarita Luna Ramos, en un principio consideraba válido el artículo tal cual lo legisló el Congreso del Estado, sin embargo al momento de realizarse la discusión y votación se revirtió el sentido y se terminó votando por unanimidad la invalidez de los preceptos señalados anteriormente.
 
 La argumentación de la ponente versaba principalmente sobre los argumentos tradicionales de los riesgos de la reelección: el uso de recursos públicos para realizar campaña desde el puesto o la inequidad que esto genera para los contendientes que no tienen acceso a los recursos y a una posición con mayor visibilidad como el contendiente a reelegirse.
 
@@ -90,11 +90,10 @@ La AI estudiada deja clara la postura de la Corte para funcionarios que persigue
 De cualquier forma para conocer sobre estos criterios habrá que esperar, pues cabe recordar que el Poder Judicial en materia de constitucionalidad no actúa de oficio sino a petición de parte, y no puede intervenir hasta que algún otro de los agentes autorizados por la Constitución presente un juicio de control de la constitucionalidad en alguna instancia. 
 
 
-[fn:1] Ackerman, J. Elecciones, Amparo y Garantías Individuales. In Biblioteca Virtual del IIJ (pp. 1-29). Ciudad de México: UNAM.
+[fn:1] Ackerman, J. "Elecciones, Amparo y Garantías Individuales" in /Biblioteca Virtual del IIJ/ (pp. 1-29), Ciudad de México: UNAM.
 
-[fn:2] Ojesto, J. Juicio para la protección de los derechos político-electorales del ciudadano. In Biblioteca Virtual del IIJ (pp. 217-233). Ciudad de México: UNAM. Sánchez, A. (2003). Los jueces ante la política : la democracia y el ejercicio del control constitucional . D.F.: ITAM
+[fn:2] Vea Ojesto, J. "Juicio para la protección de los derechos político-electorales del ciudadano" in /Biblioteca Virtual del IIJ/ (pp. 217-233), Ciudad de México: UNAM; y Sánchez, A. (2003) "Los jueces ante la política : la democracia y el ejercicio del control constitucional", tesis de licenciatura, ITAM.
 
-[fn:3] Carmona Tinoco, J. U. El caso Jorge Castañeda Gutman vs. Estados Unidos Mexicanos frente a la Corte Interamericana de Derechos Humanos. In Biblioteca Virtual del IIJ (pp. 775-790). Ciudad de México: UNAM.
-
+[fn:3] Carmona Tinoco, J. U. "El caso /Jorge Castañeda Gutman vs. Estados Unidos Mexicanos/ frente a la Corte Interamericana de Derechos Humanos" in /Biblioteca Virtual del IIJ/ (pp. 775-790), Ciudad de México: UNAM.
 
 

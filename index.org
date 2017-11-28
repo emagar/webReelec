@@ -60,7 +60,6 @@ coordinado por
 |---------------+------------------|
 
 
-
 * Presentación
 La reforma electoral de 2014 eliminó la prohibición de reelección legislativa consecutiva en vigor desde 1933. Abrió también la posibilidad de reelegir consecutivamente a los alcaldes, síndicos y regidores de los ayuntamientos. 
 
@@ -82,7 +81,7 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 # # #+ATTR_HTML: style="float:right;"
 # # #+ATTR_HTML: :width 15%
 # # [[./textos/instituciones.org][file:img/gooReel.png]]
-- [[./textos/catanhoLicenciaYuc.org][Reelección, equidad y licencias en Yucatán]], por *Samuel Cataño* (22/11/2017)
+- [[./textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]], por *Samuel Cataño* (22/11/2017)
 - [[./textos/juristasCruz.org][La tensión entre la paridad de género y la reelección]], por *Patricia Cruz Marín* y *Gretel Calleros Arellano* (6/7/2017)
 - [[./textos/mxDecada1920.org][Antecedentes de la reelección legislativa en México]], por *Javier Cote*, *Valeria Guerrero* y *Teresa Ruiz* (6/7/2017)
 - [[./textos/juristasFix.org][Reelección consecutiva y equidad en la competencia]], por *Valentina Fix*, *Rodrigo Corona* y *Alejandro Palma* (28/6/2017)

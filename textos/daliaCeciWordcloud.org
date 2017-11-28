@@ -1,4 +1,4 @@
-#+TITLE: Los "tecnócratas neoporfiristas" y la reelección
+#+TITLE: Los tecnócratas neoporfiristas y la reelección
 #+AUTHOR: Eric Magar
 #+DATE:  <2017-10-25 Wed>
 #+OPTIONS: toc:nil # don't place toc in default location
@@ -23,13 +23,13 @@ y
 # #+LINK_UP: index.html
 [[../index.html][Arriba/up]]
 
-/Los itamitas en general, y los economistas y abogados en particular, ven con malos ojos la reelección consecutiva. ¿Paradoja?/
+Paradoja: /el itamita en general, y los economistas y abogados en particular, se oponen a la reelección consecutiva./
 
-Con la inminente entrada en vigor de la reelección consecutiva de legisladores y alcaldes nos preguntamos por la opinión que tienen los estudiantes del ITAM sobre esta institución. La motivación que nos guió es puntual: si los itamitas somos la reencarnación de la tecnocracia neoporfirista---como nos ha venido calificando la izquierda---es esperable que nuestro apoyo a la reelección no titubee, como seguramente fuera el caso entre los Científicos de antaño.
+Con la inminente entrada en vigor de la reelección consecutiva de legisladores y alcaldes nos preguntamos por la opinión que de esta institución tienen los estudiantes del ITAM. Si los itamitas somos la reencarnación de la tecnocracia neoporfirista---como nos ha venido calificando la izquierda---es esperable que nuestro apoyo a la reelección no titubee, como seguramente fuera el caso entre los Científicos de antaño.
 
-Que casi todas las democracias del mundo permitan la reelección de sus legisladores no es impedimento para que las opiniones se dividan. La ciudadanía se divide en dos grupos. Para quienes la reelección, sin ser panacea, genera condiciones propicias para una mejor rendición de cuentas, además de darle una mayor continuidad y estabilidad al gobierno y, en específico, a sus proyectos. Y para quienes establece la posibilidad que algunos se eternicen en el poder. 
+Que casi todas las democracias del mundo permitan la reelección de sus legisladores no es impedimento para que las opiniones se dividan. Para un grupo la reelección, sin ser panacea, genera condiciones propicias para una mejor rendición de cuentas, además de darle una mayor continuidad y estabilidad al gobierno y, en específico, a sus proyectos. Para otro establece la posibilidad que unos pocos se eternicen en el poder. 
 
-Durante las dos primeras semanas de septiembre (terminamos antes del terremoto), le mencionamos a alumnos del ITAM la noción de la reelección consecutiva con el fin de registrar su reacción espontánea. En específico, preguntamos por hasta tres palabras que les vinieran a la mente. Preguntamos también por el conocimiento de la reforma electoral que introdujo el cambio en 2014, el partidismo, la carrera cursada, y otras cracterísticas para elaborar un perfil del entrevistado (vea el cuestionario [[link][aquí]]). Circulamos el cuestionario de Google Forms a través de redes sociales (/Facebook/ y /Twitter/, principalmente). Obtuvimos 243 respuestas. 
+Durante las dos primeras semanas de septiembre (terminamos antes del terremoto), le mencionamos a alumnos del ITAM la noción de la reelección consecutiva con el fin de registrar su reacción espontánea. En específico, preguntamos por hasta tres palabras que les vinieran a la mente. Preguntamos también por el conocimiento de la reforma electoral que introdujo el cambio en 2014, el partidismo, la carrera cursada, y otras cracterísticas para elaborar un perfil del entrevistado (el cuestionario aparece al final de esta nota). Circulamos el cuestionario de /Google Forms/ a través de redes sociales (/Facebook/ y /Twitter/, principalmente). Obtuvimos 243 respuestas. 
 
 Lejos de ser aleatoria, nuestra muestra se autoseleccionó. Pero ofrece una perspectiva interesante del alumnado itamita. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro [[tab:1]] describe a los que contestaron. 
 
@@ -62,7 +62,7 @@ Lejos de ser aleatoria, nuestra muestra se autoseleccionó. Pero ofrece una pers
 | total    | 100        |
 | (N)      | (243)      |
 
-Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. El que los estudiantes de ciencia política del ITAM movilizamos activamente para obtener más respuestas es patente en la sobrerrepresentación que tenemos en la muestra. También lo tienen los compañeros abogados, economistas e internacionalistas [dennos una idea de su peso en el itam]. Es de notar que en el grupo de mujeres hay un mayor porcentaje de panistas que en el de los hombres, y ambos superan la media nacional. Entre hombres predominan quienes se identificaron como priistas o de Morena. Pero en la muestra, como en la opinión pública del país, la moda son los independientes.
+Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. Que los estudiantes de ciencia política movilizamos activamente para obtener respuestas es patente en la sobrerrepresentación que tenemos en la muestra. También lo tienen los compañeros abogados, economistas e internacionalistas [dennos una idea de su peso en el itam]. Es de notar que en el grupo de mujeres hay un mayor porcentaje de panistas que en el de los hombres, y ambos superan la media nacional. Entre hombres predominan quienes se identificaron como priistas o de Morena. Pero en la muestra, como en la opinión pública del país, la moda son los independientes.
 
 #+CAPTION: ¿Cómo se siente cada partido?
 #+NAME:   fig:1
@@ -102,6 +102,79 @@ Al momento de preguntarles que palabras relacionaban con la reelección los estu
 - Poder
 - Ratificación 
 
-En torno a una última gráfica “Palabras relacionadas con reelección” podemos concluir que los estudiantes del ITAM le dan una mayor connotación positiva a la reelección, que negativa. Alrededor del 25% de los estudiantes ven el tema de la reelección como algo negativo, mientras que el 45% lo ve como algo positivo. La asignación de la connotación de las palabras claves se realizó consultando al grupo de 16 personas miembros del seminario sobre reelección y redistritación. Entonces se tomó la percepción de la mayoría. No se argumenta que se estas calificaciones sean absolutas, sin embargo, podemos asumir que se tiene una evaluación objetiva de la connotación de estas palabras.
+En torno a una última gráfica "Palabras relacionadas con reelección" podemos concluir que los estudiantes del ITAM le dan una mayor connotación positiva a la reelección, que negativa. Alrededor del 25% de los estudiantes ven el tema de la reelección como algo negativo, mientras que el 45% lo ve como algo positivo. La asignación de la connotación de las palabras claves se realizó consultando al grupo de 16 personas miembros del seminario sobre reelección y redistritación. Entonces se tomó la percepción de la mayoría. No se argumenta que se estas calificaciones sean absolutas, sin embargo, podemos asumir que se tiene una evaluación objetiva de la connotación de estas palabras.
 
 Dados estos resultados, y aun considerando la nota metodológica, podemos hacer algunos comentarios interesantes. Por un lado, parecería que los afiliados al partido de MORENA, el cual es el partido de extrema izquierda en México, presentan opiniones muy extremistas. Son por una parte los que mayores personas presentaron que le presentaban una connotación positiva al tema de la reelección, pero por otra parte también son los que más presentaron una connotación negativa al tema. Por otra parte, las mujeres presentaron una mayor simpatía con el Partido Acción Nacional (PAN), dado que esta encuesta se llevó a cabo antes de la renuncia de Margarita Zavala, sería interesante ver si estos resultados seguirían siendo los mismos al día de hoy. En cuanto a las carreras, antes de tener los resultados, nosotros asumíamos que los economistas serían los que más favorecerían a la reelección por temas de continuidad de política económica y demás; sin embargo, fueron los estudiantes de Ciencia Política y los de Relaciones Internacionales los que presentaron una mayor simpatía por este tema. Podríamos concluir que, con mayor información y exposición a ciertos temas, se terminará presentando una mayor aceptación a la reelección, esto considerando mayormente las diferencias entre carreras. Podríamos a lo mejor decir que es una cuestión de cómo la información afecta este tipo de opiniones. 
+
+
+* Cuestionario
+
+Mini- encuesta (3 min)
+
+Somos estudiantes de Ciencia Política en el Seminario de investigación sobre representación política. Esperamos nos puedas ayudar contestando esta breve encuesta. Si ya la respondiste por favor no la contestes de nuevo.
+
+Contestaste esta encuesta…
+En línea (solo)
+Con encuestador
+
+¿Eres estudiante del ITAM?
+Sí
+No
+
+¿Cuáles son las primeras palabras que piensas si te digo REELECCIÓN? (hasta tres palabras)
+
+
+En 2014 hubo una reforma electoral, ¿sabes quién se puede reelegir? Puedes selecciona a más de uno. 
+Presidente
+Gobernadores
+Diputados Federales
+Senadores
+Diputados Locales
+Alcaldes
+Ninguno
+No sé 
+
+Edad:
+
+
+Carrera. Si estás en un plan conjunto o simultaneo selecciona ambas carreas. 
+Ciencia Política
+Derecho
+Administración de Empresas
+Dirección Financiera
+Contaduría
+Relaciones Internacionales
+Mecatrónica
+Matemáticas Aplicadas
+Computación
+Ingeniería en Negocios
+Telecomunicaciones
+Actuaría
+Economía
+Ingeniería Industrial
+Otra
+
+Sexo
+Masculino
+Femenino
+
+Estado de procedencia:
+
+
+¿Con cuál partido político simpatizas?
+PRI 
+
+PAN 
+
+PRD 
+
+PVEM
+
+MORENA
+ 
+Otro 
+Ninguno
+
+Si contestaste alguno, ¿qué tanto simpatizas con tu partido?
+
+
