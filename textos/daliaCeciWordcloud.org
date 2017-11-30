@@ -25,82 +25,91 @@ y
 
 Paradoja: /el itamita en general, y los economistas y abogados en particular, se oponen a la reelección consecutiva./
 
+[[file:../img/dcWordcloud.png]]
+
 Con la inminente entrada en vigor de la reelección consecutiva de legisladores y alcaldes nos preguntamos por la opinión que de esta institución tienen los estudiantes del ITAM. Si los itamitas somos la reencarnación de la tecnocracia neoporfirista---como nos ha venido calificando la izquierda---es esperable que nuestro apoyo a la reelección no titubee, como seguramente fuera el caso entre los Científicos de antaño.
 
 Que casi todas las democracias del mundo permitan la reelección de sus legisladores no es impedimento para que las opiniones se dividan. Para un grupo la reelección, sin ser panacea, genera condiciones propicias para una mejor rendición de cuentas, además de darle una mayor continuidad y estabilidad al gobierno y, en específico, a sus proyectos. Para otro establece la posibilidad que unos pocos se eternicen en el poder. 
 
-Durante las dos primeras semanas de septiembre (terminamos antes del terremoto), le mencionamos a alumnos del ITAM la noción de la reelección consecutiva con el fin de registrar su reacción espontánea. En específico, preguntamos por hasta tres palabras que les vinieran a la mente. Preguntamos también por el conocimiento de la reforma electoral que introdujo el cambio en 2014, el partidismo, la carrera cursada, y otras cracterísticas para elaborar un perfil del entrevistado (el cuestionario aparece al final de esta nota). Circulamos el cuestionario de /Google Forms/ a través de redes sociales (/Facebook/ y /Twitter/, principalmente). Obtuvimos 243 respuestas. 
+Durante las dos primeras semanas de septiembre (terminamos antes del terremoto), registramos la reacción espontánea de alumnos del ITAM al plantear la noción de la reelección consecutiva. En específico, preguntamos por hasta tres palabras que les vinieran a la mente. Preguntamos también por el conocimiento de la reforma electoral que introdujo el cambio en 2014, el partidismo, la carrera cursada, y otras características para elaborar un perfil del entrevistado (el cuestionario aparece al final de esta nota). Circulamos el cuestionario de /Google Forms/ a través de redes sociales (/Facebook/ y /Twitter/, principalmente). Obtuvimos 243 respuestas. 
 
-Lejos de ser aleatoria, nuestra muestra se autoseleccionó. Pero ofrece una perspectiva interesante del alumnado itamita. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro [[tab:1]] describe a los que contestaron. 
 
 #+CAPTION: Composición de la muestra
 #+NAME:   tab:1
-| Grupos   | porcentaje |
-|----------+------------|
-| Mujeres  |            |
-| Hombres  |            |
-|          |            |
-| 18 años  |            |
-| 19       |            |
-| 20       |            |
-| 21       |            |
-| 22       |            |
-| 23 y más |            |
-|          |            |
-| pan      |            |
-| pri      |            |
-| morena   |            |
-| otros    |            |
-| ninguno  |            |
-|          |            |
-| cPol     |            |
-| eco      |            |
-| der      |            |
-| rrii     |            |
-| otras    |            |
-|----------+------------|
-| total    | 100        |
-| (N)      | (243)      |
+| Grupos     | % muestra |  % ITAM |
+|------------+-----------+---------|
+| Mujeres    |        47 |         |
+| Hombres    |        53 |         |
+|            |           |         |
+| Edad:      |           |         |
+| 19 y menos |         9 |         |
+| 20 años    |         6 |         |
+| 21 años    |        11 |         |
+| 22 años    |        20 |         |
+| 23 años    |        27 |         |
+| 24 y más   |        27 |         |
+|            |           |         |
+| Partido:   |           |         |
+| Ninguno    |        40 |         |
+| PAN        |        31 |         |
+| PRI        |        14 |         |
+| Morena     |        11 |         |
+| Otros      |         4 |         |
+|            |           |         |
+| Carrera:   |           |         |
+| cPol       |        32 |       8 | +24
+| Eco        |        21 |      22 | par
+| RRII       |        14 |       9 |  +5
+| Der        |         9 |       7 |  +2
+| Otras      |        24 |      54 | -30
+|------------+-----------+---------|
+| total      |       100 |     100 |
+| (N)        |     (243) | (5,510) |
 
-Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. Que los estudiantes de ciencia política movilizamos activamente para obtener respuestas es patente en la sobrerrepresentación que tenemos en la muestra. También lo tienen los compañeros abogados, economistas e internacionalistas [dennos una idea de su peso en el itam]. Es de notar que en el grupo de mujeres hay un mayor porcentaje de panistas que en el de los hombres, y ambos superan la media nacional. Entre hombres predominan quienes se identificaron como priistas o de Morena. Pero en la muestra, como en la opinión pública del país, la moda son los independientes.
+Nuestra muestra se autoseleccionó. Está lejos de ser aleatoria, pero ofrece una perspectiva interesante del alumnado itamita. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro [[tab:1]] describe a los que contestaron. Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. Que somos estudiantes de ciencia política y movilizamos activamente a nuestras redes inmediatas en busca de respuestas es patente en la casi tercera parte que representan los compañeros politólogos en la muestra. La sobrerrepresentación alcanza 24 puntos respecto del peso relativo en la población de la universidad (la columna derecha del cuadro reporta estudiantes de licenciatura del ITAM). Los internacionalistas tienen 5 puntos de sobrerrepresentación, mientras que los economistas y abogados están más o menos balancados. La subrepresentación recae en las demás carreras (un déficit de 30 puntos). Dos de cada cinco entrevistados se declaró independiente y uno de cada tres simpatizante del PAN. Si la primera de las cifras anteriores pareciera estar en sintonía con la opinión pública, la segunda está inflada en detrimento del PRI y de Morena.  
+
 
 #+CAPTION: ¿Cómo se siente cada partido?
 #+NAME:   fig:1
-[[file:../img/dcFig5.png]
+[[file:../img/dcFig5.png]]
 
-Clasificamos las palabras registradas en tres categorías: las de clara connotación positiva de la reelección (como rendición de cuentas);las de clara connotación negativa (como corrupción); y las neutras o ambiguas [nota sobre la clasificación]. En la gráfica [[fig:1]] se observa que la categoría residual/neutral predomina entre los que carecen de afiliación a un partido. Sorprende que el mayor porcentaje de connotación positiva hacia la reelección lo presentaron los simpatizantes de Morena---más del 50 por ciento, unos 10 puntos arriba de todos los demás. Los morenistas también produjeron el menor número de menciones neutrales lo cual, conjugado con lo anterior, implica una polarización más aguda que entre los seguidores de otros partidos. También llama la atención la similitud entre panistas y perredistas, quizás un buen augurio para el Frente. Y que entre los independientes las menciones negativas fueran tres y media veces menos frecuentes que las neutrales. 
+Clasificamos las palabras expresadas en tres categorías: las de clara connotación positiva de la reelección ("rendición de cuentas" es un ejemplo); las de clara connotación negativa ("corrupción"); y las neutras o ambiguas.[fn:1] Se observa en la gráfica [[fig:1]] que la categoría residual/neutral predomina entre los apartidistas. Sorprende que el mayor porcentaje de reacciones positivas hacia la reelección lo presentaron los simpatizantes de Morena---más de lla mitead, unos 10 puntos arriba de todos los demás grupos partidistas. Los morenistas también produjeron el menor número de menciones neutrales lo cual, conjugado con lo anterior, se traduce en una polarización más aguda que entre los otros partidos. También llama la atención la similitud entre panistas y perredistas, quizás un buen augurio para el Frente que intentan formar. Y que entre los independientes las menciones negativas fueran tres y media veces menos frecuentes que las neutrales. 
 
 #+CAPTION: Connotación de palabras relacionadas con reelección por carrera
 #+NAME:   fig:2
-[[file:../img/dcFig4.png]
+[[file:../img/dcFig4.png]]
 
-En cuanto a la gráfica [[fig:2]], casi dos terceras partes de los politólogos le dieron una connotación positiva a la reelección, pero menos de 15 por ciento una negativa. Un poco menos optimistas, los internacionalistas tuvieron un perfil de opinión parecido al de los politólogos. Abogados, economistas, y demás carreras presentan resultados similares entre sí y distintos de los recién discutidos: en derecho alrededor del 25% de los estudiantes ven como positivo el tema de la reelección, mientras que casi el 40% lo ven como negativo; entre los estudiantes de economía, casi el 40% le da una connotación positiva al tema de la reelección, mientras que alrededor de otro 40% lo ve como algo negativo. La carrear de relaciones internacionales es la que tiene resultados más parecidos a la carrera de ciencia política, casi un 50% les dan una connotación positiva a las mujeres, mientras que alrededor del 15% le dan una connotación negativa. 
+En cuanto a la gráfica [[fig:2]], revela que casi dos terceras partes de los politólogos le dieron una connotación positiva a la reelección, y menos de 15 por ciento una negativa. Esto se traduce en una aprobación neta (positivos menos negativos) de +50 puntos. Un poco menos optimistas pero con un perfil de opinión parecido, los internacionalistas alcanzaron una aprobación neta de +36. Esto contrasta con los abogados, economistas y demás estudiates que presentaron un aprobaciones netas de -15, +2 y -5, respectivamente. Entre sexos, se observan en la gráfica [[fig:3]] diferencias. La aprobación neta entre mujeres es +5, más moderada que el +24 de los hombres. Unos y otros tuvieron alrededor de una cuarta parte de menciones neutrales/ambiguas. 
 
 #+CAPTION: ¿Mujeres o hombres más de acuerdo?
 #+NAME:   fig:3
-[[file:../img/dcFig3.png]
+[[file:../img/dcFig3.png]]
 
-Entre sexos podemos observar en la gráfica [[fig:3]] pequeñas diferencias en cómo perciben el tema de la reelección. Alrededor del 30% de mujeres le dan una connotación negativa al tema de la reelección, mientras que, para los hombres, este dato es de alrededor del 25%. En cuanto a connotación positiva los hombres tienen un mayor porcentaje, con casi un 50%, mientras que las mujeres tienen alrededor de un 30% en esta categoría. 
+Las palabras más socorridas en la reacción espontánea de los itamitas aparecen en el cuadro [[tab:2]].
 
-Al momento de preguntarles que palabras relacionaban con la reelección los estudiantes del ITAM en su mayoría contestaron lo siguiente:  
-
-- Democracia
-- Porfirio Díaz 
-- Accountabilty 
-- Fraude
-- Presidencia
-- Corrupción 
-- Madero 
-- Política 
-- PRI
-- Revolución 
-- Reforma
-- Dictadura
-- Inconstitucional 
-- Estados Unidos
-- Bueno
-- Poder
-- Ratificación 
+#+CAPTION: Los términos más repetidos
+#+NAME:   tab:2
+|                  | Frec. | +  | ? | -- |
+|------------------+-------+----+---+----|
+| Porfirio Díaz    |    5% |    |   | X  |
+| Democracia       |    4% | X  |   |    |
+| Accountabilty    |    4% | X  |   |    |
+| Presidencia      |    3% |    | X |    |
+| Fraude           |    2% |    |   | X  |
+| Corrupción       |    2% |    |   | X  |
+| Madero           |    2% |    |   | X  |
+| Política         |    2% |    | X |    |
+| Revolución       |    2% |    |   | X  |
+| Bueno            |    2% | X  |   |    |
+| Estados Unidos   |    2% |    | X |    |
+| Reforma          |    2% |    | X |    |
+| Poder            |    2% |    | X |    |
+| PRI              |    1% |    |   | X  |
+| Dictadura        |    1% |    |   | X  |
+| Ratificación     |    1% | X  |   |    |
+| Inconstitucional |    1% |    |   | X  |
+|------------------+-------+----+---+----|
+| Suma             |   40% | 11 |   | 16 |
 
 En torno a una última gráfica "Palabras relacionadas con reelección" podemos concluir que los estudiantes del ITAM le dan una mayor connotación positiva a la reelección, que negativa. Alrededor del 25% de los estudiantes ven el tema de la reelección como algo negativo, mientras que el 45% lo ve como algo positivo. La asignación de la connotación de las palabras claves se realizó consultando al grupo de 16 personas miembros del seminario sobre reelección y redistritación. Entonces se tomó la percepción de la mayoría. No se argumenta que se estas calificaciones sean absolutas, sin embargo, podemos asumir que se tiene una evaluación objetiva de la connotación de estas palabras.
 
@@ -178,3 +187,5 @@ Ninguno
 Si contestaste alguno, ¿qué tanto simpatizas con tu partido?
 
 
+
+[fn:1] Le pedimos a un grupo de XX que repitiera la clasificación para convencernos de la validez de nuestra clasificación arbitraria. (Reporten aquí la correspondencia con demás en grupo.)
