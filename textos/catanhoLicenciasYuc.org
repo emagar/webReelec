@@ -12,7 +12,7 @@
 #+BEGIN_CENTER
 por
 
-*Samuel Cataño*
+*Samuel González Cataño*
 #+END_CENTER
 
 #+OPTIONS: broken-links:mark

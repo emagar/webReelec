@@ -1,0 +1,37 @@
+#+TITLE: Cherán o un nuevo paradigma para el reconocimiento de la autodeterminación indígena en México
+#+SUBTITLE: Acción de Inconstitucionalidad 50/2017
+#+AUTHOR: Eric Magar
+#+DATE:  <2017-12-24>
+#+OPTIONS: toc:nil # don't place toc in default location
+# # will change captions to Spanish, see https://lists.gnu.org/archive/html/emacs-orgmode/2010-03/msg00879.html
+#+LANGUAGE: es 
+
+# style sheet
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+
+#+BEGIN_CENTER
+por
+
+*Samuel González Cataño*
+#+END_CENTER
+
+#+OPTIONS: broken-links:mark
+
+# #+LINK_UP: index.html
+[[../index.html][Arriba/up]]
+
+Desde que México se constituyó como país independiente, en su interior se comenzaron a fraguar una serie de batallas por la conformación política del mismo. Liberales, conservadores, sindicatos, ejército, mujeres, sufragistas, iglesias, laicos... toda esta serie de grupos fueron peleando batallas para abrirse un espacio en la vida pública. Pero una serie de grupos de gran importancia permanecieron invisibilizados, desplazados por una serie de políticas que pretendían mostrar a México como un cuerpo homogéneo.
+
+En México conviven más de 70 pueblos indígenas con 15 millones de integrantes. Esto es más del 10% de la población del país. Y en estados como Oaxaca, Chiapas o Michoacán esta cifra es todavía superior, [alcanzando xx%]. Hay en el país más de 800 municipios cuya población se integra de comunidades indígenas. Frente a esta realidad, es claro que el sistema jurídico y político se había mantenido empecinado en negar la heterogeneidad de los pueblos que conforman al país.
+
+Sin embargo, en algunas entidades federativas como en Oaxaca, en la década de los noventa se dieron algunos primeros pasos hacia un reconocimiento de los pueblos indígenas, sobre todo en la esfera democrática. Empezando por meramente mencionar en la Constitución Oaxaqueña que "la ley respetará las prácticas democráticas de las comunidades indígenas y protegerá sus tradiciones" hasta reglamentar de forma más completa diferentes formas de elección y conformación de municipios de mayoría indígena conforme a sus "usos y costumbres".
+
+En cualquier caso la realidad es que fuera del estado oaxaqueño el acance en materia de reconocimiento de los derechos de los indígenas se encuentra aparentemente estancado, o al menos en la mayoría de los casos es asi, pero el caso de Cherán --- Michoacán --- en donde la mayor parte de la población es de la comunidad indígena purepecha, marca un hito a nivel nacional en el entendimiento del derecho a la autodeterminación de los pueblos.
+
+Dos resoluciones judiciales son importantes para entender la conformación del municipio de Cherán bajo un Concejo Mayor y no en un Municipio y Ayuntamiento como marca el artículo 115 de la Constitución Mexicana. La primera de ellas, la resultante del Juicio para la Protección de los Derechos Político-Electorales (SUP-JDC-9167/2011) que promovieron varias personas integrantes del municipio de Cherán frente al Tribunal Electoral del Poder Judicial de la Federación, ante la negativa del Instituto Electoral Michoacano de concederles una particular forma de organización política y elección democrática.
+
+El Instituto Electoral Local les negó esta posibilidad pues a pesar de que la reforma a la Constitución Mexicana de 2001 en materia indígena reconoce el derecho a la autodeterminación de los pueblos, esta no se encontraba regulada ni en la Constitución ni en la Ley Electoral michoacanas – como si lo está en la legislación oaxaqueña. Debido a esta negativa los habitantes de Cheran decidieron organizarse y acudir frente al TEPJF quien finalmente les concedió la razón y permitió la conformación de un /Concejo Mayor del Gobierno Comunal/ en vez de un Ayuntamiento, y la figura de concejales en vez de ediles y presidente municipal.
+
+Sin embargo, la reivindicación indígena de Cherán no terminó en esta decisión, pues en 2012 promovieron una Controversia Constitucional frente a la Suprema Corte de Justicia de la Nación por considerarse agraviados al no consultarseles una reforma a la Constitución Michoacana. El procedimiento de reforma constitucional en el Estado menciona la necesidad de consultar a cada uno de los municipios para reformar el contenido constitucional, pero al estar Cheran constituido en un Concejo Mayor y no un municipio, el legislativo michoacano no realizó esta consulta al promover una reforma en materia indígena en 2012. Frente a esto, la comunidad de Cherán se pronunció y logró el efectivo reconocimiento por parte de la SCJN (CC 32/2012) como municipio indígena con todos los derechos que ello conlleva, y consecuentemente dejando invalidada la reforma antes citada únicamente para el municipio de Cherán.
+
+En Cherán se han realizado dos elecciones desde entonces: 2012 y 2015, y la elección de sus concejales no ha representado una afronta para el orden público o la vida diaria michoacana. Esto aunado al par de resoluciones mencionadas, muestran la importancia que las Cortes y por tanto el Estado mexicano han decidido darle a la autodeterminación de los pueblos, permitiendo que con base en la reforma al artículo segundo constitucional, se transformen municipios en comunidades indígenas con una conformación y métodos de elección propios. México ya no cuenta unicamente con algunos pueblos en Oaxaca que se rigen bajo sus usos y costumbres, sino que Cherán abre la puerta para que comunidades indígenas que se encuentran en más de 26 estados de la República busquen igualmente el reconocimiento de sus tradiciones y sus decisiones como comunidad.

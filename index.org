@@ -81,8 +81,10 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 # # #+ATTR_HTML: style="float:right;"
 # # #+ATTR_HTML: :width 15%
 # # [[./textos/instituciones.org][file:img/gooReel.png]]
+- [[./textos/claudiaCdMx.org][Efectos políticos de la eliminación de siete distritos de la CDMX]], por *Claudia Cervantex Pérez* (2/1/2018)
+- [[./textos/mapDistritos.org][Mapas de los distritos legislativos de México]], por *Eric Magar* (17/12/2017)
 - [[./textos/daliaCeciWordcloud.org][Los tecnócratas neoporfiristas y la reelección]], por *Cecilia Cabello Esquer* y *Dalia Rincón Altamirano* (1/12/2017)
-- [[./textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]], por *Samuel Cataño* (22/11/2017)
+- [[./textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]], por *Samuel González Cataño* (22/11/2017)
 - [[./textos/juristasCruz.org][La tensión entre la paridad de género y la reelección]], por *Patricia Cruz Marín* y *Gretel Calleros Arellano* (6/7/2017)
 - [[./textos/mxDecada1920.org][Antecedentes de la reelección legislativa en México]], por *Javier Cote*, *Valeria Guerrero* y *Teresa Ruiz* (6/7/2017)
 - [[./textos/juristasFix.org][Reelección consecutiva y equidad en la competencia]], por *Valentina Fix*, *Rodrigo Corona* y *Alejandro Palma* (28/6/2017)
@@ -115,6 +117,7 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 - [[http://click.liebertpubmail.com/?qs=9f50c9cb63418832adc11dc19191f17a34d31d04cab474d3a652baa3321529dc2bdc232e5e1a187b1ca9603b6e0418e8][Measuring Efficiency in Redistricting]] por *Eric McGhee* (21/9/2017)
 - [[https://doi.org/10.1089/elj.2017.0455][The Impact of Political Geography on Wisconsin Redistricting: An Analysis of Wisconsin's Act 43 Assembly Districting Plan]] por *Jowei Chen* (6/9/2017)
 -------------------------------------
+
 * La Constitución de 1917, v1.0
 #+BEGIN_CENTER
 #+ATTR_HTML: style="float:right;"

@@ -6,9 +6,9 @@
 
        ;; ... add all the components here (see below)...
 ("org-notes"
- :base-directory "~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/"
+ :base-directory "~/Dropbox/data/elecs/MXelsCalendGovt/reelec/webPage/"
  :base-extension "org"
- :publishing-directory "~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/publishThis/"
+ :publishing-directory "~/Dropbox/data/elecs/MXelsCalendGovt/reelec/webPage/publishThis/"
  :recursive t  ; if true exports/creates subdirectories in publishing directory
  :publishing-function org-html-publish-to-html
  :headline-levels 3             ; Just the default for this project.
@@ -19,9 +19,9 @@
  )
 
 ("org-static" ; copies images, tables etc to publishing directory towards publication
- :base-directory "~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/"
+ :base-directory "~/Dropbox/data/elecs/MXelsCalendGovt/reelec/webPage/"
  :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
- :publishing-directory "~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/publishThis/"
+ :publishing-directory "~/Dropbox/data/elecs/MXelsCalendGovt/reelec/webPage/publishThis/"
  :recursive t
  :publishing-function org-publish-attachment
  )
@@ -29,7 +29,7 @@
 ("org" :components ("org-notes" "org-static")) ; publish all with single command: M-x org-publish-project RET org RET
 
 ; directory structure
-~/Dropbox/data/elecs/MXelsCalendGovt/calendariosReelec/webPage/
+~/Dropbox/data/elecs/MXelsCalendGovt/reelec/webPage/
   |- css/
   |  `- stylesheet.css
   |- Emacs

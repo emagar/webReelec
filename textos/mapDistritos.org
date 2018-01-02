@@ -1,0 +1,2126 @@
+#+TITLE: Un vistazo a la redistritación reciente
+#+AUTHOR: Eric Magar
+#+DATE:  <2017-12-20 Wed>
+#+OPTIONS: toc:nil # don't place toc in default location
+# # will change captions to Spanish, see https://lists.gnu.org/archive/html/emacs-orgmode/2010-03/msg00879.html
+#+LANGUAGE: es 
+
+# style sheet
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+
+#+BEGIN_CENTER
+por
+
+*Eric Magar*
+#+END_CENTER
+
+#+OPTIONS: broken-links:mark
+
+# #+LINK_UP: index.html
+[[../index.html][Arriba/up]]
+
+#+BEGIN_subtoc
+#+TOC: headlines 1  # place toc here
+#+END_subtoc
+
+/Todos los estados del país estrenan mapa para elegir sus diputados de distrito. Retratamos algunos de ellos./
+
+* Presentación
+
+Cada diputado de mayoría, ya sea federal o estatal, representa un distrito electoral. El trazo de los límites distritales es uno de los razgos que más fundamentalmente incide en la representación. Incluir o excluir a alguna localidad dentro del territorio de un distrito puede ser determinante para que un partido o grupo social sea prácticamente invencible o, por el contrario, que el distrito sea muy competido.
+
+El IFE/INE ha dibujado los distritos federales desde 1996 y los distritos legislativos de los estados desde 2014---antes las autoridades facultadas para la redistritación subnacional eran de índole estatal. Un primer grupo de doce estados estrenó mapa en la elección legislativa de 2016 (Aguascalientes, Baja California, Chihuahua, Durango, Hidalgo, Oaxaca, Quintana Roo, Sinaloa, Tamaulipas, Tlaxcala, Veracruz y Zacatecas), dos estados lo estrenaron en 2017 (Coahuila y Nayarit) y el resto lo hará en 2018 (Baja California Sur, Campeche, Ciudad de México, Colima, Chiapas, Guanajuato, Guerrero, Jalisco, México, Michoacán, Morelos, Nuevo León, Puebla, Querétaro, San Luis Potosí, Sonora, Tabasco y Yucatán). En 2018 también la Cámara de Diputados será electa en 2018 en un mapa que sustituye al que el IFE dibujó en 2006. 
+
+Esta entrada muestra el territorio de los distritos. Incluye sólo una muestra, pero el objetivo será incluir todos los mapas en un futuro próximo.
+
+* Descripción de la cartografía
+Los mapas que aparecen a continuación retratan los distritos para elegir diputados al Congreso del estado y al Congreso de la Unión. Aparecen dos mapas de cada distrito: uno que lo ubica en su estado y muestra las colindancias con otros distritos; otro, con más detalle, que amplifica el área para describir la información siguiente. 
+
+- El límite del distrito (la línea negra gruesa).
+- La frontera del estado (la línea delgada roja punteada). 
+- Los límites municipales (la línea delgada verde y punteada). En zonas despobladas los distritos legislativos suelen incluir municipios completos, en zonas muy pobladas un municipio suele incluir uno o más distritos legislativos. Y en el caso de la Ciudad de México se representan no municipios sino delegaciones.
+- Las secciones electorales aparecen coloreadas según su historia electoral reciente. La inspiración para este propósito es la distinción de votantes /core v. swing/ de Cox y McCubbins.[[fn:1]] Para operacionalizar esta noción se tomó en cuenta al partido que "ganó" la sección en cada una de las elecciones de diputados federales desde 1997---el partido que obtuvo más votos. Secciones ganadas 4, 5, 6, ó hasta 7 veces por un mismo partido son consideradas bastiones y toman colores azules para el PAN, rojos para el PRI o dorado/marrón para la izquierda. El  color alcanza su intensidad máxima cuando el partido consiguió 7 triunfos al hilo, su menor cuando fueron sólo 4 triunfos. Las secciones que ningún partido ganó 4 ó más veces son consideradas /swing/ y aparecen en tono gris. Hay que decir que para los bastiones de la izquierda sumamos los votos de Morena a los del PRD en 2015---pronto haremos mapas que retraten más fielmente el cisma más reciente de la izquierda.
+- Por último, aparece el distrito "padre" (línea roja gruesa). Esta noción, tomada de Cox y Katz,[[fn:2]] sirve de referencia para apreciar cómo cambió el mapa con la redistritación. El padre de un distrito nuevo es aquel distrito del mapa viejo con el que comparte el mayor número de secciones electorales. El estadístico DSI (índice de similutud distrital, por sus siglas en inglés) que acompaña a cada mapa reporta la proporción de secciones electorales comunes entre los dos distritos: si padre e hijo fueran distritos idénticos se alacanzaría el máximo DSI=1; el DSI=0 (que nunca se alcanza) correspondería a distritos que no comparten ninguna sección.
+
+* Distritos federales
+En construcción.
+
+* Distritos estatales
+:PROPERTIES:
+:CUSTOM_ID: top_subtoc
+:END:
+
+#+BEGIN_subtoc
+#+TOC: headlines 1 local  # place toc here
+#+END_subtoc
+
+El INE preparó mapas para elegir a los diputados de mayoría de los congresos de los estados entre 2015 y 2017. El tiempo dependió del calendario electoral de cada estado. Y, en algunos casos, de sentencias del TEPJF. 
+
+** Baja California
+*** Distrito 1, cabecera Mexicali
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc1-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc1-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 2, cabecera Mexicali
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc2-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc2-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 3, cabecera Mexicali
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc3-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc3-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 4, cabecera Mexicali
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc4-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc4-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 5, cabecera Mexicali
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc5-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc5-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 6, cabecera Tecate
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc6-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc6-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 7, cabecera Tijuana
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc7-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc7-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 8, cabecera Tijuana
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc8-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc8-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 9, cabecera Tijuana
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc9-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc9-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 10, cabecera Tijuana
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc10-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc10-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 11, cabecera Tijuana
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc11-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc11-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 12, cabecera Tijuana
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc12-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc12-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 13, cabecera Tijuana
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc13-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc13-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 14, cabecera Tijuana
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc14-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc14-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 15, cabecera Playas de Rosarito
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc15-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc15-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 16, cabecera Ensenada
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc16-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc16-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 17, cabecera Ensenada
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc17-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc17-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+** Coahuila
+*** Distrito 1, cabecera Acuña
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa1-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa1-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 2, cabecera Piedras Negras
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa2-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa2-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 3, cabecera Sabinas
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa3-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa3-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 4, cabecera San Pedro
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa4-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa4-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 5, cabecera Monclova
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa5-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa5-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 6, cabecera Frontera
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa6-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa6-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 7, cabecera Matamoros
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa7-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa7-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 8, cabecera Torreón
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa8-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa8-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 9, cabecera Torreón
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa9-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa9-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 10, cabecera Torreón
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa10-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa10-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 11, cabecera Torreón
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa11-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa11-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 12, cabecera Ramos Arizpe
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa12-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa12-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 13, cabecera Saltillo
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa13-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa13-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 14, cabecera Saltillo
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa14-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa14-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 15, cabecera Saltillo
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa15-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa15-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 16, cabecera Saltillo
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa16-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/coa16-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+** Ciudad de México
+*** Distrito 1, cabecera Gustavo A. Madero
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df1-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df1-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 2, cabecera Gustavo A. Madero
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df2-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df2-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 3, cabecera Azcapotzalco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df3-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df3-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 4, cabecera Gustavo A. Madero
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df4-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df4-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 5, cabecera Azcapotzalco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df5-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df5-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 6, cabecera Gustavo A. Madero
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df6-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df6-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 7, cabecera Milpa Alta
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df7-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df7-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 8, cabecera Tláhuac
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df8-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df8-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 9, cabecera Cuauhtémoc
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df9-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df9-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 10, cabecera Venustiano Carranza
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df10-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df10-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 11, cabecera Iztacalco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df11-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df11-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 12, cabecera Cuauhtémoc
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df12-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df12-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 13, cabecera Miguel Hidalgo
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df13-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df13-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 14, cabecera Tlalpan
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df14-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df14-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 15, cabecera Iztacalco
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df15-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df15-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 16, cabecera Tlalpan
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df16-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df16-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 17, cabecera Benito Juárez
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df17-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df17-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 18, cabecera Alvaro Obregón
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df18-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df18-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 19, cabecera Xochimilco
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df19-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df19-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 20, cabecera Cuajimalpa
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df20-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df20-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 21, cabecera Iztapalapa
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df21-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df21-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 22, cabecera Iztapalapa
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df22-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df22-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 23, cabecera Alvaro Obregón
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df23-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df23-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 24, cabecera Iztapalapa
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df24-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df24-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 25, cabecera Xochimilco
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df25-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df25-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 26, cabecera Coyoacán
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df26-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df26-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 27, cabecera Iztapalapa
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df27-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df27-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 28, cabecera Iztapalapa
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df28-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df28-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 29, cabecera Iztapalapa
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df29-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df29-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 30, cabecera Coyacán
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df30-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df30-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 31, cabecera Iztapalapa
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df31-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df31-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 32, cabecera Coyacán
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df32-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df32-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 33, cabecera Magdalena Contreras
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df33-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df33-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+** México
+*** Distrito 1, cabecera Chalco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex1-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex1-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 2, cabecera Toluca
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex2-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex2-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 3, cabecera Chimalhuacán
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex3-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex3-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 4, cabecera Lerma
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex4-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex4-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 5, cabecera Chicoloapan
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex5-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex5-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 6, cabecera Ecatepec
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex6-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex6-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 7, cabecera Tenancingo
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex7-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex7-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 8, cabecera Ecatepec
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex8-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex8-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 9, cabecera Tejupilco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex9-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex9-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 10, cabecera Valle de Bravo
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex10-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex10-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 11, cabecera Tultitlán
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex11-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex11-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 12, cabecera Teoloyucan
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex12-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex12-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 13, cabecera Atlacomulco
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex13-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex13-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 14, cabecera Jilotepec
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex14-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex14-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 15, cabecera Ixtlahuaca
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex15-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex15-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 16, cabecera Cd. López Mateos
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex16-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex16-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 17, cabecera Huixquilucan
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex17-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex17-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 18, cabecera Tlalnepantla
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex18-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex18-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 19, cabecera Tultepec
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex19-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex19-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 20, cabecera Zumpango
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex20-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex20-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 21, cabecera Ecatepec
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex21-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex21-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 22, cabecera Ecatepec
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex22-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex22-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 23, cabecera Texcoco
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex23-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex23-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 24, cabecera Cd. Nezahualcóyotl
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex24-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex24-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 25, cabecera Cd. Nezahualcóyotl
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex25-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex25-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 26, cabecera Cuautitlán Izcalli
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex26-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex26-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 27, cabecera Chalco Solidaridad
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex27-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex27-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 28, cabecera Amecameca
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex28-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex28-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 29, cabecera Naucalpan
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex29-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex29-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 30, cabecera Naucalpan
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex30-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex30-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 31, cabecera Los Reyes
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex31-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex31-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 32, cabecera Naucalpan
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex32-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex32-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 33, cabecera Tecamac
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex33-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex33-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 34, cabecera Toluca
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex34-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex34-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 35, cabecera Metepec
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex35-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex35-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 36, cabecera Zinacantepec
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex36-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex36-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 37, cabecera Tlalnepantla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex37-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex37-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 38, cabecera Coacalco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex38-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex38-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 39, cabecera Acolman
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex39-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex39-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 40, cabecera Ixtapaluca
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex40-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex40-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 41, cabecera Cd. Nezahualcóyotl
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex41-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex41-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 42, cabecera Ecatepec
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex42-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex42-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 43, cabecera Cuautitlán Izcalli
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex43-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex43-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 44, cabecera Nicolás Romero
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex44-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex44-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 45, cabecera Temoaya
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex45-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex45-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+** Morelos
+*** Distrito 1, cabecera Cuernavaca
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor1-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor1-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 2, cabecera Cuernavaca
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor2-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor2-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 3, cabecera Tepoztlán
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor3-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor3-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 4, cabecera Yecapixtla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor4-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor4-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 5, cabecera Temixco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor5-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor5-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 6, cabecera Jiutepec
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor6-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor6-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 7, cabecera Cuautla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor7-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor7-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 8, cabecera Xochitepec
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor8-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor8-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 9, cabecera Puente de Ixtla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor9-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor9-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 10, cabecera Ayala
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor10-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor10-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 11, cabecera Jojutla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor11-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor11-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 12, cabecera Yautepec
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor12-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor12-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+** Nayarit
+Elige 18 diputados de mayoría. El mapa actual se inauguró en la elección legistativa de 2017. Note como el mapa anterior (en uso desde 2005 por lo menos) tenía distritos no contiguos, apreciables vía el padre de los distritos (p.ej. en el mapa del distrito 13).
+
+*** Distrito 1, cabecera Acaponeta
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay1-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay1-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 2, cabecera Tecuala
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay2-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay2-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 3, cabecera Jesús María
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay3-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay3-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 4, cabecera Tuxpan
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay4-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay4-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 5, cabecera Santiago Ixcuintla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay5-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay5-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 6, cabecera Tepic
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay6-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay6-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 7, cabecera Tepic
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay7-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay7-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 8, cabecera Tepic
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay8-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay8-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 9, cabecera Tepic
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay9-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay9-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 10, cabecera San Blas
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay10-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay10-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 11, cabecera Tepic
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay11-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay11-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 12, cabecera Tepic
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay12-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay12-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 13, cabecera Santa María del Oro
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay13-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay13-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 14, cabecera Xalisco
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay14-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay14-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 15, cabecera Compostela
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay15-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay15-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 16, cabecera Ixtlán del Río
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay16-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay16-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 17, cabecera Bucerías
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay17-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay17-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 18, cabecera Mezcales
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay18-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay18-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+** Tlaxcala
+*** Distrito 1, cabecera San Antonio Calpulalpan
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla1-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla1-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 2, cabecera Tlaxco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla2-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla2-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 3, cabecera San Cosme Xalostoc
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla3-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla3-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 4, cabecera Apizaco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla4-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla4-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 5, cabecera San Dionisio Yauhquemehcan
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla5-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla5-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 6, cabecera Ixtacuixtla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla6-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla6-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 7, cabecera Tlaxcala
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla7-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla7-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 8, cabecera San Bernardo Contla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla8-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla8-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 9, cabecera Sta Ana Chiautempan
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla9-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla9-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 10, cabecera Huamantla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla10-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla10-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 11, cabecera Huamantla
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla11-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla11-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 12, cabecera San Luis Teolocholco
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla12-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla12-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 13, cabecera Zacatelco
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla13-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla13-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 14, cabecera Sta María Nativitas
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla14-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla14-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+*** Distrito 15, cabecera Vicente Guerrero
+             
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla15-1.png]]
+
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 50%
+[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla15-2.png]]
+
+[[#top_subtoc][Inicio distritos estatales]]
+--------------------------------------------
+
+* Nota metodológica
+
+Los mapas que reportamos incluyen polígonos que obtuvimos de tres fuentes: (1) los preparados y distribuidos por el INE a través de su página de internet (url aquí); (2) los preparados y distribuidos por el IFE en disco compacto en 2014; y (3) los que preparamos directamente. El trasfondo de los mapas proviene de openstreetmaps.org.
+
+El grupo (1) incluye los polígonos de los distritos del mapa federal 2018; y de los distritos de los mapas locales 2016, 2017 y 2018 (según sea el caso en cada estado). 
+
+El grupo (2) incluye los polígonos de los distritos del mapa federal 2006; de las entidades, sus municipios y secciones electorales. 
+
+El grupo (3) incluye los polígonos de los distritos de los mapas locales anteriores a los de 2016, 2017 y 2018 (según sea el caso en cada estado). 
+
+Esta nota describe cómo procedimos para dibujar los polígonos del grupo (3).
+
+Para esto hicimos uso del programa MapInfo Profesional v11.5. Empezamos por obtener la relación secciones electorales-distritos de los mapas locales anteriores al actual de todos los estados. Las fuentes fueron resultados a nivel casilla de una elección de diputados locales reciente (pero previa a la adopción del nuevo mapa) que reportan las páginas de internet de los instituto electorales de los estados.  Con esta información nos fue posible realizar la conjunción de las secciones que conformaban los viejos  polígonos distritales locales. 
+
+La rutina consistió en seleccionar todas las secciones electorales pertenecientes al primer distrito del mapa para disolver las fronteras de los polígonos seccionales y preservar únicamente el perímetro exterior (en /ArcGis/ y en /Qgis/, la función se llama /dissolve/). Para ligar los polígonos seccionales echamos mano de las herramientas disponibles en la pestaña /table/ del programa /MapInfo/, y la función /Combine objects using column/ para hacer la fusión. Repetimos esto para los demás distritos del mapa.
+
+* Fuentes
+- INE
+- R y sus paquetes.
+
+* Créditos
+
+- Moisés
+- Santiago
+- Rubén
+- Julio 
+
+[[fn:1]] Gary W. Cox y Mathew D. McCubbins. "Electoral Politics as a Redistributive Game", /Journal of Politics/ 48(2):370--89, 1986.
+
+[[fn:2]] Vea Gary W. Cox y Jonathan N. Katz. /Elbridge Gerry's Salamander: The Electoral Consequences of the Reapportionment Revolution./ Nueva York: Cambridge University Press, 2002. 
+

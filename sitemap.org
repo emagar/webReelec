@@ -1,8 +1,10 @@
 #+TITLE: Sitemap
 
    + textos
+     + [[file:textos/claudiaCdMx.org][Algunos efectos políticos de la eliminación de siete distritos de la CDMX]]
      + [[file:textos/mxDecada1920.org][Antecedentes de la reelección legislativa en México]]
      + [[file:textos/instituciones.org][Calendarios e instituciones de reelección consecutiva en México]]
+     + [[file:textos/catanhoCheran.org][Cherán o un nuevo paradigma para el reconocimiento de la autodeterminación indígena en México]]
      + [[file:textos/clasicos.org][Clásicos sobre la reelección consecutiva]]
      + [[file:textos/lujambioPrecaria.org][Congresos Locales: Precaria institucionalidad]]
      + [[file:textos/entrevHdzCruz.org][Entrevista a Armando Hernández Cruz]]
@@ -24,5 +26,8 @@
      + [[file:textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]]
      + [[file:textos/relevoGen.org][Relevo generacional]]
      + [[file:textos/lasTesis.org][Tesis que invetigan la reelección consecutiva]]
+     + [[file:textos/mapDistritos.org][Un vistazo a la redistritación reciente]]
      + [[file:textos/murayamaValores.org][Valores encontrados]]
+     + [[file:textos/yuriBeltranCdMx.org][¿Cómo reelegirse en la CDMX?]]
    + [[file:index.org][Reelección consecutiva en México]]
+   + [[file:remember.org][remember]]

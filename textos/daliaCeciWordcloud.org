@@ -36,35 +36,35 @@ Durante las dos primeras semanas de septiembre (terminamos antes del terremoto),
 
 #+CAPTION: Composición de la muestra
 #+NAME:   tab:1
-| Grupos     | % muestra |  % ITAM |
-|------------+-----------+---------|
-| Mujeres    |        47 |         |
-| Hombres    |        53 |         |
-|            |           |         |
-| Edad:      |           |         |
-| 19 y menos |         9 |         |
-| 20 años    |         6 |         |
-| 21 años    |        11 |         |
-| 22 años    |        20 |         |
-| 23 años    |        27 |         |
-| 24 y más   |        27 |         |
-|            |           |         |
-| Partido:   |           |         |
-| Ninguno    |        40 |         |
-| PAN        |        31 |         |
-| PRI        |        14 |         |
-| Morena     |        11 |         |
-| Otros      |         4 |         |
-|            |           |         |
-| Carrera:   |           |         |
-| cPol       |        32 |       8 | +24
-| Eco        |        21 |      22 | par
-| RRII       |        14 |       9 |  +5
-| Der        |         9 |       7 |  +2
-| Otras      |        24 |      54 | -30
-|------------+-----------+---------|
-| total      |       100 |     100 |
-| (N)        |     (243) | (5,510) |
+| Grupos     | % muestra |  % ITAM |     |
+|------------+-----------+---------+-----|
+| Mujeres    |        47 |         |     |
+| Hombres    |        53 |         |     |
+|            |           |         |     |
+| Edad:      |           |         |     |
+| 19 y menos |         9 |         |     |
+| 20 años    |         6 |         |     |
+| 21 años    |        11 |         |     |
+| 22 años    |        20 |         |     |
+| 23 años    |        27 |         |     |
+| 24 y más   |        27 |         |     |
+|            |           |         |     |
+| Partido:   |           |         |     |
+| Ninguno    |        40 |         |     |
+| PAN        |        31 |         |     |
+| PRI        |        14 |         |     |
+| Morena     |        11 |         |     |
+| Otros      |         4 |         |     |
+|            |           |         |     |
+| Carrera:   |           |         |     |
+| cPol       |        32 |       8 | +24 |
+| Eco        |        21 |      22 | par |
+| RRII       |        14 |       9 |  +5 |
+| Der        |         9 |       7 |  +2 |
+| Otras      |        24 |      54 | -30 |
+|------------+-----------+---------+-----|
+| total      |       100 |     100 |     |
+| (N)        |     (243) | (5,510) |     |
 
 Nuestra muestra se autoseleccionó. Está lejos de ser aleatoria, pero ofrece una perspectiva interesante del alumnado itamita. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro [[tab:1]] describe a los que contestaron. Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. Que somos estudiantes de ciencia política y movilizamos activamente a nuestras redes inmediatas en busca de respuestas es patente en la casi tercera parte que representan los compañeros politólogos en la muestra. La sobrerrepresentación alcanza 24 puntos respecto del peso relativo en la población de la universidad (la columna derecha del cuadro reporta estudiantes de licenciatura del ITAM). Los internacionalistas tienen 5 puntos de sobrerrepresentación, mientras que los economistas y abogados están más o menos balancados. La subrepresentación recae en las demás carreras (un déficit de 30 puntos). Dos de cada cinco entrevistados se declaró independiente y uno de cada tres simpatizante del PAN.[fn:1] Si la primera de las cifras anteriores pareciera estar en sintonía con la opinión pública, la segunda está inflada en detrimento del PRI y de Morena.  
 
