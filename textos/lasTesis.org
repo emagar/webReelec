@@ -33,8 +33,8 @@
   title={Un Congreso sin congresistas: la no reelecci\'on consecutiva en el poder legislativo mexicano 1934-1997},
   author={Campos, Emma},
   year={1996},
-  type = {Tesis de licenciatura, Depto. de ciencia política},
-  school={Instituto Tecnol/'ogico Aut/'onomo de M/'exico}
+  type = {Tesis de licenciatura, Depto. de ciencia pol\'itica},
+  school={Instituto Tecnol\'ogico Aut\'onomo de M\'exico}
 }
 #+END_SRC
 
@@ -51,8 +51,8 @@
   title={Reformas institucionales que fracasan: el caso de la reforma reeleccionista en el Congreso mexicano 1964-65},
   author={Careaga Tag/"ue/~na, Maite},
   year={1996},
-  type = {Tesis de licenciatura, Depto. de ciencia política},
-  school={Instituto Tecnol/'ogico Aut/'onomo de M/'exico}
+  type = {Tesis de licenciatura, Depto. de ciencia pol\'itica},
+  school={Instituto Tecnol\'ogico Aut\'onomo de M\'exico}
 }
 #+END_SRC
 
@@ -67,11 +67,11 @@
   Cómo citarla, ficha bibTeX:
 #+BEGIN_SRC
 @phdthesis{godoy.2014,
-  title={Reelección en la Cámara de Diputados, 1917-1933: Federalismo y ambición politica},
+  title={Reelecci\'on en la C\'amara de Diputados, 1917-1933: Federalismo y ambici\'on pol\'itica},
   author={Godoy Rueda, Luis Fernando},
   year={2014},
-  type = {Tesis de licenciatura, Depto. de ciencia política},
-  school={Instituto Tecnol/'ogico Aut/'onomo de M/'exico}
+  type = {Tesis de licenciatura, Depto. de ciencia pol\'itica},
+  school={Instituto Tecnol\'ogico Aut\'onomo de M\'exico}
 }
 #+END_SRC
 
@@ -85,11 +85,11 @@
   Cómo citarla, ficha bibTeX:
 #+BEGIN_SRC
 @phdthesis{sanchez.2014,
-  title={La conformaci/'on del bloque obregonista en la XXVII Legislatura y su relaci/'on con el gobierno de Carranza},
-  author={S/'anchez L/'opez, Adriana Mael},
+  title={La conformaci\'on del bloque obregonista en la XXVII Legislatura y su relaci\'on con el gobierno de Carranza},
+  author={S\'anchez L\'opez, Adriana Mael},
   year={2014},
-  type = {Tesis de licenciatura, Depto. de ciencia política},
-  school={Instituto Tecnol/'ogico Aut/'onomo de M/'exico}
+  type = {Tesis de licenciatura, Depto. de ciencia pol\'itica},
+  school={Instituto Tecnol\'ogico Aut\'onomo de M\'exico}
 }
 #+END_SRC
 

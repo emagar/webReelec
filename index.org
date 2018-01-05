@@ -1,6 +1,6 @@
 #+TITLE: Reelección consecutiva en México
 #+AUTHOR: Eric Magar
-#+DATE:  <2017-06-28 Wed>
+#+DATE:  <2018-01-03>
 #+OPTIONS: toc:nil # don't place toc in default location
 #+LANGUAGE: es
 
@@ -65,7 +65,7 @@ La reforma electoral de 2014 eliminó la prohibición de reelección legislativa
 
 Las modificaciones a la constitución de los Estados Unidos Mexicanos adoptadas otorgaron discreción a los estados para definir sus propias instituciones de reelección consecutiva, pero también establecieron dos restricciones generales. Una es la duración en el cargo, de máximo doce años consecutivos para legisladores y seis para gobernantes municipales. Otra (con algunos matices) es que la postulación sólo podrá hacerla el mismo partido que eligió al representante. 
 
-Este sitio está dedicado a reseñar la entrada en vigor de la reelección consecutiva en México. 
+Este sitio está dedicado a reseñar la entrada en vigor de la reelección consecutiva en México y estudiar sus alcances y limitaciiones. 
 
 ---------------------------------------
 
@@ -81,9 +81,9 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 # # #+ATTR_HTML: style="float:right;"
 # # #+ATTR_HTML: :width 15%
 # # [[./textos/instituciones.org][file:img/gooReel.png]]
-- [[./textos/claudiaCdMx.org][Efectos políticos de la eliminación de siete distritos de la CDMX]], por *Claudia Cervantex Pérez* (2/1/2018)
+# - [[./textos/daliaCeciWordcloud.org][Los tecnócratas neoporfiristas y la reelección]], por *Cecilia Cabello Esquer* y *Dalia Rincón Altamirano* (1/12/2017)
+- [[./textos/claudiaCdMx.org][Efectos políticos de la eliminación de siete distritos de la CDMX]], por *Claudia Cervantes Pérez* (2/1/2018)
 - [[./textos/mapDistritos.org][Mapas de los distritos legislativos de México]], por *Eric Magar* (17/12/2017)
-- [[./textos/daliaCeciWordcloud.org][Los tecnócratas neoporfiristas y la reelección]], por *Cecilia Cabello Esquer* y *Dalia Rincón Altamirano* (1/12/2017)
 - [[./textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]], por *Samuel González Cataño* (22/11/2017)
 - [[./textos/juristasCruz.org][La tensión entre la paridad de género y la reelección]], por *Patricia Cruz Marín* y *Gretel Calleros Arellano* (6/7/2017)
 - [[./textos/mxDecada1920.org][Antecedentes de la reelección legislativa en México]], por *Javier Cote*, *Valeria Guerrero* y *Teresa Ruiz* (6/7/2017)
@@ -92,23 +92,26 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 - [[./textos/nayarit.org][La reelección en Nayarit]], por *Sofía De la Mora Tostado* (24/6/2017)
 - [[./textos/resenhaCoahuila.org][Primeras campañas reeleccionistas]], por *Eric Magar* (23/6/2017)
 - [[./textos/instituciones.org][Calendario e instituciones de reelección]] (*base de datos descargable*, 20/5/2017)
+** Reimpresos
+- [[./textos/balladosGalimatias.org][Galimatías y dilemas]], por *Patricio Ballados* (1/6/2017)
+- [[./textos/yuriBeltranCdMx.org][¿Cómo reelegirse en la CDMX?]], por *Yuri Beltrán Miranda* (1/6/2017)
+- [[./textos/consejoReelectos.org][Juntos y reelectos]] por *Alberto Consejo Vargas* (1/6/2017)
+- [[./textos/murayamaValores.org][Valores encontrados]], por *Ciro Murayama* (1/6/2017)
+- [[./textos/rendonCompLegis.org][¿Qué esperar del comportamiento legislativo?]], por *Iliana Rendón Arias* (1/6/2017)
+- [[file:./textos/lasTesis.org::Godoy][Reelección en la Cámara de Diputados, 1917-1933: federalismo y ambición política]], por *Luis Godoy Rueda* (2014)
+- [[file:./textos/lasTesis.org::Adriana Sánchez][El bloque obregonista en la XXVII Legislatura y su relación con Carranza]], por *Adriana Sánchez López* (2014)
+- [[http://www.animalpolitico.com/blogueros-proyecto-ciudadania/2011/10/07/mitos-sobre-la-reeleccion-legislativa-en-mexico/][Mitos sobre la Reelección Legislativa en México]], por *Beatriz Camacho* y *Juana Acosta* (2013)
+- [[http://www.animalpolitico.com/blogueros-proyecto-ciudadania/2011/10/07/mitos-sobre-la-reeleccion-legislativa-en-mexico/][Por qué la reelección sirve y por qué no servirá en México]], por *José Merino*, *Eduardo Fierro* y *Jessica Zarkin* (2013)
+- [[http://www.animalpolitico.com/blogueros-vision-legislativa/2013/12/04/reeleccion-legislativa-historia-y-estadisticas/][Reelección legislativa: historia y estadísticas]], por *María del Carmen Nava* (2013)
+- [[file:./textos/lasTesis.org::Emma][Un Congreso sin congresistas]] por *Emma Campos* (1996)
+- [[file:./textos/lasTesis.org::Careaga][Reformas que fracasan: la reforma reeleccionista en el Congreso mexicano 1964-65]], por *Maite Careaga Tagüeña* (1996)
 ** Clásicos
 - [[./textos/lujambioPrecaria.org][Congresos Locales: precaria institucionalidad]], por *Alonso Lujambio* (7/3/2004)
 - [[./pdfs/christliebCronicasNoReeleccion1985.pdf][Crónicas de la No-Reelección]], por *Adolfo Christlieb Ibarrola* (4/1985)
 - [[./textos/clasicos.org][Libros infaltables en la biblioteca]] (*cómprelos*)
-** Reimpresos
-- [[./textos/murayamaValores.org][Valores encontrados]], por *Ciro Murayama* (1/6/2017)
-- [[./textos/balladosGalimatias.org][Galimatías y dilemas]], por *Patricio Ballados* (1/6/2017)
-- [[./textos/rendonCompLegis.org][¿Qué esperar del comportamiento legislativo?]], por *Iliana Rendón Arias* (1/6/2017)
-- [[./textos/consejoReelectos.org][Juntos y reelectos]] por *Alberto Consejo Vargas* (1/6/2017)
-- [[./textos/yuriBeltranCdMx.org][¿Cómo reelegirse en la CDMX?]], por *Yuri Beltrán Miranda* (1/6/2017)
-- [[file:./textos/lasTesis.org::Godoy][Reelección en la Cámara de Diputados, 1917-1933: federalismo y ambición política]], por *Luis Godoy Rueda* (2014)
-- [[file:./textos/lasTesis.org::Careaga][Reformas institucionales que fracasan: el caso de la reforma reeleccionista en el Congreso mexicano 1964-1965]], por *Maite Careaga Tagüeña* (1996)
-- [[file:./textos/lasTesis.org::Emma][Un Congreso sin congresistas]] por *Emma Campos* (1996)
-- [[file:./textos/lasTesis.org::Adriana Sánchez][La conformación del bloque obregonista en la XXVII Legislatura y su relación con Carranza]], por *Adriana Sánchez López* (2014)
 ** Notas notables
+- [[https://www.npr.org/2018/01/02/550202212/utah-sen-orrin-hatch-announces-retirement-with-speculation-focused-on-romney][Senador de EE.UU. con 42 años en su asiento anuncia su retirada]], /National Public Radio/ (2/1/2018)
 - [[https://fivethirtyeight.com/features/the-last-hurrah-caucus-in-the-senate-now-has-the-power-to-kill-trumps-agenda/][The ‘Last Hurrah Caucus’ Now Has The Power To Kill Trump’s Agenda In The Senate]] por *Perry Bacon, Jr.* /FiveThirtyEight/ (25/10/2017)
-** La Suprema Corte y el /gerrymandering/ extremo en Wisconsin, caso de *grande* relevancia
 - [[http://electionlawblog.org/?p=95391][Of Steak Rubs and Symmetry: A Response to Justice Gorsuch]] por *Chris Elmendorf* y *Eric McGhee* (10/10/2017)
 - [[http://www.economist.com/news/united-states/21730008-justice-anthony-kennedys-line-questioning-suggests-court-may-decide-it-has?frsc=dg%7Ce][When politicians choose their voters]] /The Economist/ (7/10/2017)
 - [[https://fivethirtyeight.com/features/what-justice-kennedys-silence-means-for-the-future-of-gerrymandering/][What Justice Kennedy’s Silence Means For The Future Of Gerrymandering]] /FiveThirtyEight/ (4/10/2017)
@@ -125,18 +128,17 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 [[file:img/arts51y52cpeumOriginal.png]] 
 #+END_CENTER
 
-Alonso Lujambio y sus discípulos no se cansaron de recordar que la divisa maderista del 'Sufragio efectivo, no reelección' apuntó, exclusivamente, al poder ejecutivo. Su extensión al legislativo ocurrió quince años después de promulgada, con las reformas que cimentaron el partido de la Revolución. Consulte [[https://archivos.juridicas.unam.mx/www/legislacion/federal/leyes/1917.pdf][aquí]] la redacción original del texto aprobado en Querétaro.
+Alonso Lujambio y sus discípulos no se cansaron de recordar que la divisa maderista del 'Sufragio efectivo, no reelección' apuntó, exclusivamente, al poder ejecutivo. Su extensión al legislativo ocurrió quince años después de promulgada la constitución, como parte de las reformas que cimentaron el partido de la Revolución. Consulte [[https://archivos.juridicas.unam.mx/www/legislacion/federal/leyes/1917.pdf][aquí]] la redacción original del texto aprobado en Querétaro el 5 de febrero de 1917.
 
 --------------------------------------
-* Vínculos
-
+* Ligas
 - [[https://niskanencenter.org/blog/niskanen-centers-podcast/][Niskanen Center's political research digest]]
 - [[http://election.princeton.edu/][Princeton Election Consortium]]
 - [[http://fivethirtyeight.com/][fivethirtyeight.com]]
 - [[http://www.threehundredeight.com/][threehundredeight.com]]
 - [[http://electionlawblog.org/][Election law blog]]
 - [[https://fruitsandvotes.wordpress.com/][Fruits and votes]]
-- [[http://www.cses.org/][The comparative study of electoral systems]]
+- [[http://www.cses.org/][The Comparative Study of Electoral Systems]]
 - [[http://www.electiondataarchive.org/][Constituency-Level Elections Archive]]
 - [[http://data4.mx][data4]]
 
