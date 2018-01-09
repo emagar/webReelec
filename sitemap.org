@@ -21,6 +21,8 @@
      + [[file:textos/rendonCompLegis.org][La reelección legislativa consecutiva en México. ¿Qué esperar del comportamiento legislativo?]]
      + [[file:textos/juristasCruz.org][La tensión entre la paridad de género y la reelección]]
      + [[file:textos/daliaCeciWordcloud.org][Los tecnócratas neoporfiristas y la reelección]]
+     + [[file:textos/locBc.org][Mapa local de Baja California]]
+     + [[file:textos/locCol.org][Mapa local de Colima 2018]]
      + [[file:textos/resenhaCoahuila.org][Primeras campañas para reelegir diputados]]
      + [[file:textos/juristasFix.org][Reelección consecutiva y equidad en la competencia]]
      + [[file:textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]]
