@@ -74,161 +74,7 @@ El INE preparó mapas para elegir a los diputados de mayoría de los congresos d
 [[file:./locMex.org][Mapas]]
 
 ** Morelos
-*** Distrito 1, cabecera Cuernavaca
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor1-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor1-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 2, cabecera Cuernavaca
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor2-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor2-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 3, cabecera Tepoztlán
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor3-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor3-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 4, cabecera Yecapixtla
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor4-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor4-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 5, cabecera Temixco
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor5-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor5-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 6, cabecera Jiutepec
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor6-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor6-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 7, cabecera Cuautla
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor7-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor7-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 8, cabecera Xochitepec
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor8-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor8-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 9, cabecera Puente de Ixtla
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor9-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor9-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 10, cabecera Ayala
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor10-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor10-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 11, cabecera Jojutla
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor11-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor11-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
-
-*** Distrito 12, cabecera Yautepec
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor12-1.png]]
-
-#+ATTR_HTML: style="float:center;"
-#+ATTR_HTML: :width 50%
-[[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mor12-2.png]]
-
-[[#top_subtoc][Inicio distritos estatales]]
---------------------------------------------
+[[file:./locMor.org][Mapas]]
 
 ** Nayarit
 Elige 18 diputados de mayoría. El mapa actual se inauguró en la elección legistativa de 2017. Note como el mapa anterior (en uso desde 2005 por lo menos) tenía distritos no contiguos, apreciables vía el padre de los distritos (p.ej. en el mapa del distrito 13).
@@ -663,6 +509,15 @@ Elige 18 diputados de mayoría. El mapa actual se inauguró en la elección legi
 [[#top_subtoc][Inicio distritos estatales]]
 --------------------------------------------
 
+* Municipios
+En construcción.
+
+# ** Veracruz
+# De Templo Mayor 10-1-2018
+# Un nuevo Récord Guinness podría estarse gestando en el municipio de Tantoyuca, Veracruz: la misma familia ha gobernado esa localidad durante 6 años seguidos, y va por al menos 3 más.
+# La racha comenzó en el 2011 con Joaquín Guzmán Avilés, actual secretario de Desarrollo Agropecuario y Pesca de Miguel Ángel Yunes, quien -por cierto- ya había sido presidente municipal dos veces, de 1997 al 2000 y del 2004 al 2007.
+# Al terminar su periodo, Joaquín le entregó el poder para el trienio 2014-2017 a su hermano Jesús quien, a su vez, acaba de dejar el cargo el 1o. de enero en manos de Amado, oootro de los hermanos, quien fue elegido para el periodo 2018-2021.
+# Y, agárrense, porque dicen que ya se formó en esa fila su hermana María del Rosario, ex diputada local y actual senadora. Como van las cosas, al municipio le van a acabar cambiando el nombre a ¡Tantoyuca de los Guzmán!
 * Nota metodológica
 
 Los mapas que reportamos incluyen polígonos que obtuvimos de tres fuentes: (1) los preparados y distribuidos por el INE a través de su página de internet (url aquí); (2) los preparados y distribuidos por el IFE en disco compacto en 2014; y (3) los que preparamos directamente. El trasfondo de los mapas proviene de openstreetmaps.org.
