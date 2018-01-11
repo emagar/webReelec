@@ -28,6 +28,7 @@
      + [[file:textos/locMor.org][Mapa local de Morelos 2018]]
      + [[file:textos/locDf.org][Mapa local de la Ciudad de México 2018]]
      + [[file:textos/locMex.org][Mapa local del Estado de México 201]]
+     + [[file:textos/munMex.org][Municipios del Estado de México]]
      + [[file:textos/resenhaCoahuila.org][Primeras campañas para reelegir diputados]]
      + [[file:textos/juristasFix.org][Reelección consecutiva y equidad en la competencia]]
      + [[file:textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]]
