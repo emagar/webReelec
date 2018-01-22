@@ -7,6 +7,7 @@
      + [[file:textos/catanhoCheran.org][Cherán o un nuevo paradigma para el reconocimiento de la autodeterminación indígena en México]]
      + [[file:textos/clasicos.org][Clásicos sobre la reelección consecutiva]]
      + [[file:textos/lujambioPrecaria.org][Congresos Locales: Precaria institucionalidad]]
+     + [[file:textos/adolJRlicencias.org][El requisito de separación del cargo y la reelección consecutiva en 32 estados]]
      + [[file:textos/entrevHdzCruz.org][Entrevista a Armando Hernández Cruz]]
      + [[file:textos/entrevSilis.org][Entrevista a Arturo Espinosa Silis]]
      + [[file:textos/entrevNavarro.org][Entrevista a Fabiola Navarro]]
