@@ -4867,7 +4867,7 @@ Ficha bibTeX:
 La matriz que resume la reelección consecutiva y el calendario electoral de los estados desde 1994, en formatos excel y csv, está disponible [[http://dx.doi.org/10.7910/DVN/X2IDWS][aquí]].
 
 #+ATTR_HTML: :width 15%
-[[file:img/dataverse_project_logo-hp.png]]
+[[file:../img/dataverse_project_logo-hp.png]]
 
 Los datos radican en el repositorio de Harvard Dataverse, y por ende han recibido la Dedicación de Dominio Público CC0 para datos abiertos, común en la comunidad científica (para más detalles, visite la página del Creative Commons ([[http://creativecommons.org/about/cc0]]). Se espera que todo usuario de los datos dé el crédito debido siguiendo las políticas del Dataverse, disponibles [[http://dataverse.org/best-practices/dataverse-community-norms][aquí]]. 
 
@@ -5624,7 +5624,7 @@ Eric Magar (emagar at itam dot mx)
 ---------------------------------------------
 
 * Constituciones consultadas íntegras
-Consúltelas [[../../constEdos/][aquí]].
+Consúltelas [[../pdfs/constEdos/][aquí]]
 
 ---------------------------------------------
 * Fuentes consultadas
