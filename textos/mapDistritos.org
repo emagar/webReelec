@@ -511,6 +511,8 @@ Elige 18 diputados de mayoría. El mapa actual se inauguró en la elección legi
 
 
 * Municipios
+** Chiapas
+[[file:./munCps.org][Mapas]]
 ** Estado de México
 [[file:./munMex.org][Mapas]]
 

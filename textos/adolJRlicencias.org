@@ -57,7 +57,7 @@ Para que el lector pueda profundizar en este análisis, construimos una base de 
 
 En tercer lugar, se deshilvana con todo el detalle posible la legislación contenida en la Constitución local: si ésta exige o no la separación del cargo de presidente municipal o diputado local, y si hay ambigüedades al respecto. En cuarto lugar, se presenta algo similar para el caso de los Códigos electorales o Leyes de Instituciones y Procedimientos Electorales: si hay exigencia de pedir licencia o si sólo remiten a la Constitución local. Finalmente damos, en un breve comentario, los detalles relevantes del requisito de licencia en el estado. 
 
-Al respecto, sólo queda por añadir que hemos recopilado las [[../pdfs/constEdos/][constituciones]] así como las [[link][leyes electorales]] de todos los estados en versión PDF para quien quiera extraer más detalle (la base de datos lista los artículos que consideramos relevantes). 
+Al respecto, sólo queda por añadir que hemos recopilado las [[../pdfs/constEdos/][constituciones]] así como las [[../pdfs/leyesElecEdos/][leyes electorales]] de todos los estados en versión PDF para quien quiera extraer más detalle (la base de datos lista los artículos que consideramos relevantes). 
 
 * Las elecciones de 2018
 

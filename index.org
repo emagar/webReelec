@@ -1,6 +1,6 @@
 #+TITLE: Reelección consecutiva en México
 #+AUTHOR: Eric Magar
-#+DATE:  <2018-01-03>
+#+DATE:  <2018-01-29>
 #+OPTIONS: toc:nil # don't place toc in default location
 #+LANGUAGE: es
 
@@ -81,9 +81,10 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 # # #+ATTR_HTML: style="float:right;"
 # # #+ATTR_HTML: :width 15%
 # # [[./textos/instituciones.org][file:img/gooReel.png]]
-# - [[./textos/daliaCeciWordcloud.org][Los tecnócratas neoporfiristas y la reelección]], por *Cecilia Cabello Esquer* y *Dalia Rincón Altamirano* (1/12/2017)
 # - [[./textos/daniHumbertDSI.org][Los DSI]], por *Daniel Saavedra Lladó* y *Humberto Trejo* (10/1/2018)
-- [[./textos/adolJRlicencias.org][El requisito de separación del cargo y la reelección consecutiva en 32 estados]] por *Adolfo Ramírez* y *Juan Ramón Moreno* (22/1/2018)
+# - [[./textos/adolJRlicencias.org][El requisito de separación del cargo y la reelección consecutiva en 32 estados]] por *Adolfo Ramírez* y *Juan Ramón Moreno* (22/1/2018)
+- [[./textos/daliaCeciWordcloud.org][Los tecnócratas neoporfiristas y la reelección]], por *Cecilia Cabello Esquer* y *Dalia Rincón Altamirano* (29/1/2018)
+- [[./textos/zabiVero1928.org][La redistritación de 1928, pieza faltante de la construcción del Estado moderno mexicano]], por *Verónica Navarrete* y *Zabel Revuelta* (26/1/2018)
 - [[./textos/claudiaCdMx.org][Efectos políticos de la eliminación de siete distritos de la CDMX]], por *Claudia Cervantes Pérez* (2/1/2018)
 - [[./textos/mapDistritos.org][Mapas de los distritos legislativos de México]], por *Eric Magar* (17/12/2017)
 - [[./textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]], por *Samuel González Cataño* (22/11/2017)

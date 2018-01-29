@@ -1,6 +1,6 @@
 #+TITLE: Los tecnócratas neoporfiristas y la reelección
 #+AUTHOR: Eric Magar
-#+DATE:  <2017-12-01 Fri>
+#+DATE:  <2018-01-29 Mon>
 #+OPTIONS: toc:nil # don't place toc in default location
 # # will change captions to Spanish, see https://lists.gnu.org/archive/html/emacs-orgmode/2010-03/msg00879.html
 #+LANGUAGE: es 
@@ -27,12 +27,11 @@ Paradoja: /el itamita en general, y los economistas y abogados en particular, se
 
 [[file:../img/dcWordcloud.png]]
 
-Con la inminente entrada en vigor de la reelección consecutiva de legisladores y alcaldes nos preguntamos por la opinión que de esta institución tienen los estudiantes del ITAM. Si los itamitas somos la reencarnación de la tecnocracia neoporfirista---como nos ha venido calificando la izquierda---es esperable que nuestro apoyo a la reelección no titubee, como seguramente fuera el caso entre los Científicos de antaño.
+Con la inminente entrada en vigor de la reelección consecutiva de legisladores y alcaldes nos preguntamos por la opinión que de esta institución tienen los estudiantes del ITAM. Si los itamitas somos la reencarnación de la tecnocracia neoporfirista---como nos ha venido calificando la izquierda---es esperable que nuestro apoyo a la reelección no titubee, como seguramente fuera el caso entre los /Científicos/ de antaño.
 
-Que casi todas las democracias del mundo permitan la reelección de sus legisladores no es impedimento para que las opiniones se dividan. Para un grupo la reelección, sin ser panacea, genera condiciones propicias para una mejor rendición de cuentas, además de darle una mayor continuidad y estabilidad al gobierno y, en específico, a sus proyectos. Para otro establece la posibilidad que unos pocos se eternicen en el poder. 
+Que casi todas las democracias del mundo permitan la reelección de sus legisladores no es impedimento para que las opiniones se dividan. Para un grupo la reelección, sin ser panacea, genera condiciones propicias para una mejor rendición de cuentas, además de darle una mayor continuidad y estabilidad al gobierno y, en específico, a sus proyectos. Para otro, establece la posibilidad que unos pocos se eternicen en el poder. 
 
-Durante las dos primeras semanas de septiembre (terminamos antes del terremoto), registramos la reacción espontánea de alumnos del ITAM al plantear la noción de la reelección consecutiva. En específico, preguntamos por hasta tres palabras que les vinieran a la mente. Preguntamos también por el conocimiento de la reforma electoral que introdujo el cambio en 2014, el partidismo, la carrera cursada, y otras características para elaborar un perfil del entrevistado (el cuestionario aparece al final de esta nota). Circulamos el cuestionario de /Google Forms/ a través de redes sociales (/Facebook/ y /Twitter/, principalmente). Obtuvimos 243 respuestas. 
-
+Durante las dos primeras semanas de septiembre 2017 (terminamos antes del terremoto), registramos la reacción espontánea de alumnos del ITAM al plantear la noción de la reelección consecutiva. En específico, preguntamos por hasta tres palabras que les vinieran a la mente. Preguntamos también por el conocimiento de la reforma electoral que introdujo el cambio en 2014, el partidismo, la carrera cursada, y otras características para elaborar un perfil del entrevistado (el cuestionario aparece al final de esta nota). Circulamos el cuestionario de /Google Forms/ a través de redes sociales (/Facebook/ y /Twitter/, principalmente). Obtuvimos 243 respuestas. 
 
 #+CAPTION: Composición de la muestra
 #+NAME:   tab:1
@@ -66,48 +65,48 @@ Durante las dos primeras semanas de septiembre (terminamos antes del terremoto),
 | total      |       100 |     100 |     |
 | (N)        |     (243) | (5,510) |     |
 
-Nuestra muestra se autoseleccionó. Está lejos de ser aleatoria, pero ofrece una perspectiva interesante del alumnado itamita. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro [[tab:1]] describe a los que contestaron. Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. Que somos estudiantes de ciencia política y movilizamos activamente a nuestras redes inmediatas en busca de respuestas es patente en la casi tercera parte que representan los compañeros politólogos en la muestra. La sobrerrepresentación alcanza 24 puntos respecto del peso relativo en la población de la universidad (la columna derecha del cuadro reporta estudiantes de licenciatura del ITAM). Los internacionalistas tienen 5 puntos de sobrerrepresentación, mientras que los economistas y abogados están más o menos balancados. La subrepresentación recae en las demás carreras (un déficit de 30 puntos). Dos de cada cinco entrevistados se declaró independiente y uno de cada tres simpatizante del PAN.[fn:1] Si la primera de las cifras anteriores pareciera estar en sintonía con la opinión pública, la segunda está inflada en detrimento del PRI y de Morena.  
+Nuestra muestra se autoseleccionó. Está lejos de ser aleatoria, pero ofrece una perspectiva interesante del alumnado itamita. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro [[tab:1]] describe a quienes contestaron. Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. Que somos estudiantes de ciencia política y movilizamos activamente a nuestros círculos inmediatos es patente en la casi tercera parte que representan los compañeros politólogos en la muestra. La sobrerrepresentación alcanza 24 puntos respecto del peso relativo en la población de la universidad (la columna derecha del cuadro reporta estudiantes de licenciatura del ITAM). Los internacionalistas tienen 5 puntos de sobrerrepresentación, mientras que los economistas y abogados están más o menos balanceados. La subrepresentación recae en las demás carreras (un déficit de 30 puntos). Dos de cada cinco entrevistados se declaró independiente y uno de cada tres simpatizante del PAN.[fn:1] Si la primera de las cifras anteriores pareciera estar en sintonía con la opinión pública, la segunda está inflada en detrimento del PRI y de Morena.  
 
 
 #+CAPTION: ¿Cómo se siente cada partido?
 #+NAME:   fig:1
 [[file:../img/dcFig5.png]]
 
-Clasificamos las palabras expresadas en tres categorías: las de clara connotación positiva de la reelección ("rendición de cuentas" es un ejemplo); las de clara connotación negativa ("corrupción"); y las neutras o ambiguas.[fn:2] Alrededor del 45 por ciento de las menciones ante la reelección fueron positivas, 25 por ciento negativas y 30 neutrales o ambiguas. Si predominó el optimismo, hubo también diferencias importantes entre grupos. Se observa en la gráfica [[fig:1]] que la categoría residual/neutral predomina entre los apartidistas. Sorprende que el mayor porcentaje de reacciones positivas hacia la reelección lo presentaron los simpatizantes de Morena---más de la mitad, unos 10 puntos arriba de todos los demás grupos partidistas. Los morenistas también produjeron el menor número de menciones neutrales lo cual, conjugado con lo anterior, se traduce en una polarización más aguda que entre los demás partidos. Entre itamitas, por lo menos, los morenistas son el grupo más heterogéneo. También llama la atención la similitud entre panistas y perredistas, quizás un buen augurio para el Frente que intentan formar para 2018. Y que entre los independientes las menciones negativas fueran tres y media veces menos frecuentes que las neutrales. 
+Clasificamos las palabras expresadas en tres categorías: las de clara connotación positiva de la reelección ("rendición de cuentas" es un ejemplo); las de clara connotación negativa ("corrupción"); y las neutras o ambiguas.[fn:2] Alrededor del 45 por ciento de las menciones fueron positivas, 25 por ciento negativas y 30 neutrales o ambiguas. Si predominó el optimismo, hubo también diferencias importantes entre grupos. Se observa en la gráfica [[fig:1]] que la categoría residual/neutral predomina entre los apartidistas. Sorprende que el mayor porcentaje de reacciones positivas hacia la reelección lo presentaron los simpatizantes de Morena---más de la mitad, unos 10 puntos arriba de todos los demás grupos partidistas. Los morenistas también produjeron el menor número de menciones neutrales lo cual, conjugado con lo anterior, se traduce en una polarización más aguda que entre los demás partidos. Entre itamitas, por lo menos, los morenistas son el grupo más heterogéneo. También llama la atención la similitud entre panistas y perredistas, quizás un buen augurio para el Frente que intentan formar para 2018. Y que entre los independientes las menciones negativas fueran tres y media veces menos frecuentes que las neutrales. 
 
 #+CAPTION: Connotación de palabras relacionadas con reelección por carrera
 #+NAME:   fig:2
 [[file:../img/dcFig4.png]]
 
-En cuanto a la gráfica [[fig:2]], revela que casi dos tercios de los politólogos le dieron una connotación positiva a la reelección, y menos de 15 por ciento una negativa. Esto se traduce en una aprobación neta (positivos menos negativos) de +50 puntos. Menos optimistas, pero con un perfil de opinión parecido, los internacionalistas alcanzaron una aprobación neta de +36. Esto contrasta con los economistas, abogados y demás estudiates que presentaron un aprobaciones netas de +2, -15 y -5, respectivamente. También entre sexos hay diferencias, observables en la gráfica [[fig:3]]. La aprobación neta entre mujeres es +5, más moderada que el +24 de los hombres. Unos y otros tuvieron alrededor de una cuarta parte de menciones neutrales/ambiguas. 
+En cuanto a la gráfica [[fig:2]], revela que casi dos tercios de los politólogos le dieron una connotación positiva a la reelección, y menos de 15 por ciento una negativa. Esto se traduce en una aprobación neta (positivos menos negativos) de +50 puntos. Menos optimistas, pero con un perfil de opinión parecido, los internacionalistas alcanzaron una aprobación neta de +36. Esto contrasta con los economistas, abogados y demás estudiates que presentaron aprobaciones netas de +2, -15 y -5, respectivamente. También entre sexos hay diferencias, observables en la gráfica [[fig:3]]. La aprobación neta entre mujeres es +5, más moderada que el +24 de los hombres. Unos y otros tuvieron alrededor de una cuarta parte de menciones neutrales/ambiguas. 
 
 #+CAPTION: ¿Mujeres o hombres más de acuerdo?
 #+NAME:   fig:3
 [[file:../img/dcFig3.png]]
 
-Las palabras más socorridas en la reacción espontánea de los itamitas aparecen en el cuadro [[tab:2]]. Destaca don Porfirio, que encabeza con cerca de 5 por ciento de las menciones---quizás menos de las que se esperaría dado que figura en los libros de texto. Es también notable que los dos términos que siguen en recurrencias, y que juntos alcanzan 8 por ciento de las menciones, son de corte positivo: democracia y rendición de cuentas. El que este último se manifestara en inglés sugiere que lo aportaron muchos politólogos bajo la influencia de la literatura académica de su carrera.
+Las palabras más socorridas en la reacción espontánea de los itamitas aparecen en el cuadro [[tab:2]]. Destaca don Porfirio, que encabeza con cerca de 5 por ciento de las menciones---quizás menos de las que se esperaría dado cómo figura en los libros de texto. Es también notable que los dos términos que siguen en recurrencias, y que juntos alcanzan 8 por ciento de las menciones, son de corte positivo: democracia y rendición de cuentas. El que este último se manifestara en inglés sugiere que lo aportaron muchos politólogos bajo la influencia de la literatura académica de su carrera.
 
 #+CAPTION: Los términos más repetidos
 #+NAME:   tab:2
 |                  | Frec. | +  | ? | -- |
 |------------------+-------+----+---+----|
 | Porfirio Díaz    |    5% |    |   | X  |
-| Democracia       |    4% | X  |   |    |
-| Accountability   |    4% | X  |   |    |
-| Presidencia      |    3% |    | X |    |
-| Fraude           |    2% |    |   | X  |
-| Corrupción       |    2% |    |   | X  |
+| democracia       |    4% | X  |   |    |
+| /Accountability/ |    4% | X  |   |    |
+| presidencia      |    3% |    | X |    |
+| fraude           |    2% |    |   | X  |
+| corrupción       |    2% |    |   | X  |
 | Madero           |    2% |    |   | X  |
-| Política         |    2% |    | X |    |
+| política         |    2% |    | X |    |
 | Revolución       |    2% |    |   | X  |
-| Bueno            |    2% | X  |   |    |
+| bueno            |    2% | X  |   |    |
 | Estados Unidos   |    2% |    | X |    |
-| Reforma          |    2% |    | X |    |
-| Poder            |    2% |    | X |    |
+| reforma          |    2% |    | X |    |
+| poder            |    2% |    | X |    |
 | PRI              |    1% |    |   | X  |
-| Dictadura        |    1% |    |   | X  |
-| Ratificación     |    1% | X  |   |    |
-| Inconstitucional |    1% |    |   | X  |
+| dictadura        |    1% |    |   | X  |
+| ratificación     |    1% | X  |   |    |
+| inconstitucional |    1% |    |   | X  |
 |------------------+-------+----+---+----|
 | Suma             |   40% | 11 |   | 16 |
 
@@ -163,12 +162,9 @@ Carrera. Si estás en un plan conjunto o simultáneo selecciona ambas carreras.
 - [ ] Ingeniería Industrial
 - [ ] Otra
 
-Sexo:
-Masculino
-Femenino
+Sexo: Masculino o Femenino
 
 Estado de procedencia:
-
 
 ¿Con cuál partido político simpatizas?
 - [ ] PRI 
@@ -190,4 +186,5 @@ Si contestaste alguno, ¿qué tanto simpatizas con tu partido?
 
 [fn:1] Las mujeres de nuestra muetra simpatizan más con el PAN que los hombres. Dado que levantamos la encuesta antes de la renuncia de Margarita Zavala al PAN, sería interesante ver si estos resultados se sostienen al día de hoy. 
 
-[fn:2] Toda clasificación tiene un grado de arbitrariedad. Por ello le pedimos a un grupo de 16 compañeros que repitiera la clasificación para convencernos de su validez. (Reporten aquí la correspondencia con demás en grupo.) 
+[fn:2] Toda clasificación tiene un grado de arbitrariedad. Por ello le pedimos a un grupo de 16 compañeros que repitiera la clasificación para convencernos de su validez. A petición del lector, podemos reportar la consistencia entre re-codificaciones. Mande un mail a [[cecicabes@gmail.com]] o [[dalia94@gmail.com]].
+
