@@ -1,6 +1,6 @@
-#+TITLE: El requisito de separación del cargo y la reelección consecutiva en 32 estados
+#+TITLE: Requisitos de separación del cargo y reelección consecutiva en 32 estados
 #+AUTHOR: Eric Magar
-#+DATE:  <2018-01-22 Mon>
+#+DATE:  <2018-01-29 Mon>
 #+OPTIONS: toc:nil # don't place toc in default location
 # # will change captions to Spanish, see https://lists.gnu.org/archive/html/emacs-orgmode/2010-03/msg00879.html
 #+LANGUAGE: es 
@@ -23,8 +23,9 @@ y
 # #+LINK_UP: index.html
 [[../index.html][Arriba/up]]
 
-[AQUI UN VINCULO A LA BASE DE DATOS]
-
+|---------------+----------------------------------------------------------------+--------------|
+| $\rightarrow$ | [[file:../data/instLics.xls][Obtén *aquí* la base de datos de este artículo (formato excel)]] | $\leftarrow$ |
+|---------------+----------------------------------------------------------------+--------------|
 
 Pensemos en las elecciones de 2024. Ese año, todos los ocupantes de ayuntamientos (excepto en Hidalgo y Veracruz, vea [[file:./instituciones.org][esto]]) y diputaciones locales cuyos periodos concluyan, así como los diputados federales y senadores, estarán legalmente habilitados para competir por la reelección consecutiva. Aunque se trata de algo común en las democracias del mundo, será la primera vez en casi un siglo que esto ocurra en México. Sin embargo, hay una particularidad en esta institución que promete crear fricciones y tensiones en el proceso: la licencia. Contra la lógica y la práctica en el resto del mundo, más de la mitad de los ocupantes estarán obligados a pedir licencia de su cargo para$\ldots$ reelegirse en ese puesto. Exploramos en este texto la separación del cargo y la reelección consecutiva a nivel subnacional. Describimos su estructura legal, sus posibles efectos y sus áreas de oportunidad.
 

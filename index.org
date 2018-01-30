@@ -82,11 +82,11 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 # # #+ATTR_HTML: :width 15%
 # # [[./textos/instituciones.org][file:img/gooReel.png]]
 # - [[./textos/daniHumbertDSI.org][Los DSI]], por *Daniel Saavedra Lladó* y *Humberto Trejo* (10/1/2018)
-# - [[./textos/adolJRlicencias.org][El requisito de separación del cargo y la reelección consecutiva en 32 estados]] por *Adolfo Ramírez* y *Juan Ramón Moreno* (22/1/2018)
+- [[./textos/adolJRlicencias.org][Requisitos de separación del cargo y reelección consecutiva en 32 estados]], por *Adolfo Ramírez* y *Juan Ramón Moreno* (29/1/2018)
 - [[./textos/daliaCeciWordcloud.org][Los tecnócratas neoporfiristas y la reelección]], por *Cecilia Cabello Esquer* y *Dalia Rincón Altamirano* (29/1/2018)
 - [[./textos/zabiVero1928.org][La redistritación de 1928, pieza faltante de la construcción del Estado moderno mexicano]], por *Verónica Navarrete* y *Zabel Revuelta* (26/1/2018)
 - [[./textos/claudiaCdMx.org][Efectos políticos de la eliminación de siete distritos de la CDMX]], por *Claudia Cervantes Pérez* (2/1/2018)
-- [[./textos/mapDistritos.org][Mapas de los distritos legislativos de México]], por *Eric Magar* (17/12/2017)
+- [[./textos/mapDistritos.org][Mapas de (algunos) distritos electorales de México]], por *Eric Magar* (17/12/2017)
 - [[./textos/catanhoLicenciasYuc.org][Reelección, equidad y licencias en Yucatán]], por *Samuel González Cataño* (22/11/2017)
 - [[./textos/juristasCruz.org][La tensión entre la paridad de género y la reelección]], por *Patricia Cruz Marín* y *Gretel Calleros Arellano* (6/7/2017)
 - [[./textos/mxDecada1920.org][Antecedentes de la reelección legislativa en México]], por *Javier Cote*, *Valeria Guerrero* y *Teresa Ruiz* (6/7/2017)
@@ -114,7 +114,7 @@ Este sitio está dedicado a reseñar la entrada en vigor de la reelección conse
 - [[./textos/clasicos.org][Libros infaltables en la biblioteca]] (*cómprelos*)
 ** Notas notables
 - [[https://www.npr.org/2018/01/02/550202212/utah-sen-orrin-hatch-announces-retirement-with-speculation-focused-on-romney][Senador de EE.UU. con 42 años en su asiento anuncia su retirada]], /National Public Radio/ (2/1/2018)
-- [[https://fivethirtyeight.com/features/the-last-hurrah-caucus-in-the-senate-now-has-the-power-to-kill-trumps-agenda/][The ‘Last Hurrah Caucus’ Now Has The Power To Kill Trump’s Agenda In The Senate]] por *Perry Bacon, Jr.* /FiveThirtyEight/ (25/10/2017)
+# - [[https://fivethirtyeight.com/features/the-last-hurrah-caucus-in-the-senate-now-has-the-power-to-kill-trumps-agenda/][The ‘Last Hurrah Caucus’ Now Has The Power To Kill Trump’s Agenda In The Senate]] por *Perry Bacon, Jr.* /FiveThirtyEight/ (25/10/2017)
 - [[http://electionlawblog.org/?p=95391][Of Steak Rubs and Symmetry: A Response to Justice Gorsuch]] por *Chris Elmendorf* y *Eric McGhee* (10/10/2017)
 - [[http://www.economist.com/news/united-states/21730008-justice-anthony-kennedys-line-questioning-suggests-court-may-decide-it-has?frsc=dg%7Ce][When politicians choose their voters]] /The Economist/ (7/10/2017)
 - [[https://fivethirtyeight.com/features/what-justice-kennedys-silence-means-for-the-future-of-gerrymandering/][What Justice Kennedy’s Silence Means For The Future Of Gerrymandering]] /FiveThirtyEight/ (4/10/2017)

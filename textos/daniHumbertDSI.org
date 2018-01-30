@@ -1,6 +1,6 @@
 #+TITLE: Impacto de la intervención de un actor nacional en la política local: la redistritación
 #+AUTHOR: Eric Magar
-#+DATE:  <2018-01-10>
+#+DATE:  <2018-01-29>
 #+OPTIONS: toc:nil # don't place toc in default location
 # # will change captions to Spanish, see https://lists.gnu.org/archive/html/emacs-orgmode/2010-03/msg00879.html
 #+LANGUAGE: es 
@@ -11,9 +11,11 @@
 #+BEGIN_CENTER
 por
 
-*Daniel Saavedra Lladó* y *Humberto Trejo*
+*Daniel Saavedra Lladó* 
 
+y 
 
+*Humberto Trejo*
 #+END_CENTER
 
 #+OPTIONS: broken-links:mark
@@ -38,9 +40,9 @@ Bajo la sospecha de que los gobernadores influían indebida y sistemáticamente 
 
 El INE llevó a cabo el proceso de redistritación de los 31 estados y la Ciudad de México entre 2014 y 2017. El proceso de redistritación consiste en 3 etapas (Trelles, Altman, Magar y McDonald 2016). En la primera, la dirección de cartografía delINE presentó a los representantes de los partidos un borrador del mapa (llamado primer escenario). Los partidos, tanto locales como nacionales, hacen observaciones al borrador. Los cartógrafos pueden o no tomar en cuenta las observaciones al elaborar el segundo escenario. Este proceso de observaciones se repite para elaborar el tercer escenario que tiene que ser aprobado por el Consejo General, órgano rector del INE.
 
-En la elaboración del mapa, se utiliza un proceso automatizado que busca minimizar una función de costo. Dicha función considera cuatro criterios: la equidad poblacional entre distritos, la integridad de los municipios pertenecientes a un distrito, la reducción de los tiempos de traslado en el territorio del distrito, y la compacidad (formas regulares). El criterio para adoptar las observaciones partidistas: se rechazan las que no consigan mejorar la función de costo del mapa. Además, hay restricciones inviolables en el proceso de optimización: los distritos no cruzan fronteras estatales, respetan comunidades indígenas, y los distritos son exhaustivos y mutuamente excluyentes. 
+En la elaboración del mapa, se utiliza un proceso automatizado que busca minimizar una función de costo. Dicha función considera siete criterios: la equilibrio poblacional según el número de distritos electorales en la legislación de cada estado, la equidad poblacional buscando equilibrar el número de habitantes en los distritos, distritos integrados en municipios de con al menos 40% de población indígena, integridad de los municipios, compacidad de los distritos o fronteras parecidas a polígonos regulares, la reducción de los tiempos de traslado en el territorio del distrito, continuidad geográfica. 
 
-Por último, el proceso descrito puede remplazarse cuando los partidos proponen unánimemente un mapa alterno al que preparan los cartógrafos (el llamado “criterio 8”).  
+Por último, el proceso descrito puede detenerse utilizando el criterio 8, este criterio toma en cuenta los factores socioeconómicos y accidentes geográficos. Puede usarse cuando se cumplen los 7 criterios mencionados anteriormente y se llega a un consenso por parte de los partidos políticos en la Comisión Nacional de Vigilancia.  
 
 Al elaborar un nuevo mapa distrital, los actores involucrados en el proceso persiguen objetivos múltiples, a menudo velados e inevitablemente contradictorios entre sí. Partimos de la premisa que la mudanza de actores locales por actores nacionales en la redistritación cambió de manera sustancial la gama de intereses que reflejan los mapas. Los distritos de cada estado que heredó el INE variaban enormemente unos de otros. Pero todos, sin excepción, compartían el atributo de haber sido dibujados, en su momento, por los institutos electorales locales o los congresos de los estados. Y, si bien los partidos estatales intervinieron en el proceso, los mapas nuevos los trazó el actor nacional. 
 
@@ -72,42 +74,49 @@ Podemos observar que el distrito más disímil con su padre es en # de ESTADO (c
 
 De la misma manera, los cuartiles de la distribución se encuentra en los valores del índice de 0.3650, 0.5200 y 0.6980. La media se encuentra en 0.5431.
 
-[Manda el png de la gráfica.]
-Gráfica 1: Distribución por cuartil del DSI.
+#+CAPTION: Histograma del DSI con una curva normal superpuesta
+#+ATTR_HTML: style="float:center;"
+#+ATTR_HTML: :width 40%
+[[file:https://github.com/emagar/webReelec/blob/master/textos/danielHumberto/graf.png]]
 
-[Manda el png de la gráfica. Checa https://stackoverflow.com/questions/20078107/overlay-normal-curve-to-histogram-in-r]
-Gráfica 2: Histograma del DSI con una curva normal superpuesta
+[Ojo: Suban el código con que hicieron el histograma para cambiar la unidad y de la curva normal. Checa https://stackoverflow.com/questions/20078107/overlay-normal-curve-to-histogram-in-r]
 
+#+CAPTION: El distrito 13 de Nayarit
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
 [[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay13-2.png]]
 
 En el primer cuartil se encuentra un distrito similar al 14 de Nayarit, con cabecera en Xalisco, con DSI = 0.289. El distrito hijo cuenta con las secciones que formaban la porción sur del distrito padre, en el/los municipio/s de XXX, y perdió la parte norte, en los municipios de XXX. Esto muestra que el nuevo distrito comparte una pequeña porción del antiguo; por lo tanto, en una elección, el candidato que buscaría reelegirse solo repetiría un pequeño porcentaje de su antiguo electorado, se perdería la ventaja que implica ser incumbent -y el conocimiento dentro del distrito-, por lo que, se sugeriría que es más probable la alternancia.
 
+#+CAPTION: El distrito 14 de Nayarit
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
 [[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay14-2.png]]
 
 En el segundo cuartil se encuentra el distrito 7 de Nayarit con cabecera en Tepic, este nuevo distrito tiene un DSI de 0.418. Este distrito perdió parte de la ciudad capital y la parte este del padre, ganando la parte norte del distrito.  A pesar de que el porcentaje del nuevo distrito que comparte con el nuevo es mayor que en el mapa anterior, sigue siendo menos de la mitad; al igual que en el caso anterior, en una elección, el candidato que buscaría la elección solo repetiría un pequeño porcentaje de su antiguo electorado, por lo que, en este caso también se podría sugerir que es más probable la alternancia.
 
+#+CAPTION: El distrito 7 de Nayarit
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
 [[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay7-2.png]]
 
 En el tercer cuartil encontramos al distrito 12 con cabecera en Tepic y un DSI de 0.622. Este distrito ganó la parte este y perdió la parte oeste del distrito padre.  En este caso, ya más de la mitad del distrito es compartido por el viejo, por lo que, bajo nuestros supuestos, la probabilidad de alternancia se reduce.
 
+#+CAPTION: El distrito 12 de Nayarit
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
 [[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay12-2.png]]
 
 En el último cuartil tenemos al distrito 1 con cabecera en Acaponeta. Este distrito tiene un DSI de 0.77. Mantiene las fronteras del distrito padre y tiene una ganancia en la parte sur del nuevo distrito.  A diferencia de los mapas anteriores, en este caso, el porcentaje del distrito viejo que cambió con el nuevo es muy pequeño, por lo que, el electorado se comportaría básicamente como si fuese un incumbent y la probabilidad de reelección sería alta.
 
+#+CAPTION: El distrito 1 de Nayarit
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
 [[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay1-2.png]]
 
 Un distrito con DSI = 1 es el 33 de la Ciudad de México, que se encuentra en la Magdalena Contreras. Este distrito mantiene la misma configuración de secciones que su distrito padre, así como sus fronteras, pese a la reducción de 40 a 33 distritos electorales locales consecuencia de la reforma del Distrito Federal aprobada en 2015 y la Constitución para la Ciudad. Se esperaría que el diputado que ocupa la oficina resulte reelecto con facilidad, ya que no cambian las secciones que integran su distrito.  
 
+#+CAPTION: El distrito 33 de la CDMX
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
 [[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/df33-2.png]]
@@ -115,54 +124,63 @@ Un distrito con DSI = 1 es el 33 de la Ciudad de México, que se encuentra en la
 
 #+CAPTION: Distribución del DSI por Estado
 #+NAME:   tab:2
-| Estado              | 1er cuartil | mediana | 3er cuartil | N. distritos |
-|---------------------+-------------+---------+-------------+--------------|
-| Aguascalientes      |     0.35175 |   0.619 |      0.7985 |           18 |
-| Baja California     |       0.382 |   0.482 |       0.611 |           17 |
-| Baja California Sur |      0.3085 |  0.4105 |     0.47125 |           16 |
-| Campeche            |       0.364 |   0.567 |        0.96 |           21 |
-| Coahuila            |     0.39375 |   0.553 |      0.7045 |           16 |
-| Chiapas             |     0.32675 |  0.3795 |      0.5795 |           16 |
-| Chihuahua           |      0.3315 |  0.5045 |      0.6965 |           24 |
-| Guanajuato          |      0.3535 |   0.438 |     0.58325 |           22 |
-| Guerrero            |      0.9975 |       1 |           1 |           28 |
-| Michoacán           |      0.5185 |   0.718 |     0.86525 |           24 |
-| Oaxaca              |       0.435 |   0.593 |       0.684 |           25 |
-| Tabasco             |       0.382 |   0.581 |       0.691 |           21 |
-| Veracruz            |       0.028 |   0.032 |       0.036 |           30 |
+| Estado              |  DSI25 | DSImediana |  DSI75 | num_distritos |
+| Aguascalientes      | .35175 |       .619 |  .7985 |            18 |
+| Baja California     |   .382 |       .482 |   .611 |            17 |
+| Baja California Sur |  .3085 |      .4105 | .47125 |            16 |
+| Campeche            |   .364 |       .567 |    .96 |            21 |
+| Coahuila            | .39375 |       .553 |  .7045 |            16 |
+| Chiapas             | .32675 |      .3795 |  .5795 |            16 |
+| Chihuahua           |  .3315 |      .5045 |  .6965 |            24 |
+| DF                  |   .568 |       .668 |   .794 |            33 |
+| Durango             | .29525 |      .3555 | .48325 |            16 |
+| Guanajuato          |  .3535 |       .438 | .58325 |            22 |
+| Guerrero            |  .9975 |          1 |      1 |            28 |
+| Hidalgo             |  .3495 |      .5095 |  .6065 |            18 |
+| Jalisco             | .48225 |       .626 | .80775 |            20 |
+| México              |   .356 |       .495 |   .551 |            45 |
+| Michoacán           |  .5185 |       .718 | .86525 |            24 |
+| Morelos             | .35825 |      .4695 |   .533 |            12 |
+| Nayarit             |  .3065 |       .525 |   .665 |            18 |
+| Nuevo León          | .33625 |       .441 | .66825 |            26 |
+| Oaxaca              |   .435 |       .593 |   .684 |            25 |
+| Puebla              |  .3855 |      .6395 | .84125 |            26 |
+| Querétaro           |   .352 |       .462 |  .7025 |            15 |
+| San Luis Potosí     |  .5825 |       .718 |      1 |            15 |
+| Tabasco             |   .382 |       .581 |   .691 |            21 |
+| Tlaxcala            |   .499 |       .656 |  .7445 |            15 |
+| Veracruz            |   .028 |       .032 |   .036 |            30 |
+| Zacatecas           | .37775 |       .503 | .83925 |            18 |
 
-[Escribe bien esto]
-Con ayuda de una sencilla regresión, analizamos el impacto del criterio 8, que es usado para detener el proceso de redistritación al momento que los partidos políticos llegan a un acuerdo, en el nivel del DSI. En este modelo tenemos como variable dependiente al índice DSI y como variable independiente a una dummy que vale 1 cuando se usó criterio 8 para detener el proceso. 
-lm(formula = dsi ~ dcrit8, data = all)
+* El criterio 8
 
-Residuals:
-     Min       1Q   Median       3Q      Max 
--0.46354 -0.16654  0.00546  0.15496  0.52046 
+Identificamos los estados en los que se utilizó el criterio 8 para detener el proceso al llegar a un consenso, y analizamos el impacto de utilizar este criterio en el índice de DSI. Para analizar la relación usamos un modelo de regresión lineal con el índice DSI como variable dependiente y una dummy con valor de 1 para los estados donde se usó el criterio 8.
+    
+#+CAPTION: Un modelo de regresión. La variable es el DSI del distrito. 
+#+NAME:   tab:3
+|            | Coeficiente | Error est. | valor p |
+|------------+-------------+------------+---------|
+| Constante  |        .480 |       .016 |   <.001 |
+| Criterio 8 |        .511 |       .052 |   <.001 |
+|------------+-------------+------------+---------|
+| $R^2$      |         .26 |            |         |
+| F(1,282)   |       96.29 |            |   <.001 |
+| N. obs     |         284 |            |         |
 
-Coefficients:
-            Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  0.47954    0.01635  29.336   <2e-16 ***
-dcrit8       0.51085    0.05206   9.813   <2e-16 ***
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 0.2615 on 282 degrees of freedom
-Multiple R-squared:  0.2545,	Adjusted R-squared:  0.2519 
-F-statistic: 96.29 on 1 and 282 DF,  p-value: < 2.2e-16
-
-El coeficiente de la variable del criterio 8 es de 0.51085 y es significativo al 99%, por lo que cuando se usa el criterio 8 para detener el proceso de redistritación, el índice DSI aumenta en 51.085%. Es decir, los estados donde se usó criterio 8, mantienen un mapa que preserva la similitud entre los distritos padres e hijos a comparación de los estados donde se completó el proceso.
+El coeficiente de la regresión es de 0.51085 y es significativo al 99%, esto quiere decir que al usar el criterio 8, el índice de similitud distrital aumenta en 0.51085, es decir, al llegar a un acuerdo en la Comisión de Vigilancia el nuevo mapa se parece más al mapa vigente antes de iniciar el proceso de redistritación, esperando que los mapas donde no se utilizó el criterio 8 tengan más diferencias que los previos. El consenso al que se llega puede interpretarse como el trabajo de representación que ya llevan realizado los diferentes partidos en el estado en cuestión, llegando a intercambios entre partidos para que no arriesguen sus bastiones.
 
 
 
+* Referencias
 
-Referencias:
--Cox, Gary, Jonathan Katz, Elbridge Gerry’s Salamander: The electoral consequences of the apportionment revolution, Cambridge University Press, 2004.
+- Cox, Gary, Jonathan Katz, Elbridge Gerry’s Salamander: The electoral consequences of the apportionment revolution, Cambridge University Press, 2004.
 
--Liliana López Levi; Distritación electoral en México: logros pasados y retos futuros; 2006; Departamento de Política y Cultura, UAM-Xochimilco 2006.
+- Liliana López Levi; Distritación electoral en México: logros pasados y retos futuros; 2006; Departamento de Política y Cultura, UAM-Xochimilco 2006.
 
--Cain, Bruce, John Ferejohn, Morris Fiorina; The personal vote: constituency service and electoral independence, Harvard University Press, Cambridge, Massachussets, 1987.
+- Cain, Bruce, John Ferejohn, Morris Fiorina; The personal vote: constituency service and electoral independence, Harvard University Press, Cambridge, Massachussets, 1987.
 
--Lujambio, Alonso, Horacio Vives, From Politics to Technicalities: Mexican Redistricting in Historical Perspective in Redistricting in Comparative Perspective, by Lisa Handley and Bernard Grofman, Oxford University Press, 2008.
+- Lujambio, Alonso, Horacio Vives, From Politics to Technicalities: Mexican Redistricting in Historical Perspective in Redistricting in Comparative Perspective, by Lisa Handley and Bernard Grofman, Oxford University Press, 2008.
 
 @article{trelles.etalDatosabiertos.pyg.2016,
 	author = "Trelles, Alejandro and Altman, Micah and Magar, Eric and McDonald, Michael P.",
