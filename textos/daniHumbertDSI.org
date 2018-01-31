@@ -77,7 +77,8 @@ De la misma manera, los cuartiles de la distribución se encuentra en los valore
 #+CAPTION: Histograma del DSI con una curva normal superpuesta
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
-[[file:https://github.com/emagar/webReelec/blob/master/textos/danielHumberto/graf.png]]
+[[file:../img/grafDani.png]]
+
 
 [Ojo: Suban el código con que hicieron el histograma para cambiar la unidad y de la curva normal. Checa https://stackoverflow.com/questions/20078107/overlay-normal-curve-to-histogram-in-r]
 
