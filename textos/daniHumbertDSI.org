@@ -60,7 +60,7 @@ donde C es el número de secciones electorales que comparten ambos distritos, P 
 #+ATTR_HTML: :width 40%
 [[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/bc6-2.png]]
 
-La interpretación del índice DSI es simple. Toma el valor máximo de 1 cuando el distrito hijo comparte la totalidad de las secciones que integraban al distrito padre y nada más---P = H = C---es decir, padre e hijo son distritos idénticos. Un total de [XXX] distritos tienen un DSI = 1. El valor del índice es menor al reducirse la similitud entre padre e hijo. El valor mínimo de 0 indicaría que hay nula similitud entre distrito padre e hijo (C=0). Por construcción, este mínimo nunca se alcanza.  Para ilustrar, se observa en el Diagrama 1 que el distrito 6 de Baja California, con cabecera en Tecate, tiene un DSI = 0.111. Este distrito comparte 11.1 por ciento de secciones, en la parte oeste, con su padre. La línea negra gruesa representa la deliminación del distrito 6, mientras que la roja gruesa indica el límite del padre (ésta incluso se sale del rango geográfico del mapa). El distrito hijo está formado primordialmente por secciones ajenas al padre. 
+La interpretación del índice DSI es simple. Toma el valor máximo de 1 cuando el distrito hijo comparte la totalidad de las secciones que integraban al distrito padre y nada más---P = H = C---es decir, padre e hijo son distritos idénticos. Un total de 45 distritos tienen un DSI = 1. El valor del índice es menor al reducirse la similitud entre padre e hijo. El valor mínimo de 0 indicaría que hay nula similitud entre distrito padre e hijo (C=0). Por construcción, este mínimo nunca se alcanza.  Para ilustrar, se observa en el Diagrama 1 que el distrito 6 de Baja California, con cabecera en Tecate, tiene un DSI = 0.111. Este distrito comparte 11.1 por ciento de secciones, en la parte oeste, con su padre. La línea negra gruesa representa la deliminación del distrito 6, mientras que la roja gruesa indica el límite del padre (ésta incluso se sale del rango geográfico del mapa). El distrito hijo está formado primordialmente por secciones ajenas al padre. 
 
 La información de los distritos padres se obtuvo a partir de los últimos mapas electorales utilizados en la elección al congreso local previa a la redistritación hecha por el actor nacional a partir de 2014. Usamos el reporte de votos a nivel casilla para determinar a qué distrito solía pertenecer cada sección electoral del estado. Las secciones que integran los distritos nuevos se obtuvo de los mapas generados y aprobados por el Consejo General del INE. Obtuvimos los estadísticos descriptivos del DSI para la redistritación local.
 
@@ -68,26 +68,23 @@ La información de los distritos padres se obtuvo a partir de los últimos mapas
 #+CAPTION: Descriptivos del DSI
 #+NAME:   tab:1
 |    Min | 1st. Qu. | Median |   Mean | 3rd. Qu |  Max |
-| 0.0790 |   0.3650 | 0.5200 | 0.5431 |  0.6980 | 1.00 |
+| 0.0160 |   0.3483 | 0.5275 | 0.5443 |  0.7620 | 1.00 |
 
-Podemos observar que el distrito más disímil con su padre es en # de ESTADO (cabecera en [XXX]) y tiene un DSI de apenas 0.079: se trata de un distrito cuyas fronteras fueron casi completamente redibujadas y que comparte menos de una de cada diez secciones con su padre. Otros distritos en la cola izquierda de la distribución de DSIs son los siguientes: [XXX]. 
+Podemos observar que el distrito más disímil con su padre es el distrito 14 de Veracruz con cabecera en Minatitlán que tiene un DSI de apenas 0.016: se trata de un distrito cuyas fronteras fueron casi completamente redibujadas y que comparte menos de una de cada diez secciones con su padre. Otros distritos en la cola izquierda de la distribución de DSIs son la mayoría de los distritos en el mismo estado, Veracruz. 
 
-De la misma manera, los cuartiles de la distribución se encuentra en los valores del índice de 0.3650, 0.5200 y 0.6980. La media se encuentra en 0.5431.
+De la misma manera, los cuartiles de la distribución se encuentra en los valores del índice de 0.3483, 0.5275 y 0.7620. La media se encuentra en 0.5443.
 
 #+CAPTION: Histograma del DSI con una curva normal superpuesta
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
-[[file:../img/grafDani.png]]
-
-
-[Ojo: Suban el código con que hicieron el histograma para cambiar la unidad y de la curva normal. Checa https://stackoverflow.com/questions/20078107/overlay-normal-curve-to-histogram-in-r]
+[[file:../img/histDani.png]]
 
 #+CAPTION: El distrito 13 de Nayarit
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
 [[file:https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay13-2.png]]
 
-En el primer cuartil se encuentra un distrito similar al 14 de Nayarit, con cabecera en Xalisco, con DSI = 0.289. El distrito hijo cuenta con las secciones que formaban la porción sur del distrito padre, en el/los municipio/s de XXX, y perdió la parte norte, en los municipios de XXX. Esto muestra que el nuevo distrito comparte una pequeña porción del antiguo; por lo tanto, en una elección, el candidato que buscaría reelegirse solo repetiría un pequeño porcentaje de su antiguo electorado, se perdería la ventaja que implica ser incumbent -y el conocimiento dentro del distrito-, por lo que, se sugeriría que es más probable la alternancia.
+En el primer cuartil se encuentra un distrito similar al 14 de Nayarit, con cabecera en Xalisco, con DSI = 0.289. El distrito hijo cuenta con las secciones que formaban la porción sur del distrito padre, en el municipio de Xalisco, y perdió la parte norte, que consiste en la parte sur de la Sierra de San Juan. Esto muestra que el nuevo distrito comparte una pequeña porción del antiguo; por lo tanto, en una elección, el candidato que buscaría reelegirse solo repetiría un pequeño porcentaje de su antiguo electorado, se perdería la ventaja que implica ser incumbent -y el conocimiento dentro del distrito-, por lo que, se sugeriría que es más probable la alternancia.
 
 #+CAPTION: El distrito 14 de Nayarit
 #+ATTR_HTML: style="float:center;"

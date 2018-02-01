@@ -21,6 +21,7 @@
      + [[file:textos/nacifMoreno.org][Funcionarios en campaña]]
      + [[file:textos/balladosGalimatias.org][Galimatías y dilemas]]
      + [[file:textos/daniHumbertDSI.org][Impacto de la intervención de un actor nacional en la política local: la redistritación]]
+     + [[file:textos/daniHumbertDSI (copy).org][Impacto de la intervención de un actor nacional en la política local: la redistritación]]
      + [[file:textos/consejoReelectos.org][Juntos y reelectos]]
      + [[file:textos/zabiVero1928.org][La redistritación de 1928, pieza faltante de la construcción del Estado moderno mexicano]]
      + [[file:textos/nayarit.org][La reelección en Nayarit]]
