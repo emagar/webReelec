@@ -68,17 +68,19 @@ La información de los distritos padres se obtuvo a partir de los últimos mapas
 #+CAPTION: Descriptivos del DSI
 #+NAME:   tab:1
 |    Min | 1st. Qu. | Median |   Mean | 3rd. Qu |  Max |
-| 0.0160 |   0.3483 | 0.5275 | 0.5443 |  0.7620 | 1.00 |
+| 0.0790 |   0.3805 | 0.5485 | 0.5787 |  0.7768 | 1.00 |
 
-Podemos observar que el distrito más disímil con su padre es el distrito 14 de Veracruz con cabecera en Minatitlán que tiene un DSI de apenas 0.016: se trata de un distrito cuyas fronteras fueron casi completamente redibujadas y que comparte menos de una de cada diez secciones con su padre. Otros distritos en la cola izquierda de la distribución de DSIs son la mayoría de los distritos en el mismo estado, Veracruz. 
+Podemos observar que el distrito más disímil con su padre es el distrito 9 de Baja California Sur con cabecera en Cabo San Lucas que tiene un DSI de apenas 0.079: se trata de un distrito cuyas fronteras fueron casi completamente redibujadas y que comparte menos de una de cada diez secciones con su padre.  
 
-De la misma manera, los cuartiles de la distribución se encuentra en los valores del índice de 0.3483, 0.5275 y 0.7620. La media se encuentra en 0.5443.
+De la misma manera, los cuartiles de la distribución se encuentra en los valores del índice de 0.3805, 0.5485 y 0.7768. La media se encuentra en 0.5787.
 
 #+CAPTION: Histograma del DSI con una curva normal superpuesta
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
 [[file:../img/histDani.png]]
-
+   
+Un distrito con un DSI cercano al mínimo es el distrito 13 de Nayarit con cabecera en Santa María del Oro. El DSI es de 0.189, la s fronteras del nuevo distrito incluyen a Santa María del Oro, como lo hacía el distrito padre, pero gana las comunidades de La Yesca, Jala y San Pedro Lagunillas, así como pierde las secciones del lado noroeste cercanas a Tepic.
+    
 #+CAPTION: El distrito 13 de Nayarit
 #+ATTR_HTML: style="float:center;"
 #+ATTR_HTML: :width 40%
@@ -165,30 +167,24 @@ Identificamos los estados en los que se utilizó el criterio 8 para detener el p
 | F(1,282)   |       96.29 |            |   <.001 |
 | N. obs     |         284 |            |         |
 
-
-El coeficiente de la regresión es de 0.51085 y es significativo al 99%, esto quiere decir que al usar el criterio 8, el índice de similitud distrital aumenta en 0.51085, es decir, al llegar a un acuerdo en la Comisión de Vigilancia el nuevo mapa se parece más al mapa vigente antes de iniciar el proceso de redistritación, esperando que los mapas donde no se utilizó el criterio 8 tengan más diferencias que los previos. El consenso al que se llega puede interpretarse como el trabajo de representación que ya llevan realizado los diferentes partidos en el estado en cuestión, llegando a intercambios entre partidos para que no arriesguen sus bastiones.
+Los distritos que pertenecen a los estados donde se utilizó el criterio 8 sistemáticamente tienen 0.51 de similitud más que los distritos donde no se utilizó el criterio citado. Por lo que los mapas que casi no cambiaron pueden tratarse de casos donde los partidos buscan preservar distritos ya conocidos, porque son aversos al riesgo de buscar nuevos votantes.
+                                                  
+                                                  
+                                                 
 
 
 
 * Referencias
 
-- Cox, Gary, Jonathan Katz, Elbridge Gerry’s Salamander: The electoral consequences of the apportionment revolution, Cambridge University Press, 2004.
+- Cox, Gary and Katz, Jonathan; Elbridge Gerry’s Salamander: The electoral consequences of the apportionment revolution, Cambridge University Press, 2004.
 
-- Liliana López Levi; Distritación electoral en México: logros pasados y retos futuros; 2006; Departamento de Política y Cultura, UAM-Xochimilco 2006.
+- López Levi, Liliana; Distritación electoral en México: logros pasados y retos futuros; 2006; Departamento de Política y Cultura, UAM-Xochimilco 2006.
 
-- Cain, Bruce, John Ferejohn, Morris Fiorina; The personal vote: constituency service and electoral independence, Harvard University Press, Cambridge, Massachussets, 1987.
+- Cain, Bruce and Ferejohn, John and Fiorina, Morris; The personal vote: constituency service and electoral independence, Harvard University Press, Cambridge, Massachussets, 1987.
 
-- Lujambio, Alonso, Horacio Vives, From Politics to Technicalities: Mexican Redistricting in Historical Perspective in Redistricting in Comparative Perspective, by Lisa Handley and Bernard Grofman, Oxford University Press, 2008.
-
-@article{trelles.etalDatosabiertos.pyg.2016,
-	author = "Trelles, Alejandro and Altman, Micah and Magar, Eric and McDonald, Michael P.",
-	title = "Datos abiertos, transparencia y redistritaci\'on en M\'exico",
-	journal = pyg,
-        volume = 23,
-        number = 2,
-	year = 2016,
-}
-
+- Lujambio, Alonso and Vives, Horacio; From Politics to Technicalities: Mexican Redistricting in Historical Perspective in Redistricting in Comparative Perspective, by Lisa Handley and Bernard Grofman, Oxford University Press, 2008.
+                                                  
+- Trelles, Alejandro and Altman, Micah and Magar, Eric and McDonald, Michael; Datos abiertos, transparencia y redistritación en México, Política y gobierno, volumen XXIII, número 2, 2016.                                                 
 
 
 [fn:1] Si las secciones electorales tuvieran idéntica población, nuestra versión sería idéntica a la de Cox y Katz. Conforme crece la heterogeneidad poblacional de las secciones, también lo hace la discrepancia entre las versiones del DSI. Las secciones del país suelen tener poblaciones relativamente homogéneas: 99 por ciento de las secciones tenían en el censo 2010 una población total que oscilaba entre los 100 y los 5,700 habitantes.
