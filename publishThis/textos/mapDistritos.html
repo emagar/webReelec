@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2018-01-30 Tue 08:00 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Un vistazo a la redistritación reciente</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Eric Magar" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Un vistazo a la redistritación reciente</h1>
+<div class="org-center">
+<p>
+por
+</p>
+
+<p>
+<b>Eric Magar</b>
+</p>
+</div>
+
+<p>
+<a href="../index.html">Arriba/up</a>
+</p>
+
+<div class="subtoc">
+<div id="table-of-contents">
+<h2>&Iacute;ndice</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org0405ec5">1. Presentación</a></li>
+<li><a href="#org64205ad">2. Descripción de la cartografía</a></li>
+<li><a href="#orgd5ea97d">3. Distritos federales</a></li>
+<li><a href="#top_subtoc">4. Distritos estatales</a></li>
+<li><a href="#orgd919c4b">5. Municipios</a></li>
+<li><a href="#orgaf372c8">6. Nota metodológica</a></li>
+<li><a href="#org3f07aa6">7. Fuentes</a></li>
+<li><a href="#org1d709e2">8. Créditos</a></li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<p>
+<i>Todos los estados del país estrenan mapa para elegir sus diputados de distrito. Retratamos algunos de ellos.</i>
+</p>
+
+<div id="outline-container-org0405ec5" class="outline-2">
+<h2 id="org0405ec5"><span class="section-number-2">1</span> Presentación</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Cada diputado de mayoría, ya sea federal o estatal, representa un distrito electoral. El trazo de los límites distritales es uno de los razgos que más fundamentalmente incide en la representación. Incluir o excluir a alguna localidad dentro del territorio de un distrito puede ser determinante para que un partido o grupo social sea prácticamente invencible o, por el contrario, que el distrito sea muy competido.
+</p>
+
+<p>
+El IFE/INE ha dibujado los distritos federales desde 1996 y los distritos legislativos de los estados desde 2014&#x2014;antes las autoridades facultadas para la redistritación subnacional eran de índole estatal. Un primer grupo de doce estados estrenó mapa en la elección legislativa de 2016 (Aguascalientes, Baja California, Chihuahua, Durango, Hidalgo, Oaxaca, Quintana Roo, Sinaloa, Tamaulipas, Tlaxcala, Veracruz y Zacatecas), dos estados lo estrenaron en 2017 (Coahuila y Nayarit) y el resto lo hará en 2018 (Baja California Sur, Campeche, Ciudad de México, Colima, Chiapas, Guanajuato, Guerrero, Jalisco, México, Michoacán, Morelos, Nuevo León, Puebla, Querétaro, San Luis Potosí, Sonora, Tabasco y Yucatán). En 2018 también la Cámara de Diputados será electa en 2018 en un mapa que sustituye al que el IFE dibujó en 2006. 
+</p>
+
+<p>
+Esta entrada muestra el territorio de los distritos. Incluye sólo una muestra, pero el objetivo será incluir todos los mapas en un futuro próximo.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org64205ad" class="outline-2">
+<h2 id="org64205ad"><span class="section-number-2">2</span> Descripción de la cartografía</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Los mapas que aparecen a continuación retratan los distritos para elegir diputados al Congreso del estado y al Congreso de la Unión. Aparecen dos mapas de cada distrito: uno que lo ubica en su estado y muestra las colindancias con otros distritos; otro, con más detalle, que amplifica el área para describir la información siguiente. 
+</p>
+
+<ul class="org-ul">
+<li>El límite del distrito (la línea negra gruesa).</li>
+<li>La frontera del estado (la línea delgada roja punteada).</li>
+<li>Los límites municipales (la línea delgada verde y punteada). En zonas despobladas los distritos legislativos suelen incluir municipios completos, en zonas muy pobladas un municipio suele incluir uno o más distritos legislativos. Y en el caso de la Ciudad de México se representan no municipios sino delegaciones.</li>
+<li>Las secciones electorales aparecen coloreadas según su historia electoral reciente. La inspiración para este propósito es la distinción de votantes <i>core v. swing</i> de Cox y McCubbins.[BROKEN LINK: nil] Para operacionalizar esta noción se tomó en cuenta al partido que "ganó" la sección en cada una de las elecciones de diputados federales desde 1997&#x2014;el partido que obtuvo más votos. Secciones ganadas 4, 5, 6, ó hasta 7 veces por un mismo partido son consideradas bastiones y toman colores azules para el PAN, rojos para el PRI o dorado/marrón para la izquierda. El  color alcanza su intensidad máxima cuando el partido consiguió 7 triunfos al hilo, su menor cuando fueron sólo 4 triunfos. Las secciones que ningún partido ganó 4 ó más veces son consideradas <i>swing</i> y aparecen en tono gris. Hay que decir que para los bastiones de la izquierda sumamos los votos de Morena a los del PRD en 2015&#x2014;pronto haremos mapas que retraten más fielmente el cisma más reciente de la izquierda.</li>
+<li>Por último, aparece el distrito "padre" (línea roja gruesa). Esta noción, tomada de Cox y Katz,[BROKEN LINK: nil] sirve de referencia para apreciar cómo cambió el mapa con la redistritación. El padre de un distrito nuevo es aquel distrito del mapa viejo con el que comparte el mayor número de secciones electorales. El estadístico DSI (índice de similutud distrital, por sus siglas en inglés) que acompaña a cada mapa reporta la proporción de secciones electorales comunes entre los dos distritos: si padre e hijo fueran distritos idénticos se alacanzaría el máximo DSI=1; el DSI=0 (que nunca se alcanza) correspondería a distritos que no comparten ninguna sección.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd5ea97d" class="outline-2">
+<h2 id="orgd5ea97d"><span class="section-number-2">3</span> Distritos federales</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+En construcción.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5cf3868" class="outline-2">
+<h2 id="top_subtoc"><a id="org5cf3868"></a><span class="section-number-2">4</span> Distritos estatales</h2>
+<div class="outline-text-2" id="text-top_subtoc">
+<div class="subtoc">
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgf71b959">4.1. Baja California</a></li>
+<li><a href="#orgd9c64bb">4.2. Coahuila</a></li>
+<li><a href="#org9720f59">4.3. Colima</a></li>
+<li><a href="#orge083c9e">4.4. Ciudad de México</a></li>
+<li><a href="#org8f3bbc5">4.5. México</a></li>
+<li><a href="#org465e9e5">4.6. Morelos</a></li>
+<li><a href="#org812d9cf">4.7. Nayarit</a></li>
+<li><a href="#org17e96a1">4.8. Tlaxcala</a></li>
+</ul>
+</div>
+
+</div>
+
+<p>
+El INE preparó mapas para elegir a los diputados de mayoría de los congresos de los estados entre 2015 y 2017. El tiempo dependió del calendario electoral de cada estado. Y, en algunos casos, de sentencias del TEPJF. 
+</p>
+</div>
+
+<div id="outline-container-orgf71b959" class="outline-3">
+<h3 id="orgf71b959"><span class="section-number-3">4.1</span> Baja California</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+<a href="./locBc.html">Mapas</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd9c64bb" class="outline-3">
+<h3 id="orgd9c64bb"><span class="section-number-3">4.2</span> Coahuila</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+<a href="./locCoa.html">Mapas</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9720f59" class="outline-3">
+<h3 id="org9720f59"><span class="section-number-3">4.3</span> Colima</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+<a href="./locCol.html">Mapas</a>
+</p>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+<div id="outline-container-orge083c9e" class="outline-3">
+<h3 id="orge083c9e"><span class="section-number-3">4.4</span> Ciudad de México</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+<a href="./locDf.html">Mapas</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8f3bbc5" class="outline-3">
+<h3 id="org8f3bbc5"><span class="section-number-3">4.5</span> México</h3>
+<div class="outline-text-3" id="text-4-5">
+<p>
+<a href="./locMex.html">Mapas</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org465e9e5" class="outline-3">
+<h3 id="org465e9e5"><span class="section-number-3">4.6</span> Morelos</h3>
+<div class="outline-text-3" id="text-4-6">
+<p>
+<a href="./locMor.html">Mapas</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org812d9cf" class="outline-3">
+<h3 id="org812d9cf"><span class="section-number-3">4.7</span> Nayarit</h3>
+<div class="outline-text-3" id="text-4-7">
+<p>
+Elige 18 diputados de mayoría. El mapa actual se inauguró en la elección legistativa de 2017. Note como el mapa anterior (en uso desde 2005 por lo menos) tenía distritos no contiguos, apreciables vía el padre de los distritos (p.ej. en el mapa del distrito 13).
+</p>
+</div>
+
+<div id="outline-container-org6f2b2bf" class="outline-4">
+<h4 id="org6f2b2bf"><span class="section-number-4">4.7.1</span> Distrito 1, cabecera Acaponeta</h4>
+<div class="outline-text-4" id="text-4-7-1">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay1-1.png" alt="nay1-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay1-2.png" alt="nay1-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org8e9ca5d" class="outline-4">
+<h4 id="org8e9ca5d"><span class="section-number-4">4.7.2</span> Distrito 2, cabecera Tecuala</h4>
+<div class="outline-text-4" id="text-4-7-2">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay2-1.png" alt="nay2-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay2-2.png" alt="nay2-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org567cc78" class="outline-4">
+<h4 id="org567cc78"><span class="section-number-4">4.7.3</span> Distrito 3, cabecera Jesús María</h4>
+<div class="outline-text-4" id="text-4-7-3">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay3-1.png" alt="nay3-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay3-2.png" alt="nay3-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgade1786" class="outline-4">
+<h4 id="orgade1786"><span class="section-number-4">4.7.4</span> Distrito 4, cabecera Tuxpan</h4>
+<div class="outline-text-4" id="text-4-7-4">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay4-1.png" alt="nay4-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay4-2.png" alt="nay4-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org91d54f9" class="outline-4">
+<h4 id="org91d54f9"><span class="section-number-4">4.7.5</span> Distrito 5, cabecera Santiago Ixcuintla</h4>
+<div class="outline-text-4" id="text-4-7-5">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay5-1.png" alt="nay5-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay5-2.png" alt="nay5-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org86a678b" class="outline-4">
+<h4 id="org86a678b"><span class="section-number-4">4.7.6</span> Distrito 6, cabecera Tepic</h4>
+<div class="outline-text-4" id="text-4-7-6">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay6-1.png" alt="nay6-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay6-2.png" alt="nay6-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org10b22fd" class="outline-4">
+<h4 id="org10b22fd"><span class="section-number-4">4.7.7</span> Distrito 7, cabecera Tepic</h4>
+<div class="outline-text-4" id="text-4-7-7">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay7-1.png" alt="nay7-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay7-2.png" alt="nay7-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org1227089" class="outline-4">
+<h4 id="org1227089"><span class="section-number-4">4.7.8</span> Distrito 8, cabecera Tepic</h4>
+<div class="outline-text-4" id="text-4-7-8">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay8-1.png" alt="nay8-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay8-2.png" alt="nay8-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgb249e7a" class="outline-4">
+<h4 id="orgb249e7a"><span class="section-number-4">4.7.9</span> Distrito 9, cabecera Tepic</h4>
+<div class="outline-text-4" id="text-4-7-9">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay9-1.png" alt="nay9-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay9-2.png" alt="nay9-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgab73a21" class="outline-4">
+<h4 id="orgab73a21"><span class="section-number-4">4.7.10</span> Distrito 10, cabecera San Blas</h4>
+<div class="outline-text-4" id="text-4-7-10">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay10-1.png" alt="nay10-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay10-2.png" alt="nay10-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org2f929a2" class="outline-4">
+<h4 id="org2f929a2"><span class="section-number-4">4.7.11</span> Distrito 11, cabecera Tepic</h4>
+<div class="outline-text-4" id="text-4-7-11">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay11-1.png" alt="nay11-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay11-2.png" alt="nay11-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org8e9506e" class="outline-4">
+<h4 id="org8e9506e"><span class="section-number-4">4.7.12</span> Distrito 12, cabecera Tepic</h4>
+<div class="outline-text-4" id="text-4-7-12">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay12-1.png" alt="nay12-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay12-2.png" alt="nay12-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org1ecab30" class="outline-4">
+<h4 id="org1ecab30"><span class="section-number-4">4.7.13</span> Distrito 13, cabecera Santa María del Oro</h4>
+<div class="outline-text-4" id="text-4-7-13">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay13-1.png" alt="nay13-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay13-2.png" alt="nay13-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgf08461f" class="outline-4">
+<h4 id="orgf08461f"><span class="section-number-4">4.7.14</span> Distrito 14, cabecera Xalisco</h4>
+<div class="outline-text-4" id="text-4-7-14">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay14-1.png" alt="nay14-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay14-2.png" alt="nay14-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org1249aaa" class="outline-4">
+<h4 id="org1249aaa"><span class="section-number-4">4.7.15</span> Distrito 15, cabecera Compostela</h4>
+<div class="outline-text-4" id="text-4-7-15">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay15-1.png" alt="nay15-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay15-2.png" alt="nay15-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgc94eaf3" class="outline-4">
+<h4 id="orgc94eaf3"><span class="section-number-4">4.7.16</span> Distrito 16, cabecera Ixtlán del Río</h4>
+<div class="outline-text-4" id="text-4-7-16">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay16-1.png" alt="nay16-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay16-2.png" alt="nay16-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org80bc3cc" class="outline-4">
+<h4 id="org80bc3cc"><span class="section-number-4">4.7.17</span> Distrito 17, cabecera Bucerías</h4>
+<div class="outline-text-4" id="text-4-7-17">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay17-1.png" alt="nay17-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay17-2.png" alt="nay17-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgad64e92" class="outline-4">
+<h4 id="orgad64e92"><span class="section-number-4">4.7.18</span> Distrito 18, cabecera Mezcales</h4>
+<div class="outline-text-4" id="text-4-7-18">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay18-1.png" alt="nay18-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/nay18-2.png" alt="nay18-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+</div>
+
+<div id="outline-container-org17e96a1" class="outline-3">
+<h3 id="org17e96a1"><span class="section-number-3">4.8</span> Tlaxcala</h3>
+<div class="outline-text-3" id="text-4-8">
+</div><div id="outline-container-org30ed50e" class="outline-4">
+<h4 id="org30ed50e"><span class="section-number-4">4.8.1</span> Distrito 1, cabecera San Antonio Calpulalpan</h4>
+<div class="outline-text-4" id="text-4-8-1">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla1-1.png" alt="tla1-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla1-2.png" alt="tla1-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org327abfe" class="outline-4">
+<h4 id="org327abfe"><span class="section-number-4">4.8.2</span> Distrito 2, cabecera Tlaxco</h4>
+<div class="outline-text-4" id="text-4-8-2">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla2-1.png" alt="tla2-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla2-2.png" alt="tla2-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org1fcc6a7" class="outline-4">
+<h4 id="org1fcc6a7"><span class="section-number-4">4.8.3</span> Distrito 3, cabecera San Cosme Xalostoc</h4>
+<div class="outline-text-4" id="text-4-8-3">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla3-1.png" alt="tla3-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla3-2.png" alt="tla3-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgbddb8da" class="outline-4">
+<h4 id="orgbddb8da"><span class="section-number-4">4.8.4</span> Distrito 4, cabecera Apizaco</h4>
+<div class="outline-text-4" id="text-4-8-4">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla4-1.png" alt="tla4-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla4-2.png" alt="tla4-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org2861800" class="outline-4">
+<h4 id="org2861800"><span class="section-number-4">4.8.5</span> Distrito 5, cabecera San Dionisio Yauhquemehcan</h4>
+<div class="outline-text-4" id="text-4-8-5">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla5-1.png" alt="tla5-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla5-2.png" alt="tla5-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgd32bdef" class="outline-4">
+<h4 id="orgd32bdef"><span class="section-number-4">4.8.6</span> Distrito 6, cabecera Ixtacuixtla</h4>
+<div class="outline-text-4" id="text-4-8-6">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla6-1.png" alt="tla6-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla6-2.png" alt="tla6-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgb6560ad" class="outline-4">
+<h4 id="orgb6560ad"><span class="section-number-4">4.8.7</span> Distrito 7, cabecera Tlaxcala</h4>
+<div class="outline-text-4" id="text-4-8-7">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla7-1.png" alt="tla7-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla7-2.png" alt="tla7-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org7d861cc" class="outline-4">
+<h4 id="org7d861cc"><span class="section-number-4">4.8.8</span> Distrito 8, cabecera San Bernardo Contla</h4>
+<div class="outline-text-4" id="text-4-8-8">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla8-1.png" alt="tla8-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla8-2.png" alt="tla8-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org0e7e910" class="outline-4">
+<h4 id="org0e7e910"><span class="section-number-4">4.8.9</span> Distrito 9, cabecera Sta Ana Chiautempan</h4>
+<div class="outline-text-4" id="text-4-8-9">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla9-1.png" alt="tla9-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla9-2.png" alt="tla9-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org6c4c5ec" class="outline-4">
+<h4 id="org6c4c5ec"><span class="section-number-4">4.8.10</span> Distrito 10, cabecera Huamantla</h4>
+<div class="outline-text-4" id="text-4-8-10">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla10-1.png" alt="tla10-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla10-2.png" alt="tla10-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org70fc100" class="outline-4">
+<h4 id="org70fc100"><span class="section-number-4">4.8.11</span> Distrito 11, cabecera Huamantla</h4>
+<div class="outline-text-4" id="text-4-8-11">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla11-1.png" alt="tla11-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla11-2.png" alt="tla11-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org3cea8eb" class="outline-4">
+<h4 id="org3cea8eb"><span class="section-number-4">4.8.12</span> Distrito 12, cabecera San Luis Teolocholco</h4>
+<div class="outline-text-4" id="text-4-8-12">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla12-1.png" alt="tla12-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla12-2.png" alt="tla12-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org2754ae3" class="outline-4">
+<h4 id="org2754ae3"><span class="section-number-4">4.8.13</span> Distrito 13, cabecera Zacatelco</h4>
+<div class="outline-text-4" id="text-4-8-13">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla13-1.png" alt="tla13-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla13-2.png" alt="tla13-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org0279303" class="outline-4">
+<h4 id="org0279303"><span class="section-number-4">4.8.14</span> Distrito 14, cabecera Sta María Nativitas</h4>
+<div class="outline-text-4" id="text-4-8-14">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla14-1.png" alt="tla14-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla14-2.png" alt="tla14-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org976fbb8" class="outline-4">
+<h4 id="org976fbb8"><span class="section-number-4">4.8.15</span> Distrito 15, cabecera Vicente Guerrero</h4>
+<div class="outline-text-4" id="text-4-8-15">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla15-1.png" alt="tla15-1.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/tla15-2.png" alt="tla15-2.png" width="50% style=&quot;float:center;&quot;" />
+</p>
+</div>
+
+<p>
+<a href="#top_subtoc">Inicio distritos estatales</a>
+</p>
+<hr  />
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd919c4b" class="outline-2">
+<h2 id="orgd919c4b"><span class="section-number-2">5</span> Municipios</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-org031c746" class="outline-3">
+<h3 id="org031c746"><span class="section-number-3">5.1</span> Chiapas</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+<a href="./munCps.html">Mapas</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org3ed8183" class="outline-3">
+<h3 id="org3ed8183"><span class="section-number-3">5.2</span> Estado de México</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+<a href="./munMex.html">Mapas</a>
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgaf372c8" class="outline-2">
+<h2 id="orgaf372c8"><span class="section-number-2">6</span> Nota metodológica</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+Los mapas que reportamos incluyen polígonos que obtuvimos de tres fuentes: (1) los preparados y distribuidos por el INE a través de su página de internet (url aquí); (2) los preparados y distribuidos por el IFE en disco compacto en 2014; y (3) los que preparamos directamente. El trasfondo de los mapas proviene de openstreetmaps.org.
+</p>
+
+<p>
+El grupo (1) incluye los polígonos de los distritos del mapa federal 2018; y de los distritos de los mapas locales 2016, 2017 y 2018 (según sea el caso en cada estado). 
+</p>
+
+<p>
+El grupo (2) incluye los polígonos de los distritos del mapa federal 2006; de las entidades, sus municipios y secciones electorales. 
+</p>
+
+<p>
+El grupo (3) incluye los polígonos de los distritos de los mapas locales anteriores a los de 2016, 2017 y 2018 (según sea el caso en cada estado). 
+</p>
+
+<p>
+Esta nota describe cómo procedimos para dibujar los polígonos del grupo (3).
+</p>
+
+<p>
+Para esto hicimos uso del programa MapInfo Profesional v11.5. Empezamos por obtener la relación secciones electorales-distritos de los mapas locales anteriores al actual de todos los estados. Las fuentes fueron resultados a nivel casilla de una elección de diputados locales reciente (pero previa a la adopción del nuevo mapa) que reportan las páginas de internet de los instituto electorales de los estados.  Con esta información nos fue posible realizar la conjunción de las secciones que conformaban los viejos  polígonos distritales locales. 
+</p>
+
+<p>
+La rutina consistió en seleccionar todas las secciones electorales pertenecientes al primer distrito del mapa para disolver las fronteras de los polígonos seccionales y preservar únicamente el perímetro exterior (en <i>ArcGis</i> y en <i>Qgis</i>, la función se llama <i>dissolve</i>). Para ligar los polígonos seccionales echamos mano de las herramientas disponibles en la pestaña <i>table</i> del programa <i>MapInfo</i>, y la función <i>Combine objects using column</i> para hacer la fusión. Repetimos esto para los demás distritos del mapa.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3f07aa6" class="outline-2">
+<h2 id="org3f07aa6"><span class="section-number-2">7</span> Fuentes</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li>INE</li>
+<li>R y sus paquetes.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org1d709e2" class="outline-2">
+<h2 id="org1d709e2"><span class="section-number-2">8</span> Créditos</h2>
+<div class="outline-text-2" id="text-8">
+<ul class="org-ul">
+<li>Moisés</li>
+<li>Santiago</li>
+<li>Rubén</li>
+<li>Julio</li>
+</ul>
+
+<p>
+[BROKEN LINK: nil] Gary W. Cox y Mathew D. McCubbins. "Electoral Politics as a Redistributive Game", <i>Journal of Politics</i> 48(2):370&#x2013;89, 1986.
+</p>
+
+<p>
+[BROKEN LINK: nil] Vea Gary W. Cox y Jonathan N. Katz. <i>Elbridge Gerry's Salamander: The Electoral Consequences of the Reapportionment Revolution.</i> Nueva York: Cambridge University Press, 2002. 
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Fecha: 2017-12-20 Wed 00:00</p>
+<p class="author">Autor: Eric Magar</p>
+<p class="date">Created: 2018-01-30 Tue 08:00</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

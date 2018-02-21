@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2017-12-01 Fri 14:47 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Valores encontrados</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Eric Magar" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Valores encontrados</h1>
+<div class="org-center">
+<p>
+por
+</p>
+
+<p>
+<b>Ciro Murayama</b><sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
+</p>
+</div>
+
+<p>
+<a href="../index.html">Arriba/up</a>
+</p>
+
+
+<p>
+La Constitución Política abrió la puerta en 2014 a la reelección de representantes populares y mandatarios &#x2014;estos últimos sólo en el nivel de los ayuntamientos&#x2014; en México. En el nivel federal, la posibilidad de aspirar a ocupar un mismo cargo de forma ininterrumpida se acota a los legisladores, y serán los integrantes de la LXIV Legislatura del Congreso de la Unión, que se instalará el 1° de septiembre de 2018, los primeros que puedan buscar la reelección. En el terreno local, la oportunidad de volver a ser electo para regidor, alcalde y diputado se generalizará en las elecciones del próximo año, es decir, en los procesos electorales que comienzan en el último tramo de 2017. Ese mero hecho, junto con el barroquismo que caracteriza a la legislación electoral mexicana, hace oportuno y necesario discutir cómo se aterrizará la opción de que un ciudadano que ocupa un cargo electo aspire a ser nombrado para el mismo  nuevamente sin dejar pasar al menos un periodo electivo de por medio.
+</p>
+
+<p>
+Para contribuir a esa deliberación me propongo problematizar cómo debe entenderse la reelección misma para, de ahí, perfilar algunas consideraciones acerca de cómo, sin reinventar el hilo negro y aprovechando disposiciones constitucionales vigentes, se puede dar vigencia a esta figura sin aún más abigarrado el diseño electoral de que disponemos.
+</p>
+
+<p>
+La reforma de 2014 para permitir la elección consecutiva de ciudadanos elimina una restricción que era generalizada &#x2014;se mantiene para el titular del Ejecutivo federal y los gobernadores, así como para los alcaldes con mandatos superiores a los tres años&#x2014; y, de esa forma, amplía el derecho al voto pasivo, es decir, a ser votado. De esta manera, el principal sujeto de la reelección es el ciudadano que ha sido electo y busca serlo otra vez para el inmediato. De ahí que sea oportuno identificar, una vez que se amplió un derecho, qué responsabilidades conlleva ejercerlo. Ello conduce a definir las reglas de juego para quien se presente a la reelección.
+</p>
+
+<p>
+Parto de la idea de que en los países donde existe la figura de la reelección, ésta se aplica para quienes ejercen un cargo de elección popular y cuya nueva aparición en la boleta electoral no pasa por la separación del cargo. El énfasis viene a cuento porque si se piensa que, digamos, un alcalde puede presentarse a la reelección pero a la vez ha de separarse de sus funciones, entonces no tendremos sino que aplicar los requisitos de elegibilidad que han prevalecido desde hace décadas, en el sentido de que los candidatos deben separarse de ciertos cargos públicos con determinada antelación al registro de su postulación, con la única diferencia de que esa disposición se aplicará también para el propio cargo que se quiera volver a buscar.
+</p>
+
+<p>
+En otras palabras: hasta antes de la reforma un diputado que quería ser senador había de pedir licencia como diputado; ahora, un diputado que quisiera volver a ser diputado, igualmente debería pedir licencia como diputado. O un presidente municipal que haya querido ser gobernador o legislador, ha tenido que pedir licencia como regidor; ahora un presidente municipal que aspirara a ser reelecto como tal tendría que apartarse de su cargo para buscar sentarse en el mismo lugar de forma consecutiva. Esta última opción facilita la vida de la autoridad electoral (nadie en un cargo público haría campaña o incluso precampaña, lo que hace menos complicada la tarea de control y fiscalización) pero, en los hechos, desnaturaliza la propia idea de reelección tal como se aplica en buena parte del mundo democrático, sin mayores contratiempos ni complicaciones.
+</p>
+
+<p>
+Si se miran otras experiencias nacionales, la constante en esta materia es que quienes tienen los cargos públicos culminen el periodo para el que fueron electos y puedan repetir si el voto popular los favorece &#x2014;el caso más emblemático puede ser el del presidente de los Estados Unidos de América tras concluir su primera administración. En sistemas parlamentarios, que son predominantemente en Europa, el titular del Ejecutivo surge de los legisladores sin que se limite en general el número de veces que éstos pueden postularse al Congreso y, por supuesto, sin que deban separarse del cargo para seguir participando en la vida política electoral. De esta manera la separación anticipada del cargo suele darse más por renuncia o por sanción, lo que implica que el individuo involucrado, a partir de ello, se retire de la vida política. Así, en el grueso de los países la separación anticipada de un cargo de elección es definitiva, es el adelanto del fin de la permanencia en un puesto, no una condición para regresar a él unos meses después. 
+</p>
+
+<p>
+Si el camino por el que se optara al concretar la reelección en México fuese obligar al titular del cargo electo a separarse del mismo para poder buscarlo inmediatamente, no habría mayor discusión y este artículo podría terminar aquí. Bastaría con fijar fechas de separación del cargo antes de concluir el periodo de cada figura &#x2014;así ocurre incluso con la legislación de Nayarit al respecto. Pero como mi propósito no es zanjar discusiones ni adelantar conclusiones &#x2014;que deberían involucrar al Poder Legislativo con una reglamentación secundaria más afinada de la reelección y, ante una eventual omisión legislativa en la materia, a la autoridad electoral administrativa y al Tribunal Electoral&#x2014;, continúo con la problematización. 
+</p>
+
+<p>
+¿Qué razones nos deberían de llevar en México a apartarnos de lo que es normal en buena parte del mundo y obligar a quien quiera reelegirse a separarse del cargo? Quizá la preocupación tenga que ver con la equidad, con evitar ventajas ilegítimas para quien se presente a la reelección consecutiva. Si es así, lo que conviene es precisar las reglas para proteger la equidad &#x2014;un principio irrenunciable para tener contiendas electorales genuinas&#x2014; en vez de desnaturalizar la reelección y seguir contribuyendo al barroco electoral mexicano. 
+</p>
+
+<p>
+Así que, un vez definido que el "incumbente" &#x2014;horrible aunque útil traducción del término inglés <i>incumbent</i>, esto es, la personas que ejerce un cargo de responsabilidad, en este caso, gracias al voto popular&#x2014; se postulará sin separarse del cargo, ¿qué conducta se le debe exigir para evitar que desde su posición obtenga una ventaja ilegítima frente al resto de candidatos que, obviamente, tiene como objetivo expreso desplazarlo del cargo? Me parece que esa definición de lo que no se debe hacer desde un cargo público para incidir en la ciudadanía o para afectar la equidad en la contienda electoral ya está diáfanamente redactada en la Constitución Política, en particular en los párrafos séptimo y octavo del artículo 134, que a la letra dicen: 
+</p>
+
+<p>
+Los servidores públicos de la Federación, las entidades federativas, los Municipios y las demarcaciones territoriales de la Ciudad de México, tienen en todo tiempo la obligación de aplicar con imparcialidad los recurso públicos que están bajo su responsabilidad, sin influir en la equidad de la competencia entre los partidos políticos. 
+</p>
+
+<p>
+La propaganda, bajo cualquier modalidad de comunicación social, que difundan como tales, los poderes públicos, los órganos autónomos, las dependencias y entidades de la administración pública y cualquier otro ente de los tres órdenes de gobierno, deberá tener carácter institucional y fines informativos, educativos o de orientación social. En ningún caso esta propaganda incluirá nombres , imágenes, voces o símboles que impliquen promoción personalizada de cualquier servidor público. 
+</p>
+
+<p>
+Si bien el artículo 134 aún carece de reglamentación secundaria, su trazo no deja dudas de que el uso de los recursos públicos por los servidores públicos en ningún caso debe influir en la equidad de la competencia electoral. Un regidor, alcalde o legislador hoy está impedido constitucionalmente para gastar a favor de su partido, y con la reelección ese impedimento se extendería a favorecerse a sí mismo como contendiente. En una nuez: el dinero público debe usarse de manera imparcial, te busques reelegir o no, punto.
+</p>
+
+<p>
+En lo que toca al párrafo octavo del artículo 134, también es diáfano al señalar que como servidor público nadie puede autopromocionarse en la propaganda institucional, ni con nombre, imagen, voz o símbolos alusivos al gobernante, al incumbente &#x2014;por cierto, palabra muy al uso en países latinoamericanos para referirse a quien va a una elección ocupando el cargo en disputa. Para decirlo en una línea: quien busque la reelección no podrá financiar su propaganda política ni sus gastos de campaña con recursos del municipio o de la Cámara legislativa donde sirva.
+</p>
+
+<p>
+Lo anterior nos lleva entonces a delimitar entre las funciones del regidor, presidente municipal o legislador, y las del político en campaña, tal como ocurre en otras legislaciones. Por ejemplo, en Colombia la Ley 966 regula de forma específica la participación del presidente y del vicepresidente del país cuando son además, cadnidatos a reelegirse.  Así, durante el tiempo que duran las campañas (40 días) tienen determinadas limitaciones que pretenden abonar a la equidad en la contienda electoral.  Se regula la presencia en los medios, en especial las transmisiones presidenciales en Radio Televisión Nacional de Colombia, así como se imponen restricciones a la contratación pública del gobierno colombiano. Destaca que, cuando el presidente se haya inscrito como candidato a la elección presidencial, no podrán ser transmitidas por el Canal Institucional del Estado las reuniones con comunidades para promover la gestión del gobierno en la solución de los problemas que las aquejan &#x2014;con excepción de las reuniones relacionadas con seguridad nacional, soberanía, orden público o desastres naturales. Además, durante los cuatro meses anteriores a la fecha de votación en primera vuelta (y hasta la segunda vuelta, si fuera el caso), el presidente y el vicepresidente no pueden asistir a actos de inauguración de obras públicas; entregar personalmente recursos o bienes estatales; referirse a los demás candidatos o movimientos políticos en sus disertaciones o presentaciones públicas, como jefe de Estado o de gobierno; ni utilizar o incluir la imagen, símbolos o consignas de su campaña presidencial en la publicidad del gobierno. 
+</p>
+
+<p>
+Además, en Colombia estos candidatos no pueden utilizar bienes del Estado en actividades de su campaña presidencial, siempre y cuando sean diferentes a los propios de sus funciones y a aquellos destinados de su seguridad personal. La ley es tan detallada, que especifica que el monto de la publicidad estatal no podrá aumentar durante la campaña presidencial. Asimismo, se suspende cualquier afectación a la nómina estatal durante este periodo y se prohíben las contrataciones directas por parte de todos los entes del Estado. 
+</p>
+
+<p>
+Si bien en el caso mexicano la reelección no operará para el presidente de la República &#x2014;y qué bueno que así sea&#x2014;, el marco de Colombia nos ofrece un buen ejemplo. De lo que se trata es de evitar que haya una ventaja ilegítima de quien está en el cargo. Cabe señalar que es inevitable que de cara a una campaña ciertos candidatos sean más conocidos que otros, que la ciudadanía tenga más referencias  del candidato A que del B o C, pero eso no necesariamente da lugar a una ventaja ilegítima. En el caso de la reelección, quienes han gobernado u ocupado un cargo legislativo pueden ser más conocidos, ellos pueden mostrar los logros de su trabajo como funcionarios públicos, pero también ser cuestionados más fácilmente por su desempeño.
+</p>
+
+<p>
+El quid radica entonces en evitar ventajas ilegítimas y por eso ha de entenderse el abuso del puesto para ganar la siguiente elección, esto es, el uso de recursos públicos o la promoción con cargo a la propaganda oficial del mandatario o legislador que busca reelegirse. O dicho de otra forma, para que no haya ventaja ilegítima en la reelección ha de hacerse valer el artículo 134 constitucional que, valga la obviedad, ya está redactado y es vigente. Además, hay normas complementarias, como la prohibición de difundir campañas gubernamentales durantes las contiendas electorales.
+</p>
+
+<p>
+Entonces, lo que corresponde es deslindar entre actividades de campaña y actividades de gobierno, así como limitar lo que puede hacer un gobernante que sea a la vez candidato. Más que llevarlo a la separación anticipada &#x2014;y quizá temporal&#x2014; del cargo, lo que hay que definir es que no pueda inaugurar obra pública o asistir a actos como gobernante que en realidad sean actos de proselitismo electoral.
+Una ruta para explorar es que, desde el inicio de las precampañas, quien busque la reelección no puede realizar eventos masivos, acudir a actos de inauguración, y para todo lo que tenga que ver con actividades proselitistas, no pueda usar recursos públicos como vehículos, inmuebles, personal, equipos de comunicación, por ejemplo. Tampoco sería válido hacer coincidir la presentación y difusión de informes de labores &#x2014;por cierto, una figura a partir de la cual se han dado abusos para la promoción personalizada de servidores públicos&#x2014; con los periodos electorales.
+</p>
+
+<p>
+Si se permitiera la reelección sin la obligación de separarse del cargo &#x2014;la Constitución no contempla ese extremo, por lo que jurídicamente es pertinente cuestionar si es viable imponer esa restricción para el ejercicio del voto pasivo&#x2014;, sería necesario trascender de lo estipulado en distintas sentencias del Tribunal Electoral en el sentido de que los servidores públicos sólo pueden asistir a actos políticos en días inhábiles. 
+</p>
+
+<p>
+Como se ve, ir a contiendas con posibilidad de reelección exige diferentes definiciones. El debate está abierto, sea bienvenido.
+</p>
+<div id="footnotes">
+<h2 class="footnotes">Nota al pie de p&aacute;gina: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+Consejero Electoral del Instituto Nacional Electoral. Este artículo fue publicado en la revista <i>Voz y voto</i>, número 292, junio 2017. El autor ha dado su autorización para reproducirlo aquí.
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="date">Fecha: 2017-08-29 Tue 00:00</p>
+<p class="author">Autor: Eric Magar</p>
+<p class="date">Created: 2017-12-01 Fri 14:47</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

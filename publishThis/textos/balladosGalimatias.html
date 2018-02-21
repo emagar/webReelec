@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2017-12-17 Sun 13:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Galimatías y dilemas</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Eric Magar" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Galimatías y dilemas</h1>
+<div class="org-center">
+<p>
+por
+</p>
+
+<p>
+<b>Patricio Ballados V.</b><sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>
+</p>
+</div>
+
+<p>
+<a href="../index.html">Arriba/up</a>
+</p>
+
+<p>
+La reforma político-electoral de 2014 recuperó la figura de reelección inmediata en el sistema electoral mexicano. Después de ocho décadas de veda,<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup> los representantes de elección popular &#x2014;con excepción del Presidente de la República y los gobernadores&#x2014; pueden buscar un mandato consecutivo. Esto es, senadores diputados federales, diputados locales y miembros de ayuntamiento tienen la oportunidad de participar y mantenerse en el cargo  por periodos adicionales, si así lo decide en las urnas.
+</p>
+
+<p>
+La no reelección fue inherente al sistema electoral que se confeccionó a lo largo del siglo xx en México, particularmente por la carga negativa asociada a la permanencia indefinida del Ejecutivo. El tema que en México ha generado resistencias y largos debates es una práctica añosa y ordinaria en el ámbito mundial: éramos una anomalía. En Estados Unidos, por ejemplo, la reelección se planteó desde que se formó la federación hace tres siglos. Entre padres fundadores se daba por sentada la reelección como mecanismo natural que permitía la profesionalización, entendida como "el dominio de los asuntos públicos.<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
+</p>
+
+<p>
+La reelección se permite en democracias latinoamericanas de distintas características: regímenes presidencialistas y parlamentarios, gobiernos nacionales y federales, poderes legislativos bicamerales y unicamerales. Actualmente, Costa Rica es el único país en América Latina que prohíbe la reelección legislativa.<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>
+</p>
+
+<p>
+En un sistema electoral como el mexicano, donde prima la regulación exhaustiva de procesos, la admisión de nuevas figuras produce tensiones y dilemas, ya que deben de adecuar un sistema sumamente regulado.
+</p>
+
+<p>
+Este artículo plantea algunos retos y dilemas que se han presentados o presentarán respecto a la reelección. El objetivo es enunciar problemas para apuntar áreas específicas  que requerirán mayor regulación o criterios de interpretación por parte de los operadores en materia electoral. Se aborda, en específico, la paridad degenero y la reelección.
+</p>
+
+<p>
+¿De qué hablamos cuando hablamos de reelección? 
+</p>
+
+<p>
+Una primera interrogante tiene que ver con la naturaleza de la reelección. ¿Qué es, un mecanismo o un derecho político? Si es lo último, ¿a quién le pertenece el derecho, al individuo o a los partidos políticos  que postularon la candidatura? ¿Se trata de un derecho o de una expectativa de derecho? 
+</p>
+
+<p>
+Como se planteó la reelección en México, se podría deducir que la posibilidad de reelegirse por la vía partidista exige la conjunción de dos voluntades, la del aspirante y la del partido político postulante. Eso ocasiona, por lo menos, dos problemas. En primer lugar, existiría una posible desventaja o ausencia de equidad de los aspirantes de la vía ´partidista frente a los de la vía independiente, ya que estos últimos solamente necesitarán una sola voluntad para relegirse: la propia. En segundo lugar, ya que existe la necesidad de que concurran dos voluntades para la reelección, ¿el partido político tendrá el derecho de prohibir la reelección del aspirante? En el caso de una controversia entre estos actores, ¿qué primaría?
+</p>
+
+<p>
+Sentencias recientes del Tribunal Electoral del Poder Judicial de la Federación (TEPJF) han ofrecido criterios de interpretación para entender la naturaleza jurídica de la reelección. La sala superior ha resuelto sentencias a favor de aspirantes  a la elección consecutiva utilizando el criterio pro persona en sus interpretaciones. En la controversia que se suscitó entre el presidente municipal de Ahuacatlán, Nayarit, y el organismo público local de ese estado,<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup> la Sala Superior determinó que la negociación de la elección consecutiva  a los actuales miembros del ayuntamiento por parte del  Instituto Electoral del Estado de Nayarit implicó  una negación al derecho de votar y ser votado. Por lo tanto, bajo un criterio que tendiera a favorecer la protección d derechos de manera más amplia (pro persona), la Sala Superior permitió la reelección de ayuntamientos para el periodo 2017-2021.
+</p>
+
+<p>
+Recientemente, la Sala Superior confirmó la decisión de la Sala Regional con sede en Monterrey de otorgarle el registro de candidata a presidenta municipal a María Guadalupe Oyervides Valdez, que tomó protesta como regidora en Monclova antes de la Reforma Constitucional de 2014.<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup> La Sala Regional en su sentencia dictó que la "prohibición de la reelección se vincula con el derecho fundamental al voto en su doble aspecto, de ser votado de la candidata y de votar de la ciudadanía en general". Por lo tanto, las normas que regulen la reelección deberían de interpretarse bajo el principio pro persona.<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup> Y así, se determinó que la reelección solamente se aplica cuando un aspirante se postula al mismo cargo.
+</p>
+
+<p>
+Estas decisiones jurídicamente han sentado antecedentes para definir la naturaleza jurídica  de la reelección. Se le ha visto como parte o extensión del derecho fundamental a votar y ser votado. De ahí que las resoluciones del TEPJF hayan sido en favor de aspirantes tanto en Nayarit como en Coahuila. Falta ver si para la sede jurisdiccional se trata de un derecho como tal o una expectativa de derecho que podría suponer una tutela menos generosa a las personas frente a los partidos. 
+</p>
+
+<div id="outline-container-org9f718ab" class="outline-2">
+<h2 id="org9f718ab"><span class="section-number-2">1</span> Algunos dilemas</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<i>Paridad de género</i>. Si bien existe la obligación de cumplir con el principio constitucional de paridad, ¿cómo armonizar esta obligación de los partidos con la voluntad de reelegirse en legislaturas donde predomine el sexo? 
+</p>
+
+<p>
+<i>Mosaico electoral</i>. La reforma de 2014 estableció ciertas reglas de observación general para las entidades y dejó un amplio margen para regular la elección consecutiva. Esto derivó en reglas distintas, por ejemplo, con respecto a la solicitud delincuencia para aspirar a una candidatura,<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup> diversidad que abrirá la puerta a muy disímiles escenarios que pondrán  en tensión la posibilidad de emitir reglas de interpretación  uniformes. Por ejemplo,  en San Luis Potosí existe una regulación que permite únicamente un candidato independiente  por cada cargo en disputa. En caso de que, por ejemplo, una disputa independiente pretenda reelegirse, ¿su derecho le da para aparecer en la boleta de forma automática, o solo para recabar firmas y luego se determine cúal persona cuenta con mayor respaldo para registrarla como candidata?
+</p>
+
+<p>
+<i>Vida partidista</i>. En los artículos transitorios de la reforma electoral no se estableció la obligación de que los partidos adecúen sus documentos básicos al mecanismo de reelección. Actualmente existen diferentes disposiciones sobre los requisitos para buscar una candidatura sin distinguir si se trata de un caso de reelección. Como resultado, podríamos estar frente a requisitos de elegibilidad dispares que pudieran llevar a cuestionar la equidad del proceso derivado de la normatividad interna de los partidos y no de una exigencia del marco legal estatal, por ejemplo, sobre la obligación de presentar una solicitud de licencia o de separación del cargo. Por mencionar un caso, el PRI y Morena los representantes populares deben renunciar a su cargo con anterioridad a las contiendas internas, lo que los pondría en desventaja frente a sus colegisladores de otros partidos.
+</p>
+
+<p>
+<i>Representatividad</i>. La reforma constitucional y la Ley General de Instituciones y Procedimientos Electorales permiten la reelección legislativa por ambos principios, a saber, mayoría relativa y representación proporcional. Sin embargo, no queda claro si la relección  fue penada para extender el periodo en la integración de un órgano (Congreso federal o local) o si debe estar estrechamente ligada a la representación del legislador a sus electores. La forma en que fue regulada en la legislación estatal refleja que no existe consenso sino múltiples interpretaciones sobre la naturaleza de la relección como mecanismo dentro del sistema electoral mexicano: ¿a quiénes representan los legisladores de representación proporcional en México? ¿Cómo se justifica la reelección en ese caso, si se argumentó como un mecanismo para hacer más estrecho el vínculo ente el legislador y la ciudadanía?<sup><a id="fnr.9" class="footref" href="#fn.9">9</a></sup>
+</p>
+
+<p>
+<i>Distritación</i>. Este dilema está íntimamente relacionado con el anterior, púes un cambio en la geografía nos obliga a preguntarnos si un legislador elegido por un conjunto de ciudadanos (distrito A1) podría refrendar su mandato  por un conjunto distinto. Es decir en caso de un proceso de distritación  altere el polígono original y desagregue el distrito A1 y sumando parte del distrito B1, ¿cómo justificar ese ejercicio de rendición de cuentas con el voto de ciudadanos a quienes no representó el legislador en su primer periodo?
+</p>
+
+<p>
+<i>Fiscalización</i>. Como se mencionó previamente, en algunas entidades no se solicita la separación del cargo para buscar reelegirse. En esos casos, ¿el aspirante  podría mantenerse en el cargo para realizar campaña sin afectar la equidad de la contienda?, ¿bastará con un marco regulatorio especial y exhaustivo?, ¿el sistema de fiscalización en México es adecuado para supervisar este tipo de supuestos?
+</p>
+
+<p>
+En esta entrega, dadas las limitaciones de espacio, abordé únicamente el dilema de la paridad de género.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfd4fe9b" class="outline-2">
+<h2 id="orgfd4fe9b"><span class="section-number-2">2</span> Paridad de género</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+La participación formal de las mujeres como candidatas ha dado un vuelco en el último cuarto de siglo. Desde las cuotas voluntarias, las obligatorias y finalmente la paridad, la legislación electoral  ha ido cerrando los huecos que permitían negar un derecho fundamental a las mujeres. Ha sido determinante también  la interpretación jurisdiccional.
+</p>
+
+<p>
+Hasta hoy, además de un principio (amplio) de paridad, la legislación prevé tres obligaciones adicionales de los partidos políticos:
+</p>
+
+<ol class="org-ol">
+<li>Participación efectiva de ambos sexos en la integración de los órganos partidistas y la postulación de candidaturas.</li>
+<li>Criterios objetivos y púbicos para garantizar paridad en las candidaturas.</li>
+<li>Prohibición de postular únicamente candidatos de un sexo en los distritos con votación más baja para el partido.<sup><a id="fnr.10" class="footref" href="#fn.10">10</a></sup></li>
+</ol>
+
+
+<div id="orgf684980" class="figure">
+<p><img src="../img/mapaBallados.png" alt="mapaBallados.png" />
+</p>
+<p><span class="figure-number">Figura 1: </span>Elecciones en 2018</p>
+</div>
+
+<p>
+Con respecto a esta última regla, el INE emitió el acuerdo INE/CG162/2015 para verificar que efectivamente no existiera un sesgo notorio hacia un solo sexo en la postulación de candidaturas al congreso de la Unión.<sup><a id="fnr.11" class="footref" href="#fn.11">11</a></sup>
+</p>
+
+<p>
+En la práctica, esas reglas lograron la paridad en las postulaciones y se reflejaron en un avance hacia la paridad en la integración de los órganos. No obstante, de no ser regulado de forma adecuada, la reelección puede atentar contra lo ganado en materia de paridad. El dilema no es menor. Se tendrá que ponderar qué derecho debe prevalecer cuanto entren en coalición. La controversia puede asemejarse a la tensión con los "mecanismos de democracia directa" que utilizaban los partidos para darle vuelta a la cuota de género. Recordemos que frente a ese dilema el TEPJF optó por la cuota en la multicitada sentencia 12624. Veamos algunos posibles dilemas.
+</p>
+
+<p>
+Siguen existiendo legislaturas conformada mayoritariamente por un mismo sexo. Por ejemplo, el Congreso estatal de Morelos está integrado por 15 diputados de mayoría relativa (MR) y nueve de representación Proporcional (RP), frente a tan solo tres diputados de MR y tres de RP. Es decir 80 por ciento de hombres. En sentido contrario, en el congreso chiapaneco predominan las mujeres, con 13 legisladoras de MR Y 11 de RP. Si estos congresos la mayoría de los legisladores buscarán la reelección,<sup><a id="fnr.12" class="footref" href="#fn.12">12</a></sup> ¿cómo convivirán las reglas de paridad frente al derecho de votar y ser votado? Por un lado, los partidos políticos estarían obligados legalmente a respetar la paridad en las postulaciones. Por el otro, esto impondría una restricción al número de legisladores que pudieran buscar la relección al contender en un proceso interno si sus distritos rentables están ocupados mayoritariamente por un sexo.
+</p>
+
+<p>
+Sin duda, estas interrogantes tendrán que ser resueltas por las autoridades  electorales federales y locales conforme se presentan algunos casos hipotéticos aquí señalados. Ello no obsta para que discutamos y pensemos en posibles soluciones y sus implicaciones. A escasos meses del inicio del proceso electoral federal, cualquier avance será una enorme ganancia.
+</p>
+
+
+<div id="orgd5c55dd" class="figure">
+<p><img src="../img/tablaBallados.png" alt="tablaBallados.png" />
+</p>
+<p><span class="figure-number">Figura 2: </span>Características de la reelección legislativa y de ayuntamientos</p>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Nota al pie de p&aacute;gina: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+Director Ejecutivo de Prerrogativas y Partidos Políticos del Instituto Nacional Electoral. Este artículo fue publicado con el título "Galimatías y dilemas" en la revista <i>Voz y voto</i>, número 292, junio 2017. El autor ha dado su autorización para reproducirlo aquí.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+La reforma del 29 de abril de 1933 incorporó en el artículo 59 constitucional que los senadores y diputados del Congreso de la Unión no podrán ser reelectos para el periodo inmediato.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
+Véase <i>El Federalista</i> núm. 53 para conocer la reflexión de Hamilton y Madison al respecto.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4">4</a></sup> <div class="footpara"><p class="footpara">
+México prohibía la reelección inmediata y Venezuela en la Constitución de 1999 establecía que los diputados podía reelegirse por dos periodos como máximo. En el resto de los países del continente no había regulación alguna. Carey, John M. (2003). “The reelection Debate in Latin America”, <i>Latin American Politics and Society</i>, 45:1, pag. 130.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.5" class="footnum" href="#fnr.5">5</a></sup> <div class="footpara"><p class="footpara">
+SUP-JDC- 101/2017 y SUP-JRC- JRC-63/2017 acumulados. Resuelto el 5 de abril del 2017. En este primer antecedente, la Sala Superior resolvió la controversia entre José de Jesús Bernal Lamas (Presidente municipal de Ahuacatlán por el periodo 2014-2017), y el OPLE de Nayarit. Por la obligación constitucional de homologar comicios locales con federales [art. 116, fracción iv, incisos a) y n)], en Nayarit se reformó la constitución y se estableció que por única ocasión el cargo de ayuntamientos duraría cuatro años (2017&#x2013;2021). En ese contexto, el presídete municipal consultó al IEEN sobre la posibilidad de contender por el mismo cargo de elección para el periodo 2017-2021. El IEEN respondió que "no es posible su reelección, toda vez que el mandato del ayuntamiento al que quiera postularse tendrá una duración de cuatro años, existiendo una prohibición constitucional". La sala Superior atrajo la demanda de JDC presentada por el alcalde ante esa respuesta negativa y resolvió a favor de la reelección del presidente municipal por periodo adicional.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.6" class="footnum" href="#fnr.6">6</a></sup> <div class="footpara"><p class="footpara">
+SUP-REC-1172/2017. Resuelto el 10 de mayo de 2017.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.7" class="footnum" href="#fnr.7">7</a></sup> <div class="footpara"><p class="footpara">
+SM-JRC-7/2017. Resuelto el 1 de mayo de 2017.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.8" class="footnum" href="#fnr.8">8</a></sup> <div class="footpara"><p class="footpara">
+En la mayoría de los estados no se plasma la separación del cargo para la candidatura para diputados. Sólo en 12 se menciona de manera explícita y sólo en Querétaro no es necesario separase del cargo. Para los candidatos al ayuntamiento en la mayoría de los estados sí se contempla la licencia explícita. En Tamaulipas no es necesaria, y en Quintana Roo, sólo para regidores y síndicos.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.9" class="footnum" href="#fnr.9">9</a></sup> <div class="footpara"><p class="footpara">
+En el dictamen de las Comisiones del Senado del 2 de diciembre de 2013 se justificó la relección legislativa de la siguiente manera: “Estas Comisiones Dictaminadoras estimamos que la reelección inmediata o elección consecutiva de los legisladores trae aparejadas ventajas, como son: tener vinculo más estrecho con los electores, ya que serán estos los que ratifiquen mediante su voto a los servidores públicos en su encargo, y ello abonará a la rendición de cuentas y fomentará las elaciones de confianza entre representantes y representados.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.10" class="footnum" href="#fnr.10">10</a></sup> <div class="footpara"><p class="footpara">
+Ley General de Partidos Políticos, art. 3, numerales 3,4 y 5.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.11" class="footnum" href="#fnr.11">11</a></sup> <div class="footpara"><p class="footpara">
+El método que el Consejo General aprobó  para verificar fue el siguiente: para cada partido, se listaron todos los distritos en los que presentó una candidatura a diputación federal, ordenadas de menor a mayor conforme al porcentaje de votación recibido  en el proceso electoral anterior. Se dividió la lista en tres bloques: 1° con los distritos donde el partido obtuvo la votación más baja, 2° con los distritos donde obtuvo una votación media y 3° con os distritos donde obtuvo la más alta. Del primer bloque  se revisó la totalidad de los distritos para identificar algún sesgo  que favoreciera o perjudicara a un sexo en particular; es decir, si se encontraba una notoria disparidad en el número de personas de un sexo. Y se revisaron los últimos veinte distritos del tercer bloque, en los que el partido obtuvo la votación más baja en la elección anterior, para identificar si en este grupo más pequeño se apreciaba o no algún sesgo.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.12" class="footnum" href="#fnr.12">12</a></sup> <div class="footpara"><p class="footpara">
+Esta suposición no resulta tan descabellada se  considera la tasa de reelección en otros países democráticos. De manera sintética analizo el caso de Estados Unidos. Si tomamos datos de la elección  del año pasado observamos que en el ámbito federal prácticamente nueve de cada diez legisladores busca la reelección: 85 por ciento en el Senado y 90 por ciento en la Cámara de Representantes. Este porcentaje baja al revisar los congresos estatales pero sigue siendo una tasa muy alta: ocho de cada diez busca permanecer en el cargo.
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="date">Fecha: 2017-08-29 Tue 00:00</p>
+<p class="author">Autor: Eric Magar</p>
+<p class="date">Created: 2017-12-17 Sun 13:58</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
