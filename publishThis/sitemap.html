@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-02-21 Wed 15:00 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mapa de sitio</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="eric" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Mapa de sitio</h1>
+<ul class="org-ul">
+<li>textos
+<ul class="org-ul">
+<li>danielHumberto
+<ul class="org-ul">
+<li><a href="textos/danielHumberto/daniHumbertDSI3.html">Impacto de la intervención de un actor nacional en la política local: la redistritación</a></li>
+<li><a href="textos/danielHumberto/daniHumbertDSI2.html">Impacto de la intervención de un actor nacional en la política local: la redistritación</a></li>
+<li><a href="textos/danielHumberto/daniHumbertDSI.html">Impacto de la intervención de un actor nacional en la política local: la redistritación</a></li>
+<li><a href="textos/danielHumberto/daniHumbertDSI (copy).html">Impacto de la intervención de un actor nacional en la política local: la redistritación</a></li>
+</ul></li>
+<li><a href="textos/claudiaCdMx.html">Algunos efectos políticos de la eliminación de siete distritos de la CDMX</a></li>
+<li><a href="textos/mxDecada1920.html">Antecedentes de la reelección legislativa en México</a></li>
+<li><a href="textos/instituciones.html">Calendarios e instituciones de reelección consecutiva en México</a></li>
+<li><a href="textos/catanhoCheran.html">Cherán o un nuevo paradigma para el reconocimiento de la autodeterminación indígena en México</a></li>
+<li><a href="textos/clasicos.html">Clásicos sobre la reelección consecutiva</a></li>
+<li><a href="textos/lujambioPrecaria.html">Congresos Locales: Precaria institucionalidad</a></li>
+<li><a href="textos/entrevHdzCruz.html">Entrevista a Armando Hernández Cruz</a></li>
+<li><a href="textos/entrevSilis.html">Entrevista a Arturo Espinosa Silis</a></li>
+<li><a href="textos/entrevNavarro.html">Entrevista a Fabiola Navarro</a></li>
+<li><a href="textos/entrevVives.html">Entrevista a Horacio Vives</a></li>
+<li><a href="textos/entrevMicozzi.html">Entrevista a Juan Pablo Micozzi</a></li>
+<li><a href="textos/entrevLily.html">Entrevista a Lily Gutiérrez, primera diputada reelecta en 80 años</a></li>
+<li><a href="textos/entrevRaigosa.html">Entrevista a Luis Raigosa</a></li>
+<li><a href="textos/nacifMoreno.html">Funcionarios en campaña</a></li>
+<li><a href="textos/balladosGalimatias.html">Galimatías y dilemas</a></li>
+<li><a href="textos/daniHumbertDSI.html">Impacto de la intervención de un actor nacional en la política local: la redistritación</a></li>
+<li><a href="textos/daniHumbertDSI-5.html">Impacto de la intervención de un actor nacional en la política local: la redistritación</a></li>
+<li><a href="textos/consejoReelectos.html">Juntos y reelectos</a></li>
+<li><a href="textos/zabiVero1928.html">La redistritación de 1928, pieza faltante de la construcción del Estado moderno mexicano</a></li>
+<li><a href="textos/nayarit.html">La reelección en Nayarit</a></li>
+<li><a href="textos/rendonCompLegis.html">La reelección legislativa consecutiva en México. ¿Qué esperar del comportamiento legislativo?</a></li>
+<li><a href="textos/juristasCruz.html">La tensión entre la paridad de género y la reelección</a></li>
+<li><a href="textos/daliaCeciWordcloud.html">Los tecnócratas neoporfiristas y la reelección</a></li>
+<li><a href="textos/locBc.html">Mapa local de Baja California</a></li>
+<li><a href="textos/locCoa.html">Mapa local de Coahuila 2017</a></li>
+<li><a href="textos/locCol.html">Mapa local de Colima 2018</a></li>
+<li><a href="textos/locMor.html">Mapa local de Morelos 2018</a></li>
+<li><a href="textos/locDf.html">Mapa local de la Ciudad de México 2018</a></li>
+<li><a href="textos/locMex.html">Mapa local del Estado de México 201</a></li>
+<li><a href="textos/munCps.html">Municipios de Chiapas</a></li>
+<li><a href="textos/munMex.html">Municipios del Estado de México</a></li>
+<li><a href="textos/resenhaCoahuila.html">Primeras campañas para reelegir diputados</a></li>
+<li><a href="textos/juristasFix.html">Reelección consecutiva y equidad en la competencia</a></li>
+<li><a href="textos/catanhoLicenciasYuc.html">Reelección, equidad y licencias en Yucatán</a></li>
+<li><a href="textos/relevoGen.html">Relevo generacional</a></li>
+<li><a href="textos/adolJRlicencias.html">Requisitos de separación del cargo y reelección consecutiva en 32 estados</a></li>
+<li><a href="textos/lasTesis.html">Tesis que invetigan la reelección consecutiva</a></li>
+<li><a href="textos/mapDistritos.html">Un vistazo a la redistritación reciente</a></li>
+<li><a href="textos/murayamaValores.html">Valores encontrados</a></li>
+<li><a href="textos/yuriBeltranCdMx.html">¿Cómo reelegirse en la CDMX?</a></li>
+</ul></li>
+<li><a href="index.html">Reelección consecutiva en México</a></li>
+<li><a href="remember.html">remember</a></li>
+</ul>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: eric</p>
+<p class="date">Created: 2018-02-21 Wed 15:00</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

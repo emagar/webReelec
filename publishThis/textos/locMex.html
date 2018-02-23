@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2018-01-09 Tue 11:14 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mapa local del Estado de México 201</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Eric Magar" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Mapa local del Estado de México 201</h1>
+<p>
+<a href="./mapDistritos.html">Arriba/up</a>
+</p>
+
+
+<div id="outline-container-org6736bd3" class="outline-2">
+<h2 id="org6736bd3"><span class="section-number-2">1</span> El mapa</h2>
+</div>
+<div id="outline-container-org690250b" class="outline-2">
+<h2 id="top_subtoc"><a id="org690250b"></a><span class="section-number-2">2</span> Los cuarenta y cinco distritos</h2>
+<div class="outline-text-2" id="text-top_subtoc">
+<div class="subtoc">
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgde196b0">2.1. Distrito 1, cabecera Chalco</a></li>
+<li><a href="#org8402ed2">2.2. Distrito 2, cabecera Toluca</a></li>
+<li><a href="#orgf46db33">2.3. Distrito 3, cabecera Chimalhuacán</a></li>
+<li><a href="#org2da6492">2.4. Distrito 4, cabecera Lerma</a></li>
+<li><a href="#orgbd9fe20">2.5. Distrito 5, cabecera Chicoloapan</a></li>
+<li><a href="#org4312441">2.6. Distrito 6, cabecera Ecatepec</a></li>
+<li><a href="#org7766260">2.7. Distrito 7, cabecera Tenancingo</a></li>
+<li><a href="#orgb12f43f">2.8. Distrito 8, cabecera Ecatepec</a></li>
+<li><a href="#orga6d86bf">2.9. Distrito 9, cabecera Tejupilco</a></li>
+<li><a href="#org4dbd8b6">2.10. Distrito 10, cabecera Valle de Bravo</a></li>
+<li><a href="#org3d1b2d3">2.11. Distrito 11, cabecera Tultitlán</a></li>
+<li><a href="#orgff57b6b">2.12. Distrito 12, cabecera Teoloyucan</a></li>
+<li><a href="#orgf6adca8">2.13. Distrito 13, cabecera Atlacomulco</a></li>
+<li><a href="#org64c84fa">2.14. Distrito 14, cabecera Jilotepec</a></li>
+<li><a href="#orgf6c1a41">2.15. Distrito 15, cabecera Ixtlahuaca</a></li>
+<li><a href="#orgff02b03">2.16. Distrito 16, cabecera Cd. López Mateos</a></li>
+<li><a href="#org38bcf8f">2.17. Distrito 17, cabecera Huixquilucan</a></li>
+<li><a href="#org06ccd77">2.18. Distrito 18, cabecera Tlalnepantla</a></li>
+<li><a href="#org1cbcd78">2.19. Distrito 19, cabecera Tultepec</a></li>
+<li><a href="#org3f58de5">2.20. Distrito 20, cabecera Zumpango</a></li>
+<li><a href="#org1b72663">2.21. Distrito 21, cabecera Ecatepec</a></li>
+<li><a href="#org83cc027">2.22. Distrito 22, cabecera Ecatepec</a></li>
+<li><a href="#org30ade59">2.23. Distrito 23, cabecera Texcoco</a></li>
+<li><a href="#org01076fa">2.24. Distrito 24, cabecera Cd. Nezahualcóyotl</a></li>
+<li><a href="#orgec21b8e">2.25. Distrito 25, cabecera Cd. Nezahualcóyotl</a></li>
+<li><a href="#org16f6111">2.26. Distrito 26, cabecera Cuautitlán Izcalli</a></li>
+<li><a href="#org8594e1c">2.27. Distrito 27, cabecera Chalco Solidaridad</a></li>
+<li><a href="#org7506779">2.28. Distrito 28, cabecera Amecameca</a></li>
+<li><a href="#orge97058a">2.29. Distrito 29, cabecera Naucalpan</a></li>
+<li><a href="#orgf27076e">2.30. Distrito 30, cabecera Naucalpan</a></li>
+<li><a href="#org2c4c6a8">2.31. Distrito 31, cabecera Los Reyes</a></li>
+<li><a href="#org3a4a448">2.32. Distrito 32, cabecera Naucalpan</a></li>
+<li><a href="#org703293b">2.33. Distrito 33, cabecera Tecamac</a></li>
+<li><a href="#org095aa83">2.34. Distrito 34, cabecera Toluca</a></li>
+<li><a href="#orgda71102">2.35. Distrito 35, cabecera Metepec</a></li>
+<li><a href="#org74d4898">2.36. Distrito 36, cabecera Zinacantepec</a></li>
+<li><a href="#orgf2fc789">2.37. Distrito 37, cabecera Tlalnepantla</a></li>
+<li><a href="#org54f0c64">2.38. Distrito 38, cabecera Coacalco</a></li>
+<li><a href="#orgba5fcb5">2.39. Distrito 39, cabecera Acolman</a></li>
+<li><a href="#org32c7dbe">2.40. Distrito 40, cabecera Ixtapaluca</a></li>
+<li><a href="#org86d7bbc">2.41. Distrito 41, cabecera Cd. Nezahualcóyotl</a></li>
+<li><a href="#orgea8cd6e">2.42. Distrito 42, cabecera Ecatepec</a></li>
+<li><a href="#org6a2ec5f">2.43. Distrito 43, cabecera Cuautitlán Izcalli</a></li>
+<li><a href="#orgc80c853">2.44. Distrito 44, cabecera Nicolás Romero</a></li>
+<li><a href="#org3cd1795">2.45. Distrito 45, cabecera Temoaya</a></li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<div id="outline-container-orgde196b0" class="outline-3">
+<h3 id="orgde196b0"><span class="section-number-3">2.1</span> Distrito 1, cabecera Chalco</h3>
+<div class="outline-text-3" id="text-2-1">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex1-2.png" alt="mex1-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex1-1.png" alt="mex1-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org8402ed2" class="outline-3">
+<h3 id="org8402ed2"><span class="section-number-3">2.2</span> Distrito 2, cabecera Toluca</h3>
+<div class="outline-text-3" id="text-2-2">
+<div style="float:left;width:70%;margin=1.5%" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex2-2.png" alt="mex2-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex2-1.png" alt="mex2-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgf46db33" class="outline-3">
+<h3 id="orgf46db33"><span class="section-number-3">2.3</span> Distrito 3, cabecera Chimalhuacán</h3>
+<div class="outline-text-3" id="text-2-3">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex3-2.png" alt="mex3-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex3-1.png" alt="mex3-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org2da6492" class="outline-3">
+<h3 id="org2da6492"><span class="section-number-3">2.4</span> Distrito 4, cabecera Lerma</h3>
+<div class="outline-text-3" id="text-2-4">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex4-2.png" alt="mex4-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex4-1.png" alt="mex4-1.png" style="float:right;width:25%;margin=1.5%;" /> 
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgbd9fe20" class="outline-3">
+<h3 id="orgbd9fe20"><span class="section-number-3">2.5</span> Distrito 5, cabecera Chicoloapan</h3>
+<div class="outline-text-3" id="text-2-5">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex5-2.png" alt="mex5-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex5-1.png" alt="mex5-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org4312441" class="outline-3">
+<h3 id="org4312441"><span class="section-number-3">2.6</span> Distrito 6, cabecera Ecatepec</h3>
+<div class="outline-text-3" id="text-2-6">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex6-2.png" alt="mex6-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex6-1.png" alt="mex6-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org7766260" class="outline-3">
+<h3 id="org7766260"><span class="section-number-3">2.7</span> Distrito 7, cabecera Tenancingo</h3>
+<div class="outline-text-3" id="text-2-7">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex7-2.png" alt="mex7-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex7-1.png" alt="mex7-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgb12f43f" class="outline-3">
+<h3 id="orgb12f43f"><span class="section-number-3">2.8</span> Distrito 8, cabecera Ecatepec</h3>
+<div class="outline-text-3" id="text-2-8">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex8-2.png" alt="mex8-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex8-1.png" alt="mex8-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orga6d86bf" class="outline-3">
+<h3 id="orga6d86bf"><span class="section-number-3">2.9</span> Distrito 9, cabecera Tejupilco</h3>
+<div class="outline-text-3" id="text-2-9">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex9-2.png" alt="mex9-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex9-1.png" alt="mex9-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org4dbd8b6" class="outline-3">
+<h3 id="org4dbd8b6"><span class="section-number-3">2.10</span> Distrito 10, cabecera Valle de Bravo</h3>
+<div class="outline-text-3" id="text-2-10">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex10-2.png" alt="mex10-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex10-1.png" alt="mex10-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org3d1b2d3" class="outline-3">
+<h3 id="org3d1b2d3"><span class="section-number-3">2.11</span> Distrito 11, cabecera Tultitlán</h3>
+<div class="outline-text-3" id="text-2-11">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex11-2.png" alt="mex11-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex11-1.png" alt="mex11-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgff57b6b" class="outline-3">
+<h3 id="orgff57b6b"><span class="section-number-3">2.12</span> Distrito 12, cabecera Teoloyucan</h3>
+<div class="outline-text-3" id="text-2-12">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex12-2.png" alt="mex12-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex12-1.png" alt="mex12-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgf6adca8" class="outline-3">
+<h3 id="orgf6adca8"><span class="section-number-3">2.13</span> Distrito 13, cabecera Atlacomulco</h3>
+<div class="outline-text-3" id="text-2-13">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex13-2.png" alt="mex13-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex13-1.png" alt="mex13-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org64c84fa" class="outline-3">
+<h3 id="org64c84fa"><span class="section-number-3">2.14</span> Distrito 14, cabecera Jilotepec</h3>
+<div class="outline-text-3" id="text-2-14">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex14-2.png" alt="mex14-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex14-1.png" alt="mex14-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgf6c1a41" class="outline-3">
+<h3 id="orgf6c1a41"><span class="section-number-3">2.15</span> Distrito 15, cabecera Ixtlahuaca</h3>
+<div class="outline-text-3" id="text-2-15">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex15-2.png" alt="mex15-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex15-1.png" alt="mex15-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgff02b03" class="outline-3">
+<h3 id="orgff02b03"><span class="section-number-3">2.16</span> Distrito 16, cabecera Cd. López Mateos</h3>
+<div class="outline-text-3" id="text-2-16">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex16-2.png" alt="mex16-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex16-1.png" alt="mex16-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+
+
+
+<div id="outline-container-org38bcf8f" class="outline-3">
+<h3 id="org38bcf8f"><span class="section-number-3">2.17</span> Distrito 17, cabecera Huixquilucan</h3>
+<div class="outline-text-3" id="text-2-17">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex17-2.png" alt="mex17-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex17-1.png" alt="mex17-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org06ccd77" class="outline-3">
+<h3 id="org06ccd77"><span class="section-number-3">2.18</span> Distrito 18, cabecera Tlalnepantla</h3>
+<div class="outline-text-3" id="text-2-18">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex18-2.png" alt="mex18-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex18-1.png" alt="mex18-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org1cbcd78" class="outline-3">
+<h3 id="org1cbcd78"><span class="section-number-3">2.19</span> Distrito 19, cabecera Tultepec</h3>
+<div class="outline-text-3" id="text-2-19">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex19-2.png" alt="mex19-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex19-1.png" alt="mex19-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org3f58de5" class="outline-3">
+<h3 id="org3f58de5"><span class="section-number-3">2.20</span> Distrito 20, cabecera Zumpango</h3>
+<div class="outline-text-3" id="text-2-20">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex20-2.png" alt="mex20-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex20-1.png" alt="mex20-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+
+
+<div id="outline-container-org1b72663" class="outline-3">
+<h3 id="org1b72663"><span class="section-number-3">2.21</span> Distrito 21, cabecera Ecatepec</h3>
+<div class="outline-text-3" id="text-2-21">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex21-2.png" alt="mex21-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex21-1.png" alt="mex21-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org83cc027" class="outline-3">
+<h3 id="org83cc027"><span class="section-number-3">2.22</span> Distrito 22, cabecera Ecatepec</h3>
+<div class="outline-text-3" id="text-2-22">
+<div style="float:left;width:70%;margin=1.5%" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex22-2.png" alt="mex22-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex22-1.png" alt="mex22-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org30ade59" class="outline-3">
+<h3 id="org30ade59"><span class="section-number-3">2.23</span> Distrito 23, cabecera Texcoco</h3>
+<div class="outline-text-3" id="text-2-23">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex23-2.png" alt="mex23-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex23-1.png" alt="mex23-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org01076fa" class="outline-3">
+<h3 id="org01076fa"><span class="section-number-3">2.24</span> Distrito 24, cabecera Cd. Nezahualcóyotl</h3>
+<div class="outline-text-3" id="text-2-24">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex24-2.png" alt="mex24-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex24-1.png" alt="mex24-1.png" style="float:right;width:25%;margin=1.5%;" /> 
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgec21b8e" class="outline-3">
+<h3 id="orgec21b8e"><span class="section-number-3">2.25</span> Distrito 25, cabecera Cd. Nezahualcóyotl</h3>
+<div class="outline-text-3" id="text-2-25">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex25-2.png" alt="mex25-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex25-1.png" alt="mex25-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org16f6111" class="outline-3">
+<h3 id="org16f6111"><span class="section-number-3">2.26</span> Distrito 26, cabecera Cuautitlán Izcalli</h3>
+<div class="outline-text-3" id="text-2-26">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex26-2.png" alt="mex26-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex26-1.png" alt="mex26-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org8594e1c" class="outline-3">
+<h3 id="org8594e1c"><span class="section-number-3">2.27</span> Distrito 27, cabecera Chalco Solidaridad</h3>
+<div class="outline-text-3" id="text-2-27">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex27-2.png" alt="mex27-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex27-1.png" alt="mex27-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org7506779" class="outline-3">
+<h3 id="org7506779"><span class="section-number-3">2.28</span> Distrito 28, cabecera Amecameca</h3>
+<div class="outline-text-3" id="text-2-28">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex28-2.png" alt="mex28-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex28-1.png" alt="mex28-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orge97058a" class="outline-3">
+<h3 id="orge97058a"><span class="section-number-3">2.29</span> Distrito 29, cabecera Naucalpan</h3>
+<div class="outline-text-3" id="text-2-29">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex29-2.png" alt="mex29-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex29-1.png" alt="mex29-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgf27076e" class="outline-3">
+<h3 id="orgf27076e"><span class="section-number-3">2.30</span> Distrito 30, cabecera Naucalpan</h3>
+<div class="outline-text-3" id="text-2-30">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex30-2.png" alt="mex30-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex30-1.png" alt="mex30-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+
+
+<div id="outline-container-org2c4c6a8" class="outline-3">
+<h3 id="org2c4c6a8"><span class="section-number-3">2.31</span> Distrito 31, cabecera Los Reyes</h3>
+<div class="outline-text-3" id="text-2-31">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex31-2.png" alt="mex31-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex1-1.png" alt="mex1-1.png" style="float:right;width:25%;margin=1.5%;3" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org3a4a448" class="outline-3">
+<h3 id="org3a4a448"><span class="section-number-3">2.32</span> Distrito 32, cabecera Naucalpan</h3>
+<div class="outline-text-3" id="text-2-32">
+<div style="float:left;width:70%;margin=1.5%" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex32-2.png" alt="mex32-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex32-1.png" alt="mex32-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org703293b" class="outline-3">
+<h3 id="org703293b"><span class="section-number-3">2.33</span> Distrito 33, cabecera Tecamac</h3>
+<div class="outline-text-3" id="text-2-33">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex33-2.png" alt="mex33-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex33-1.png" alt="mex33-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org095aa83" class="outline-3">
+<h3 id="org095aa83"><span class="section-number-3">2.34</span> Distrito 34, cabecera Toluca</h3>
+<div class="outline-text-3" id="text-2-34">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex34-2.png" alt="mex34-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex34-1.png" alt="mex34-1.png" style="float:right;width:25%;margin=1.5%;" /> 
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgda71102" class="outline-3">
+<h3 id="orgda71102"><span class="section-number-3">2.35</span> Distrito 35, cabecera Metepec</h3>
+<div class="outline-text-3" id="text-2-35">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex35-2.png" alt="mex35-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex35-1.png" alt="mex35-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org74d4898" class="outline-3">
+<h3 id="org74d4898"><span class="section-number-3">2.36</span> Distrito 36, cabecera Zinacantepec</h3>
+<div class="outline-text-3" id="text-2-36">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex36-2.png" alt="mex36-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex36-1.png" alt="mex36-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgf2fc789" class="outline-3">
+<h3 id="orgf2fc789"><span class="section-number-3">2.37</span> Distrito 37, cabecera Tlalnepantla</h3>
+<div class="outline-text-3" id="text-2-37">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex37-2.png" alt="mex37-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex37-1.png" alt="mex37-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org54f0c64" class="outline-3">
+<h3 id="org54f0c64"><span class="section-number-3">2.38</span> Distrito 38, cabecera Coacalco</h3>
+<div class="outline-text-3" id="text-2-38">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex38-2.png" alt="mex38-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex38-1.png" alt="mex38-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgba5fcb5" class="outline-3">
+<h3 id="orgba5fcb5"><span class="section-number-3">2.39</span> Distrito 39, cabecera Acolman</h3>
+<div class="outline-text-3" id="text-2-39">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex39-2.png" alt="mex39-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex39-1.png" alt="mex39-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org32c7dbe" class="outline-3">
+<h3 id="org32c7dbe"><span class="section-number-3">2.40</span> Distrito 40, cabecera Ixtapaluca</h3>
+<div class="outline-text-3" id="text-2-40">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex40-2.png" alt="mex40-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex40-1.png" alt="mex40-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org86d7bbc" class="outline-3">
+<h3 id="org86d7bbc"><span class="section-number-3">2.41</span> Distrito 41, cabecera Cd. Nezahualcóyotl</h3>
+<div class="outline-text-3" id="text-2-41">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex41-2.png" alt="mex41-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex1-1.png" alt="mex1-1.png" style="float:right;width:25%;margin=1.5%;3" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgea8cd6e" class="outline-3">
+<h3 id="orgea8cd6e"><span class="section-number-3">2.42</span> Distrito 42, cabecera Ecatepec</h3>
+<div class="outline-text-3" id="text-2-42">
+<div style="float:left;width:70%;margin=1.5%" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex42-2.png" alt="mex42-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex42-1.png" alt="mex42-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org6a2ec5f" class="outline-3">
+<h3 id="org6a2ec5f"><span class="section-number-3">2.43</span> Distrito 43, cabecera Cuautitlán Izcalli</h3>
+<div class="outline-text-3" id="text-2-43">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex43-2.png" alt="mex43-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex43-1.png" alt="mex43-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-orgc80c853" class="outline-3">
+<h3 id="orgc80c853"><span class="section-number-3">2.44</span> Distrito 44, cabecera Nicolás Romero</h3>
+<div class="outline-text-3" id="text-2-44">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex44-2.png" alt="mex44-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex44-1.png" alt="mex44-1.png" style="float:right;width:25%;margin=1.5%;" /> 
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+
+<div id="outline-container-org3cd1795" class="outline-3">
+<h3 id="org3cd1795"><span class="section-number-3">2.45</span> Distrito 45, cabecera Temoaya</h3>
+<div class="outline-text-3" id="text-2-45">
+<div style="float:left;width:70%;margin=1.5%;" class="section">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex45-2.png" alt="mex45-2.png" />
+</p>
+</div>
+
+</div>
+
+<div class="aside">
+
+<div class="figure">
+<p><img src="https://github.com/emagar/mxDistritos/raw/master/mapasComparados/loc/maps/mex45-1.png" alt="mex45-1.png" style="float:right;width:25%;margin=1.5%;" />
+</p>
+</div>
+
+</div>
+
+<br style="clear:both;" />
+
+<p>
+<a href="#top_subtoc">Indice</a>
+</p>
+<hr  />
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Fecha: 2018-01-09 Tue 00:00</p>
+<p class="author">Autor: Eric Magar</p>
+<p class="date">Created: 2018-01-09 Tue 11:14</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

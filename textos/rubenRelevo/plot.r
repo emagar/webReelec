@@ -1,0 +1,13 @@
+setwd("/home/eric/Desktop/MXelsCalendGovt/reelec/webPage/textos/rubenRelevo/")
+d <- read.csv(file = "/home/eric/Desktop/MXelsCalendGovt/reelec/webPage/textos/rubenRelevo/datRelev.csv", stringsAsFactors = FALSE)
+
+png(filename = "edadProm.png", width = 480, height = 320)
+plot(d$yr, c(18,18,18,18,18,80), type = "n", axes = FALSE, main = "Edad inicial de los diputados federales", ylab = "Edad promedio", xlab = "Legislatura")
+axis(1, at = d$yr, labels = d$leg)
+#axis(2, at = seq(18, 80, by = 2), labels = FALSE)
+axis(2, at = seq(20, 80, by = 10))
+abline(h = seq(20, 80, by = 10), col = "gray")
+abline(lm(age ~ yr, data = d), lty = 2)
+lines(d$yr, d$age, col = "red", lwd = 2)
+text(x = d$yr, y = d$age, labels = round(d$age,1), pos = c(3,1,3,1,3,1))
+dev.off()

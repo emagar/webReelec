@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<!-- 2018-01-29 Mon 15:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Los tecnócratas neoporfiristas y la reelección</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Eric Magar" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Los tecnócratas neoporfiristas y la reelección</h1>
+<div class="org-center">
+<p>
+por
+</p>
+
+<p>
+<b>Cecilia Cabello Esquer</b>
+</p>
+
+<p>
+y
+</p>
+
+<p>
+<b>Dalia Rincón Altamirano</b>
+</p>
+</div>
+
+<p>
+<a href="../index.html">Arriba/up</a>
+</p>
+
+<p>
+Paradoja: <i>el itamita en general, y los economistas y abogados en particular, se oponen a la reelección consecutiva.</i>
+</p>
+
+
+<div class="figure">
+<p><img src="../img/dcWordcloud.png" alt="dcWordcloud.png" />
+</p>
+</div>
+
+<p>
+Con la inminente entrada en vigor de la reelección consecutiva de legisladores y alcaldes nos preguntamos por la opinión que de esta institución tienen los estudiantes del ITAM. Si los itamitas somos la reencarnación de la tecnocracia neoporfirista&#x2014;como nos ha venido calificando la izquierda&#x2014;es esperable que nuestro apoyo a la reelección no titubee, como seguramente fuera el caso entre los <i>Científicos</i> de antaño.
+</p>
+
+<p>
+Que casi todas las democracias del mundo permitan la reelección de sus legisladores no es impedimento para que las opiniones se dividan. Para un grupo la reelección, sin ser panacea, genera condiciones propicias para una mejor rendición de cuentas, además de darle una mayor continuidad y estabilidad al gobierno y, en específico, a sus proyectos. Para otro, establece la posibilidad que unos pocos se eternicen en el poder. 
+</p>
+
+<p>
+Durante las dos primeras semanas de septiembre 2017 (terminamos antes del terremoto), registramos la reacción espontánea de alumnos del ITAM al plantear la noción de la reelección consecutiva. En específico, preguntamos por hasta tres palabras que les vinieran a la mente. Preguntamos también por el conocimiento de la reforma electoral que introdujo el cambio en 2014, el partidismo, la carrera cursada, y otras características para elaborar un perfil del entrevistado (el cuestionario aparece al final de esta nota). Circulamos el cuestionario de <i>Google Forms</i> a través de redes sociales (<i>Facebook</i> y <i>Twitter</i>, principalmente). Obtuvimos 243 respuestas. 
+</p>
+
+<table id="orgf75f480" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Tabla 1</span> Composición de la muestra</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Grupos</th>
+<th scope="col" class="org-right">% muestra</th>
+<th scope="col" class="org-left">% ITAM</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Mujeres</td>
+<td class="org-right">47</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Hombres</td>
+<td class="org-right">53</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Edad:</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">19 y menos</td>
+<td class="org-right">9</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">20 años</td>
+<td class="org-right">6</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">21 años</td>
+<td class="org-right">11</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">22 años</td>
+<td class="org-right">20</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">23 años</td>
+<td class="org-right">27</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">24 y más</td>
+<td class="org-right">27</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Partido:</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Ninguno</td>
+<td class="org-right">40</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">PAN</td>
+<td class="org-right">31</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">PRI</td>
+<td class="org-right">14</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Morena</td>
+<td class="org-right">11</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Otros</td>
+<td class="org-right">4</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Carrera:</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">cPol</td>
+<td class="org-right">32</td>
+<td class="org-left">8</td>
+<td class="org-left">+24</td>
+</tr>
+
+<tr>
+<td class="org-left">Eco</td>
+<td class="org-right">21</td>
+<td class="org-left">22</td>
+<td class="org-left">par</td>
+</tr>
+
+<tr>
+<td class="org-left">RRII</td>
+<td class="org-right">14</td>
+<td class="org-left">9</td>
+<td class="org-left">+5</td>
+</tr>
+
+<tr>
+<td class="org-left">Der</td>
+<td class="org-right">9</td>
+<td class="org-left">7</td>
+<td class="org-left">+2</td>
+</tr>
+
+<tr>
+<td class="org-left">Otras</td>
+<td class="org-right">24</td>
+<td class="org-left">54</td>
+<td class="org-left">-30</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">total</td>
+<td class="org-right">100</td>
+<td class="org-left">100</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">(N)</td>
+<td class="org-right">(243)</td>
+<td class="org-left">(5,510)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Nuestra muestra se autoseleccionó. Está lejos de ser aleatoria, pero ofrece una perspectiva interesante del alumnado itamita. Incluye estudiantes de ocho carreras, originarios de veintiséis estados, de todas las afiliaciónes partidistas y edades. El cuadro <a href="#orgf75f480">1</a> describe a quienes contestaron. Si logramos un buen balance de sexos en la muestra, no fue el caso con las carreras. Que somos estudiantes de ciencia política y movilizamos activamente a nuestros círculos inmediatos es patente en la casi tercera parte que representan los compañeros politólogos en la muestra. La sobrerrepresentación alcanza 24 puntos respecto del peso relativo en la población de la universidad (la columna derecha del cuadro reporta estudiantes de licenciatura del ITAM). Los internacionalistas tienen 5 puntos de sobrerrepresentación, mientras que los economistas y abogados están más o menos balanceados. La subrepresentación recae en las demás carreras (un déficit de 30 puntos). Dos de cada cinco entrevistados se declaró independiente y uno de cada tres simpatizante del PAN.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup> Si la primera de las cifras anteriores pareciera estar en sintonía con la opinión pública, la segunda está inflada en detrimento del PRI y de Morena.  
+</p>
+
+
+
+<div id="orgd28c802" class="figure">
+<p><img src="../img/dcFig5.png" alt="dcFig5.png" />
+</p>
+<p><span class="figure-number">Figura 2: </span>¿Cómo se siente cada partido?</p>
+</div>
+
+<p>
+Clasificamos las palabras expresadas en tres categorías: las de clara connotación positiva de la reelección ("rendición de cuentas" es un ejemplo); las de clara connotación negativa ("corrupción"); y las neutras o ambiguas.<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup> Alrededor del 45 por ciento de las menciones fueron positivas, 25 por ciento negativas y 30 neutrales o ambiguas. Si predominó el optimismo, hubo también diferencias importantes entre grupos. Se observa en la gráfica <a href="#orgd28c802">2</a> que la categoría residual/neutral predomina entre los apartidistas. Sorprende que el mayor porcentaje de reacciones positivas hacia la reelección lo presentaron los simpatizantes de Morena&#x2014;más de la mitad, unos 10 puntos arriba de todos los demás grupos partidistas. Los morenistas también produjeron el menor número de menciones neutrales lo cual, conjugado con lo anterior, se traduce en una polarización más aguda que entre los demás partidos. Entre itamitas, por lo menos, los morenistas son el grupo más heterogéneo. También llama la atención la similitud entre panistas y perredistas, quizás un buen augurio para el Frente que intentan formar para 2018. Y que entre los independientes las menciones negativas fueran tres y media veces menos frecuentes que las neutrales. 
+</p>
+
+
+<div id="org34b35e7" class="figure">
+<p><img src="../img/dcFig4.png" alt="dcFig4.png" />
+</p>
+<p><span class="figure-number">Figura 3: </span>Connotación de palabras relacionadas con reelección por carrera</p>
+</div>
+
+<p>
+En cuanto a la gráfica <a href="#org34b35e7">3</a>, revela que casi dos tercios de los politólogos le dieron una connotación positiva a la reelección, y menos de 15 por ciento una negativa. Esto se traduce en una aprobación neta (positivos menos negativos) de +50 puntos. Menos optimistas, pero con un perfil de opinión parecido, los internacionalistas alcanzaron una aprobación neta de +36. Esto contrasta con los economistas, abogados y demás estudiates que presentaron aprobaciones netas de +2, -15 y -5, respectivamente. También entre sexos hay diferencias, observables en la gráfica <a href="#orgc4af7fb">4</a>. La aprobación neta entre mujeres es +5, más moderada que el +24 de los hombres. Unos y otros tuvieron alrededor de una cuarta parte de menciones neutrales/ambiguas. 
+</p>
+
+
+<div id="orgc4af7fb" class="figure">
+<p><img src="../img/dcFig3.png" alt="dcFig3.png" />
+</p>
+<p><span class="figure-number">Figura 4: </span>¿Mujeres o hombres más de acuerdo?</p>
+</div>
+
+<p>
+Las palabras más socorridas en la reacción espontánea de los itamitas aparecen en el cuadro <a href="#orgecd8901">2</a>. Destaca don Porfirio, que encabeza con cerca de 5 por ciento de las menciones&#x2014;quizás menos de las que se esperaría dado cómo figura en los libros de texto. Es también notable que los dos términos que siguen en recurrencias, y que juntos alcanzan 8 por ciento de las menciones, son de corte positivo: democracia y rendición de cuentas. El que este último se manifestara en inglés sugiere que lo aportaron muchos politólogos bajo la influencia de la literatura académica de su carrera.
+</p>
+
+<table id="orgecd8901" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Tabla 2</span> Los términos más repetidos</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">Frec.</th>
+<th scope="col" class="org-left">+</th>
+<th scope="col" class="org-left">?</th>
+<th scope="col" class="org-left">--</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Porfirio Díaz</td>
+<td class="org-right">5%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">democracia</td>
+<td class="org-right">4%</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left"><i>Accountability</i></td>
+<td class="org-right">4%</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">presidencia</td>
+<td class="org-right">3%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">fraude</td>
+<td class="org-right">2%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">corrupción</td>
+<td class="org-right">2%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">Madero</td>
+<td class="org-right">2%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">política</td>
+<td class="org-right">2%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Revolución</td>
+<td class="org-right">2%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">bueno</td>
+<td class="org-right">2%</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Estados Unidos</td>
+<td class="org-right">2%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">reforma</td>
+<td class="org-right">2%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">poder</td>
+<td class="org-right">2%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">PRI</td>
+<td class="org-right">1%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">dictadura</td>
+<td class="org-right">1%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+</tr>
+
+<tr>
+<td class="org-left">ratificación</td>
+<td class="org-right">1%</td>
+<td class="org-left">X</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">inconstitucional</td>
+<td class="org-right">1%</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">X</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Suma</td>
+<td class="org-right">40%</td>
+<td class="org-left">11</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">16</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+A pesar de las limitaciones de nuestro método, los resultados permiten ver patrones interesantes. Si nuestra expectativa a priori era que los politólogos tendrían actitudes más benévolas que otros a la reelección consecutiva&#x2014;expectativa que se cumplió&#x2014;el resultado de los economistas nos ha tomado por sorpresa. Por la continuidad que permite imprimirle a la política económica, anticipábamos una tasa neta de aprobación francamente positiva entre estos estudiantes. Es casi nula. Si nuestros economistas representan la crema de lo que la izquierda bautizó como "tecnocracia neoporfirista", contrastan con los porfiristas originales en la suspicacia hacia la reelección consecutiva. 
+</p>
+
+<p>
+Podríamos concluir que, con mayor información y exposición al tema que nos ocupa se terminará presentando una mayor aceptación a la reelección consecutiva. Pero, hoy por hoy, los economistas no entrevén los incentivos para la buena representación que acompañan a esta nueva institución. Lo cual es paradójico.
+</p>
+
+
+<div id="outline-container-org42acb56" class="outline-2">
+<h2 id="org42acb56"><span class="section-number-2">1</span> Cuestionario</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Mini-encuesta (3 min)
+</p>
+
+<p>
+Somos estudiantes de Ciencia Política en el Seminario de investigación sobre representación política. Esperamos nos puedas ayudar contestando esta breve encuesta. Si ya la respondiste por favor no la contestes de nuevo.
+</p>
+
+<p>
+Contestaste esta encuesta
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> En línea (solo)</li>
+<li class="off"><code>[&#xa0;]</code> Con encuestador</li>
+</ul>
+
+<p>
+¿Eres estudiante del ITAM?
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Sí</li>
+<li class="off"><code>[&#xa0;]</code> No</li>
+</ul>
+
+<p>
+¿Cuáles son las primeras palabras que piensas si te digo REELECCIÓN? (hasta tres palabras)
+</p>
+
+
+<p>
+En 2014 hubo una reforma electoral, ¿sabes quién se puede reelegir? Puedes seleccionar a más de uno. 
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Presidente</li>
+<li class="off"><code>[&#xa0;]</code> Gobernadores</li>
+<li class="off"><code>[&#xa0;]</code> Diputados Federales</li>
+<li class="off"><code>[&#xa0;]</code> Senadores</li>
+<li class="off"><code>[&#xa0;]</code> Diputados Locales</li>
+<li class="off"><code>[&#xa0;]</code> Alcaldes</li>
+<li class="off"><code>[&#xa0;]</code> Ninguno</li>
+<li class="off"><code>[&#xa0;]</code> No sé</li>
+</ul>
+
+<p>
+Edad:
+</p>
+
+
+<p>
+Carrera. Si estás en un plan conjunto o simultáneo selecciona ambas carreras. 
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> Ciencia Política</li>
+<li class="off"><code>[&#xa0;]</code> Derecho</li>
+<li class="off"><code>[&#xa0;]</code> Administración de Empresas</li>
+<li class="off"><code>[&#xa0;]</code> Dirección Financiera</li>
+<li class="off"><code>[&#xa0;]</code> Contaduría</li>
+<li class="off"><code>[&#xa0;]</code> Relaciones Internacionales</li>
+<li class="off"><code>[&#xa0;]</code> Mecatrónica</li>
+<li class="off"><code>[&#xa0;]</code> Matemáticas Aplicadas</li>
+<li class="off"><code>[&#xa0;]</code> Computación</li>
+<li class="off"><code>[&#xa0;]</code> Ingeniería en Negocios</li>
+<li class="off"><code>[&#xa0;]</code> Telecomunicaciones</li>
+<li class="off"><code>[&#xa0;]</code> Actuaría</li>
+<li class="off"><code>[&#xa0;]</code> Economía</li>
+<li class="off"><code>[&#xa0;]</code> Ingeniería Industrial</li>
+<li class="off"><code>[&#xa0;]</code> Otra</li>
+</ul>
+
+<p>
+Sexo: Masculino o Femenino
+</p>
+
+<p>
+Estado de procedencia:
+</p>
+
+<p>
+¿Con cuál partido político simpatizas?
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> PRI</li>
+<li class="off"><code>[&#xa0;]</code> PAN</li>
+<li class="off"><code>[&#xa0;]</code> PRD</li>
+<li class="off"><code>[&#xa0;]</code> PVEM</li>
+<li class="off"><code>[&#xa0;]</code> MORENA</li>
+<li class="off"><code>[&#xa0;]</code> Otro</li>
+<li class="off"><code>[&#xa0;]</code> Ninguno</li>
+</ul>
+
+<p>
+Si contestaste alguno, ¿qué tanto simpatizas con tu partido?
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> 1 (muy poco)</li>
+<li class="off"><code>[&#xa0;]</code> 2</li>
+<li class="off"><code>[&#xa0;]</code> 3</li>
+<li class="off"><code>[&#xa0;]</code> 4</li>
+<li class="off"><code>[&#xa0;]</code> 5 (completamente)</li>
+</ul>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Nota al pie de p&aacute;gina: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+Las mujeres de nuestra muetra simpatizan más con el PAN que los hombres. Dado que levantamos la encuesta antes de la renuncia de Margarita Zavala al PAN, sería interesante ver si estos resultados se sostienen al día de hoy. 
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+Toda clasificación tiene un grado de arbitrariedad. Por ello le pedimos a un grupo de 16 compañeros que repitiera la clasificación para convencernos de su validez. A petición del lector, podemos reportar la consistencia entre re-codificaciones. Mande un mail a [BROKEN LINK: nil] o [BROKEN LINK: nil].
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="date">Fecha: 2018-01-29 Mon 00:00</p>
+<p class="author">Autor: Eric Magar</p>
+<p class="date">Created: 2018-01-29 Mon 15:31</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
